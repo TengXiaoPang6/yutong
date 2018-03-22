@@ -1,0 +1,27 @@
+{
+  "name": "mechanic",
+  "version": "1.0.0",
+  "description": "faylai",
+  "main": "nodeIndex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node nodeIndex.js",
+    "build": "sencha app build",
+    "dev": "pm2 start process.json",
+    "stop": "pm2 delete all"
+  },
+  "author": "faylai",
+  "license": "ISC",
+  "dependencies": {
+    "http-proxy": "^1.16.2",
+    "node-static": "^0.7.7",
+    "open": "0.0.5",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-bg": "0.0.8",
+    "gulp-watch": "^4.3.6",
+    "pm2": "^2.5.0"
+  }
+}

@@ -1,0 +1,1 @@
+"C:\Program Files\nodejs\node.exe" D:\Users\tengws\AppData\Roaming\npm\node_modules\pm2\bin\pm2-dev process.json

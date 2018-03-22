@@ -1,0 +1,36 @@
+{
+  "apps": [
+    {
+      "name": "vehicle+static",
+      "script": "./app.js",
+      "watch": false,
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "env_production": {
+        "NODE_ENV": "production"
+      }
+    },
+    {
+      "name": "vehicle+proxy",
+      "script": "./appProxy.js",
+      "watch": false,
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "env_production": {
+        "NODE_ENV": "production"
+      }
+    } , {
+      "name": "vehicle+test-https",
+      "script": "./proxy-tests.js",
+      "watch": false,
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "env_production": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
