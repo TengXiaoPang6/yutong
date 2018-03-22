@@ -1,0 +1,20 @@
+{
+  "zh-CN": {
+    "home": " 网站快速成型工具",
+    "guide": "指南 ",
+    "component": "组件 ",
+    "resource": "资源 "
+  },
+  "en-US": {
+    "home": "Element - A Desktop UI Toolkit for Web",
+    "guide": "Guide ",
+    "component": "Component ",
+    "resource": "Resource "
+  },
+  "es": {
+    "home": "Element - Un kit de interfaz de usuario para la web",
+    "guide": "Guía ",
+    "component": "Componentes ",
+    "resource": "Recursos "
+  }
+}
