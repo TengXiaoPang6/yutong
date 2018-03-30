@@ -124,8 +124,8 @@ const generateMiscRoutes = function(lang) {
     path: `/${ lang }`, // 首页
     meta: { lang },
     name: 'home' + lang,
-      redirect: `/${ lang }/component`,
-      component: load(lang, 'component')
+    redirect: `/${ lang }/component`,
+    component: load(lang, 'component')
   };
 
   return [guideRoute, resourceRoute, indexRoute];

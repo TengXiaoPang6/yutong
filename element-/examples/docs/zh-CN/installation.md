@@ -1,4 +1,4 @@
-## 组件开发者
+## 控件开发者
 
 ### 安装流程
 
@@ -13,9 +13,9 @@ npm i npm -g
 ```shell
 npm run dev
 ```
-4.在浏览器打开 127.0.0.1:8085 预览
+4.在浏览器打开 127.0.0.1:8085 进行开发
 
-### 组件开发流程
+### 控件开发流程
 
 1.在dev创建分支
 
@@ -33,11 +33,30 @@ npm run makenew button
 
 4.组件内如果依赖了其他组件，需要在当前组件内引入，参考 Select组件
 
-### 组件发布流程
-由专人负责，在master分支下
-```shell
-npm publish
-```
-详细内容，内网npm仓库搭建完成后补充...
+### 组件库发布流程
+1.保证代码已经提交并正常运行
 
+2.在对应分支下，依次执行npm scripts如下
+```shell
+npm run adduser  //添加或登录用户npm run login
+
+npm run dist    //生产环境打包
+
+//修改package.json中的版本号
+npm run pub //发布到内网组件仓库
+//发布白老鼠版本请加tag beta
+npm run pub --tag beta
+```
+3.同时发布组件管理平台（非必须）
+```shell
+npm run deploy
+```
+由于信息安全限制，不能自动发布文件到远程服务器
+运行命令后请手动更新组件管理平台页面：
+将examples/elment-ui 通过sftp工具复制到10.66.196.55的home/v3-element-static目录下
+然后再该目录下运行：
+```shell
+npm run reload
+```
+然后就可以通过[http://10.66.196.55:4000](http://10.66.196.55:4000)实时预览最新的组件库了
 

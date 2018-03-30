@@ -264,7 +264,7 @@
         <h1><router-link :to="`/${ lang }`">
           <!-- logo -->
           <slot>
-            <div style="font-size: 18px">V+3.0组件库<em style="font-size: 14px">(基于Element UI 2.2.1)</em> </div>
+            <div style="font-size: 18px">V+3.0控件库<em style="font-size: 14px">(基于Element UI 2.2.1)</em> </div>
           </slot>
 
         </router-link></h1>

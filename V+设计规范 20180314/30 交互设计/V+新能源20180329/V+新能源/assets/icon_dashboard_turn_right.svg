@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="7px" viewBox="0 0 17 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_dashboard_turn_right</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="正式页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.8-车辆监控-结果详情-仪表盘" transform="translate(-955.000000, -293.000000)" fill-rule="nonzero" fill="#A8C6DF">
+            <g id="弹出" transform="translate(298.000000, 182.000000)">
+                <g id="表" transform="translate(36.000000, 90.000000)">
+                    <g id="上" transform="translate(121.000000, 0.000000)">
+                        <g id="转向→" transform="translate(484.000000, 0.000000)">
+                            <g id="汽车仪表图标/右-蓝灰" transform="translate(15.000000, 15.000000)">
+                                <g id="icon_dashboard_turn_right">
+                                    <path d="M17.0776066,9.08501367 C17.1095192,9.42741073 16.9945011,9.78094495 16.7325523,10.0431245 L15.0414188,11.7356444 L15.0414188,11.7356444 C14.5743718,12.2030162 13.8172455,12.2030162 13.3502202,11.7356444 C12.9893956,11.3745018 12.9073836,10.8399646 13.1041841,10.4000001 L2.29999995,10.4000001 L2.29999995,10.4000001 C1.5820298,10.4000001 1,9.81797029 1,9.10000014 L1,9.10000014 L1,9.10000014 C1,8.38202999 1.5820298,7.80000019 2.29999995,7.80000019 L2.29999995,7.80000019 L13.1663742,7.80000019 C12.8942874,7.34236768 12.9559268,6.74278875 13.3512924,6.34948917 C13.8197256,5.88350361 14.5791697,5.88350361 15.0476462,6.34948917 L16.7439567,8.03685379 C17.0306351,8.32203416 17.1418518,8.71567726 17.0776066,9.08501367 Z" id="Combined-Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

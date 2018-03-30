@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon_colored_sales</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="样式整理概览" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="组件2-图标-弹出消息框" transform="translate(-716.000000, -325.000000)" fill="#FACA00">
+            <g id="图标2" transform="translate(100.000000, 226.000000)">
+                <g id="彩色图标" transform="translate(30.000000, 92.000000)">
+                    <g id="彩" transform="translate(83.000000, 0.000000)">
+                        <g id="Icons-Colored-/-Sales" transform="translate(503.000000, 7.000000)">
+                            <path d="M9,1 C13.416,1 17,4.584 17,9 C17,13.416 13.416,17 9,17 C4.584,17 1,13.416 1,9 C1,4.584 4.584,1 9,1 Z M5,4 L7.62116041,8.75085324 L5.88737201,8.75085324 L5.88737201,9.65187713 L8.12627986,9.65187713 L8.13993174,9.66552901 L8.13993174,10.7986348 L5.88737201,10.7986348 L5.88737201,11.6996587 L8.13993174,11.6996587 L8.13993174,13.7474403 L9.86006826,13.7474403 L9.86006826,11.6996587 L12.1262799,11.6996587 L12.1262799,10.7986348 L9.86006826,10.7986348 L9.86006826,9.66552901 L9.87372014,9.65187713 L12.1262799,9.65187713 L12.1262799,8.75085324 L10.3788396,8.75085324 L13,4 L11.0614334,4 L9,8.10921502 L6.93856655,4 L5,4 Z" id="Combined-Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

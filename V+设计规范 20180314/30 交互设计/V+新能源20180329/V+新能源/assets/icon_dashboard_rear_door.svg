@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="16px" viewBox="0 0 10 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_dashboard_rear_door</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="样式整理概览" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="组件2-图标-弹出消息框" transform="translate(-296.000000, -759.000000)" fill="#A8C6DF">
+            <g id="图标2" transform="translate(100.000000, 226.000000)">
+                <g id="汽车功能图标-18px" transform="translate(30.000000, 532.000000)">
+                    <g id="汽车仪表图标/后门-蓝灰" transform="translate(162.000000, 0.000000)">
+                        <g id="icon_dashboard_rear_door">
+                            <path d="M6,1 L12,1 L12,1 C13.1045695,1 14,1.8954305 14,3 L14,15 L14,15 C14,16.1045695 13.1045695,17 12,17 L6,17 C4.8954305,17 4,16.1045695 4,15 L4,3 L4,3 C4,1.8954305 4.8954305,1 6,1 L6,1 Z M6,3 L6,11 L12,11 L12,3 L6,3 Z M6,12 L6,13 L8,13 L8,12 L6,12 Z" id="Combined-Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

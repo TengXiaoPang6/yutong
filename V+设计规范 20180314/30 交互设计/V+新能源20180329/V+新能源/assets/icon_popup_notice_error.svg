@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_popup_notice_error</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="样式整理概览" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="组件2-图标-弹出消息框" transform="translate(-628.000000, -325.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="图标2" transform="translate(100.000000, 226.000000)">
+                <g id="彩色图标" transform="translate(30.000000, 92.000000)">
+                    <g id="彩" transform="translate(83.000000, 0.000000)">
+                        <g id="弹出图标/icon_popup_error_white" transform="translate(415.000000, 7.000000)">
+                            <g id="icon_popup_notice_error">
+                                <path d="M11.8284271,1.78964909 L16.2103509,6.17157288 L16.2103509,6.17157288 C17.7724481,7.73367004 17.7724481,10.26633 16.2103509,11.8284271 L11.8284271,16.2103509 L11.8284271,16.2103509 C10.26633,17.7724481 7.73367004,17.7724481 6.17157288,16.2103509 L1.78964909,11.8284271 C0.22755192,10.26633 0.22755192,7.73367004 1.78964909,6.17157288 L6.17157288,1.78964909 L6.17157288,1.78964909 C7.73367004,0.22755192 10.26633,0.22755192 11.8284271,1.78964909 L11.8284271,1.78964909 Z M8.0712653,4.35632649 L8.0712653,10.8574694 L9.9287347,10.8574694 L9.9287347,4.35632649 L8.0712653,4.35632649 Z M8.0712653,11.7862041 L8.0712653,13.6436735 L9.9287347,13.6436735 L9.9287347,11.7862041 L8.0712653,11.7862041 Z" id="Combined-Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

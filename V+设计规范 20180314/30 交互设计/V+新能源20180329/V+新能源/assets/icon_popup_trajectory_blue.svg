@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="14px" viewBox="0 0 18 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_popup_trajectory_blue</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="样式整理概览" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="组件1：logo-按钮-分页-头像-输入框-图片-符号" transform="translate(-345.000000, -2726.000000)" fill="#0093EE">
+            <g id="部件符号:" transform="translate(162.000000, 2607.000000)">
+                <g id="Icon" transform="translate(168.000000, 102.000000)">
+                    <g id="弹出图标/icon_popup_trajectory_blue" transform="translate(15.000000, 15.000000)">
+                        <g id="icon_popup_trajectory_blue">
+                            <path d="M4.49999999,9 L4.49999999,5.99982965 C4.49999999,5.05301546 5.25551948,4.28547091 6.1875,4.28547091 C7.11948052,4.28547091 7.87500001,5.05301546 7.87500001,5.99982965 L7.87500001,12.0001704 C7.87518522,14.2092704 9.63800977,16 11.8125,16 C13.9869902,16 15.7498148,14.2092704 15.75,12.0001704 L15.75,9 L18,9 L14.625,4.42837673 L11.25,9 L13.5,9 L13.5,12.0001704 C13.5,12.9469845 12.7444805,13.7145291 11.8125,13.7145291 C10.8805195,13.7145291 10.125,12.9469845 10.125,12.0001704 L10.125,5.99982965 C10.1248148,3.79072962 8.36199023,2 6.1875,2 C4.01300976,2 2.25018522,3.79072962 2.25000001,5.99982965 L2.25000001,9 L0,9 L3.375,13.5716233 L6.74999999,9 L4.49999999,9 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

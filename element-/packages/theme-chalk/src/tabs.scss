@@ -200,33 +200,53 @@
     background: $--color-white;
     border: 1px solid $--border-color-base;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12), 0 0 6px 0 rgba(0,0,0,0.04);
+    width: 370px;
+    border-radius: 5px;
 
     >.el-tabs__content {
       padding: 15px;
     }
     >.el-tabs__header {
-      background-color: $--background-color-base;
-      border-bottom: 1px solid $--border-color-light;
+      background-color: #F2F6FA;
       margin: 0;
+      height: 50px;
     }
     > .el-tabs__header .el-tabs__nav-wrap::after {
       content: none;
+      height: 50px;
     }
     >.el-tabs__header .el-tabs__item {
       transition: all .3s cubic-bezier(.645,.045,.355,1);
       border: 1px solid transparent;
       margin: -1px -1px 0;
-      color: $--color-text-secondary;
-
+      color: #527CA0;
+      height: 50px;
+      line-height: 50px;
+      width: 185px;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 600;
+      border-bottom: 1px solid $--border-color-light;
+      
       &.is-active {
         color: $--color-primary;
-        background-color: $--color-white;
-        border-right-color: $--border-color-base;
-        border-left-color: $--border-color-base;
+        // background-color: $--color-white;
+        // border-right-color: $--border-color-base;
+        // border-left-color: $--border-color-base;
       }
       &:hover {
         color: $--color-primary;
       }
+    }
+    >.el-tabs__header .border-bar{
+      position: absolute;
+      bottom: 0px;
+      height: 2px;
+      width: 26px;
+      background-color: $--color-primary; 
+      z-index: 100;
+      left:80px;
+      transition: left .5s ease;
     }
   }
   @include m((top, bottom)) {

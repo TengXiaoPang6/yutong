@@ -53,6 +53,7 @@
     methods: {
       handleTabClick(tab, tabName, event) {
         if (tab.disabled) return;
+        event.target.parentNode.children[0].style.left = 79.5 + 185 * tabName + 'px';
         this.setCurrentName(tabName);
         this.$emit('tab-click', tab, event);
       },

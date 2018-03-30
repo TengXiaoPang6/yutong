@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="16px" viewBox="0 0 18 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_popup_machine</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="正式页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.2-顶部-弹出样式" transform="translate(-918.000000, -78.000000)" fill="#A8C6DF">
+            <g id="弹出/下载" transform="translate(898.000000, 51.000000)">
+                <g id="个人弹窗" transform="translate(0.000000, 15.000000)">
+                    <g id="1">
+                        <g id="弹出图标/icon_popup_machine" transform="translate(20.000000, 11.000000)">
+                            <g id="icon_popup_machine">
+                                <path d="M11,16 L11,13 L7,13 L7,16 L5,16 L5,17 L13,17 L13,16 L11,16 Z M0,1 L18,1 L18,13 L0,13 L0,1 Z M1,11 L1,12 L17,12 L17,11 L1,11 Z" id="Combined-Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

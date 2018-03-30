@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="19px" viewBox="0 0 18 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_home_full_screen_white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="正式页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.12-车辆监控-结果详情-行驶轨迹" transform="translate(-1247.000000, -905.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="内容" transform="translate(155.000000, 156.000000)">
+                <g id="反馈内容" transform="translate(285.000000, 166.000000)">
+                    <g id="Map/default-显示车辆图标" transform="translate(0.000000, 140.000000)">
+                        <g id="Menu/Bottom/PlayBar" transform="translate(0.000000, 428.375839)">
+                            <g id="右" transform="translate(728.000000, 14.000000)">
+                                <g id="弹出图标/icon_home_full_screen" transform="translate(79.000000, 1.000000)">
+                                    <g id="icon_home_full_screen_white">
+                                        <path d="M5.42645714,7.33679921 L7.33461888,5.4286124 L3.99871909,2.09226151 L6.09441399,0.00684171469 L0.0046363268,0.00684171469 L0,6.0872966 L2.08153531,3.99212799 L5.42645714,7.33679921 Z M15.9184898,14.0080976 L12.5735429,10.6634263 L10.6653811,12.571563 L14.0012809,15.907964 L11.9056111,17.9933838 L17.9953637,17.9933838 L18,11.9129039 L15.9184898,14.0080976 Z M12.5715881,7.33484443 L15.9079891,3.99896971 L17.9934089,6.09463954 L17.9934089,0.00488693906 L11.9129289,0 L14.0080976,2.08151025 L10.6634514,5.42668269 L12.5715881,7.33484443 Z M5.42863746,10.6653561 L2.09226151,14.0012558 L0.00684171469,11.905586 L0.00684171469,17.9953136 L6.08732167,18.0002256 L3.99212799,15.9187153 L7.33682427,12.5735429 L5.42863746,10.6653561 Z" id="Shape"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

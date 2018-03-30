@@ -5,7 +5,7 @@
       "children": [
         {
           "path": "/installation",
-          "name": "组件开发者"
+          "name": "控件开发者"
         },
         {
           "path": "/quickstart",
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "name": "组件",
+      "name": "控件",
       "groups": [
         {
           "groupName": "Basic",
@@ -239,6 +239,10 @@
             {
               "path": "/collapse",
               "title": "Collapse 折叠面板"
+            },
+            {
+              "path": "/cascaderTree",
+              "title": "CascaderTree"
             }
           ]
         }
@@ -477,6 +481,10 @@
             {
               "path": "/collapse",
               "title": "Collapse"
+            },
+            {
+              "path": "/cascaderTree",
+              "title": "CascaderTree"
             }
           ]
         }
@@ -715,6 +723,10 @@
             {
               "path": "/collapse",
               "title": "Collapse"
+            },
+            {
+              "path": "/cascaderTree",
+              "title": "CascaderTree"
             }
           ]
         }

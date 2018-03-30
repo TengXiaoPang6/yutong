@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon_checkbox_ok_green</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1,4.99620271 C1,2.78916089 2.78883037,1 4.99620271,1 L13.0037973,1 C15.2108391,1 17,2.78883037 17,4.99620271 L17,13.0037973 C17,15.2108391 15.2111696,17 13.0037973,17 L4.99620271,17 C2.78916089,17 1,15.2111696 1,13.0037973 L1,4.99620271 Z M12.8153941,6 L8.05878218,10.6758044 L6.17986117,8.83319221 L5,9.99195597 L8.05957297,13 L14,7.15802286 L12.8153941,6 Z" id="path-1"></path>
+    </defs>
+    <g id="样式整理概览" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="组件1：logo-按钮-分页-头像-输入框-图片-符号" transform="translate(-1070.000000, -2692.000000)">
+            <g id="复选框/小按钮/消息/通知" transform="translate(811.000000, 2607.000000)">
+                <g id="Checkboxes-/-Checkbox-Ok" transform="translate(258.000000, 84.000000)">
+                    <g id="Icon_checkbox_ok_green">
+                        <g id="Combined-Shape">
+                            <use fill="#4ECE3D" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <path stroke-opacity="0.05" stroke="#000000" stroke-width="1" d="M1.5,4.99620271 L1.5,13.0037973 C1.5,14.9349067 3.06518271,16.5 4.99620271,16.5 L13.0037973,16.5 C14.9349067,16.5 16.5,14.9348173 16.5,13.0037973 L16.5,4.99620271 C16.5,3.06509329 14.9348173,1.5 13.0037973,1.5 L4.99620271,1.5 C3.06509329,1.5 1.5,3.06518271 1.5,4.99620271 Z M8.05836549,9.97508783 L12.8144208,5.29983061 L14.7141761,7.15695461 L8.05962093,13.7012247 L4.28661915,9.99176735 L6.1796037,8.13263177 L8.05836549,9.97508783 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_check_filled_grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="正式页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6.0-个人中心-个人设置" transform="translate(-1092.000000, -197.000000)" fill="#A8C6DF">
+            <g id="主题设置" transform="translate(1087.000000, 156.000000)">
+                <g id="Icons-Grey-/-Check" transform="translate(5.000000, 41.000000)">
+                    <path d="M9,1 C13.416,1 17,4.584 17,9 C17,13.416 13.416,17 9,17 C4.584,17 1,13.416 1,9 C1,4.584 4.584,1 9,1 Z M7.61867841,12.4285714 L13.5714286,6.68528485 L12.4689076,5.57142857 L7.61867841,10.2509894 L5.55308414,8.26577328 L4.42857143,9.35071698 L7.61867841,12.4285714 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

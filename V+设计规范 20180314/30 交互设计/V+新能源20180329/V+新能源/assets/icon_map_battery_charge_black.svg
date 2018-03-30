@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_map_battery_charge_black</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-27.8%" y="-27.8%" width="177.8%" height="177.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <circle id="path-2" cx="9" cy="9" r="9"></circle>
+    </defs>
+    <g id="正式页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.0-充电机监控-默认" transform="translate(-1173.000000, -458.000000)">
+            <g id="Map/default" transform="translate(0.000000, 20.000000)">
+                <g id="地图车辆" transform="translate(468.000000, 109.000000)">
+                    <g id="弹出图标/icon_map_direction_blue" filter="url(#filter-1)" transform="translate(707.000000, 331.000000)">
+                        <g id="icon_map_battery_charge_black">
+                            <g id="Oval-5">
+                                <use fill="#AB7DF6" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                <circle stroke="#FFFFFF" stroke-width="1" cx="9" cy="9" r="8.5"></circle>
+                            </g>
+                            <path d="M13.9360427,7.16726061 C13.8735448,6.82927191 13.4415592,6.70377611 13.1985674,6.94726797 L11.1336364,9.00569914 C10.8371532,9.29631085 10.3626554,9.29631085 10.0661721,9.00569914 L9.00620757,7.94473461 C8.86310806,7.80543399 8.78238842,7.61420747 8.78238842,7.41450235 C8.78238842,7.21479723 8.86310806,7.02357071 9.00620757,6.88427008 L11.086638,4.81033945 C11.3301299,4.56634761 11.2121338,4.13436206 10.8746451,4.07136415 C9.61595733,3.82552417 8.31755996,4.22344434 7.41276086,5.13232867 C6.36879577,6.16079427 6.04680655,7.64574461 6.44729315,8.96570047 C6.50979106,9.17819335 6.47079236,9.41368548 6.31379762,9.57068024 L4.21786771,11.6606103 C3.92737743,11.9516006 3.92737743,12.4305846 4.21786771,12.7215749 L5.28533201,13.7815394 C5.58181527,14.0721511 6.05631305,14.0721511 6.35279631,13.7815394 L8.46472568,11.6766098 C8.62172043,11.5191151 8.8497128,11.4721166 9.06920547,11.5351145 C10.4232934,11.9354386 11.887862,11.5613306 12.8840779,10.5606471 C13.7715699,9.67121465 14.1649067,8.40221743 13.9360427,7.16676064" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

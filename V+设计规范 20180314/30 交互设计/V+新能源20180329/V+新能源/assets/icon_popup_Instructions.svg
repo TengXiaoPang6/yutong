@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="18px" viewBox="0 0 16 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_popup_Instructions</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="正式页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.2-顶部-弹出样式" transform="translate(-919.000000, -117.000000)" fill-rule="nonzero" fill="#A8C6DF">
+            <g id="弹出/下载" transform="translate(898.000000, 51.000000)">
+                <g id="个人弹窗" transform="translate(0.000000, 15.000000)">
+                    <g id="2" transform="translate(0.000000, 40.000000)">
+                        <g id="弹出图标/icon_popup_Instructions" transform="translate(20.000000, 11.000000)">
+                            <g id="icon_popup_Instructions">
+                                <path d="M16.1726851,17.9824422 L4,17.9824422 L4,2.05784575e-05 L9.99121154,2.05784574e-05 L9.99121154,10.1151303 L12,8 L14,10.1151303 L14,2.05784575e-05 L16.1727088,2.05784574e-05 C16.4834641,2.05784574e-05 16.7346684,0.251765259 16.7346684,0.561980153 L16.7346684,17.4205033 C16.7346447,17.7312783 16.4834404,17.9824422 16.1726851,17.9824422 Z M1,17.4205039 L1,0.561959574 C1,0.251744681 1.25118511,0 1.5619383,0 L3.24779684,0 L3.24779684,17.9824427 L1.5619383,17.9824427 C1.25118511,17.9824422 1,17.7312783 1,17.4205039 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

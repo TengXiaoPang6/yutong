@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon_colored_dumb</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="样式整理概览" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="组件2-图标-弹出消息框" transform="translate(-967.000000, -324.000000)" fill="#0093EE">
+            <g id="图标2" transform="translate(100.000000, 226.000000)">
+                <g id="彩色图标" transform="translate(30.000000, 92.000000)">
+                    <g id="彩" transform="translate(83.000000, 0.000000)">
+                        <g id="Icons-Colored-/-Dumb" transform="translate(754.000000, 6.000000)">
+                            <path d="M9.54545455,1 L3.40909091,1 C2.84318182,1 2.35909091,1.325 2.15454545,1.793 L0.0954545455,6.3755 C0.0340909091,6.525 0,6.681 0,6.85 L0,8.0915 L0.00681818182,8.098 L0,8.15 C0,8.865 0.613636364,9.45 1.36363636,9.45 L5.66590909,9.45 L5.01818182,12.4205 L4.99772727,12.6285 C4.99772727,12.895 5.11363636,13.142 5.29772727,13.3175 L6.02045455,14 L10.5136364,9.7165 C10.7590909,9.4825 10.9090909,9.1575 10.9090909,8.8 L10.9090909,2.3 C10.9090909,1.585 10.2954545,1 9.54545455,1 L9.54545455,1 Z M11.8000002,1 L11.8000002,8.8 L13.8000002,8.8 L13.8000002,1 L11.8000002,1 L11.8000002,1 Z" id="Icon"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

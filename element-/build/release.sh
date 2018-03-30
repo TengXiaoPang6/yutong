@@ -21,9 +21,9 @@ then
   npm version $VERSION --message "[release] $VERSION"
   if [[ $VERSION =~ "beta" ]]
   then
-    npm publish --tag beta
+    npm publish --tag beta --registry=http://10.66.196.55:7000
   else
-    npm publish
+    npm publish --registry=http://10.66.196.55:7000
   fi
   cd ../..
 
@@ -41,8 +41,8 @@ then
 
   if [[ $VERSION =~ "beta" ]]
   then
-    npm publish --tag beta
+    npm publish --tag beta --registry=http://10.66.196.55:7000
   else
-    npm publish
+    npm publish --registry=http://10.66.196.55:7000
   fi
 fi

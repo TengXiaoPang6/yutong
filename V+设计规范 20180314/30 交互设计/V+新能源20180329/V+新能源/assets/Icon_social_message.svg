@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon_social_message</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="样式整理概览" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="组件1：logo-按钮-分页-头像-输入框-图片-符号" transform="translate(-231.000000, -1741.000000)" fill="#FACA00">
+            <g id="其他按钮" transform="translate(162.000000, 1594.000000)">
+                <g id="Social-Symbols-/-Love-It" transform="translate(69.000000, 147.000000)">
+                    <path d="M12,0 C18.624,0 24,5.376 24,12 C24,18.624 18.624,24 12,24 C5.376,24 0,18.624 0,12 C0,5.376 5.376,0 12,0 Z M15.6923077,7.38461538 L8.30769231,7.38461538 C7.8,7.38461538 7.38461538,7.8 7.38461538,8.30769231 L7.38461538,13.8461538 C7.38461538,14.3538462 7.8,14.7692308 8.30769231,14.7692308 L14.7692308,14.7692308 L16.6153846,16.6153846 L16.6107692,8.30769231 C16.6107692,7.8 16.2,7.38461538 15.6923077,7.38461538 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
