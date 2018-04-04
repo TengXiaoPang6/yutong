@@ -1,0 +1,173 @@
+{
+    "product": "tyrewatch",
+    "api": {
+        "getTyreParamsSet": {
+            "method": "post",
+            "url": "tyrewatch/jwVehicleTyre/getTyreParamsSet",
+            "data": "*",
+            "simulateUrl": "jwVehicleTyre/getTyreParamsSet.json"
+        },
+        "updateTyreParamsSet": {
+            "method": "post",
+            "url": "tyrewatch/jwVehicleTyre/updateTyreParamsSet",
+            "data": "*",
+            "simulateUrl": "jwVehicleTyre/updateTyreParamsSet.json"
+        },
+        "resetTyreParamsSet": {
+            "method": "post",
+            "url": "tyrewatch/jwVehicleTyre/resetTyreParamsSet",
+            "data": "*",
+            "simulateUrl": "jwVehicleTyre/resetTyreParamsSet.json"
+        },
+        "getTyreBrandList": {
+            "method": "get",
+            "url": "tyrewatch/jwVehicleTyre/getTyreBrandList",
+            "data": "*",
+            "simulateUrl": "jwVehicleTyre/getTyreBrandList.json"
+        },
+        "getTyreList": {
+            "method": "post",
+            "url": "tyrewatch/jwVehicleTyre/getTyreList",
+            "data": "*",
+            "simulateUrl": "jwVehicleTyre/getTyreList.json"
+        },
+        "getTyreRecordList": {
+            "method": "post",
+            "url": "tyrewatch/jwVehicleTyre/getTyreRecordList",
+            "data": "*",
+            "simulateUrl": "jwVehicleTyre/getTyreRecordList.json"
+        },
+        "getTyreInfoByTyreCode": {
+            "method": "post",
+            "url": "tyrewatch/jwVehicleTyre/getTyreInfoByTyreCode",
+            "data": "*",
+            "simulateUrl": "jwVehicleTyre/getTyreInfoByTyreCode.json"
+        },
+        "getVehicleInfoByVehicleLike": {
+            "method": "get",
+            "url": "tyrewatch/jwVehicleTyre/getVehicleInfoByVehicleLike",
+            "params": "*",
+            "simulateUrl": "jwVehicleTyre/getVehicleIdByVehicleLike.json"
+        },
+        "getMaxTyreCountByVehicleId": {
+            "method": "post",
+            "url": "tyrewatch/jwVehicleTyre/getMaxTyreCountByVehicleId",
+            "data": "*",
+            "simulateUrl": "jwVehicleTyre/getMaxTyreCountByVehicleId.json"
+        },
+        "addVehicleTyreRecord": {
+            "method": "post",
+            "url": "tyrewatch/jwVehicleTyre/addVehicleTyreRecord",
+            "data": "*",
+            "simulateUrl": "jwVehicleTyre/addVehicleTyreRecord.json"
+        },
+        "getExistsOtherTyre": {
+            "method": "post",
+            "url": "tyrewatch/jwVehicleTyre/getExistsOtherTyre",
+            "data": "*",
+            "simulateUrl": "jwVehicleTyre/getExistsOtherTyre.json"
+        },
+        "batchAddVehicleTyreRecord": {
+            "method": "post",
+            "url": "tyrewatch/jwVehicleTyre/batchAddVehicleTyreRecord",
+            "data": "*",
+            "simulateUrl": "jwVehicleTyre/batchAddVehicleTyreRecord.json"
+        },
+        "getTyreRecord": {
+            "method": "post",
+            "url": "tyrewatch/jwVehicleTyre/getTyreRecord",
+            "data": "*",
+            "simulateUrl": "jwVehicleTyre/getTyreRecord.json"
+        },
+        "updateVehicleTyreRecord": {
+            "method": "post",
+            "url": "tyrewatch/jwVehicleTyre/updateVehicleTyreRecord",
+            "data": "*",
+            "simulateUrl": "jwVehicleTyre/updateVehicleTyreRecord.json"
+        },
+        "getTyreInfo": {
+            "method": "post",
+            "url": "tyrewatch/jwVehicleTyre/getTyreInfo",
+            "data": "*",
+            "simulateUrl": "jwVehicleTyre/getTyreInfo.json"
+        },
+        "updateVehicleTyre": {
+            "method": "post",
+            "url": "tyrewatch/jwVehicleTyre/updateVehicleTyre",
+            "data": "*",
+            "simulateUrl": "jwVehicleTyre/updateVehicleTyre.json"
+        },
+        "addVehicleTyre": {
+            "method": "post",
+            "url": "tyrewatch/jwVehicleTyre/addVehicleTyre",
+            "data": "*",
+            "simulateUrl": "jwVehicleTyre/addVehicleTyre.json"
+        },
+        "batchAddVehicleTyre": {
+            "method": "post",
+            "url": "tyrewatch/jwVehicleTyre/batchAddVehicleTyre",
+            "data": "*",
+            "simulateUrl": "jwVehicleTyre/batchAddVehicleTyre.json"
+        },
+
+        "getTyreDetailByTyreId": {
+            "method": "post",
+            "url": "tyrewatch/jwVehicleTyre/getTyreDetailByTyreId",
+            "data": "*",
+            "simulateUrl": "jwVehicleTyre/getTyreDetailByTyreId.json"
+        },
+        "getTyreInfoByVehicleId": {
+            "method": "post",
+            "url": "tyrewatch/jwVehicleTyre/getTyreInfoByVehicleId",
+            "data": "*",
+            "simulateUrl": "jwVehicleTyre/getTyreInfoByVehicleId.json"
+        },
+
+        "getRepairWorkerList": {
+            "method": "post",
+            "url": "tyrewatch/jwVehicleTyre/getRepairWorkerList",
+            "data": "*",
+            "simulateUrl": "jwVehicleTyre/getRepairWorkerList.json"
+        },
+        "getLastSyncCompleteTime": {
+            "method": "post",
+            "url": "tyrewatch/jwSyncData/getLastSyncCompleteTime",
+            "data": "*",
+            "simulateUrl": "tyrewatch/jwSyncData/getLastSyncCompleteTime.json",
+            "base": true
+        },
+        "syncDataToMichelin": {
+            "method": "post",
+            "url": "tyrewatch/jwSyncData/syncDataToMichelin",
+            "data": "*",
+            "simulateUrl": "tyrewatch/jwSyncData/syncDataToMichelin.json",
+            "base": true
+        },
+        "ssoLogin": {
+            "method": "post",
+            "url": "tyrewatch/login/michelin/ssoLogin",
+            "data": "*",
+            "simulateUrl": "tyrewatch/jwSyncData/ssoLogin.json",
+            "base": true
+        },
+        "getVehicleRealTpmsData": {
+            "method": "post",
+            "url": "tyrewatch/tpmsInfo/getVehicleRealTpmsData",
+            "params": "*",
+            "simulateUrl": "tpmsInfo/getVehicleRealTpmsData.json"
+        },
+        "getVehicleIsEquippedTpms": {
+            "method": "get",
+            "url": "tyrewatch/tpmsInfo/getVehicleIsEquippedTpms",
+            "params": "*",
+            "simulateUrl": "tpmsInfo/getVehicleIsEquippedTpms.json"
+        },
+        "getEntIsSync": {
+            "method": "post",
+            "url": "tyrewatch/jwSyncData/getEntIsSync",
+            "data": "*",
+            "simulateUrl": "jwSyncData/getEntIsSync.json"
+        }
+    },
+    "simulate": false
+}

@@ -53,6 +53,7 @@
       height: 2px;
       background-color: $--border-color-light;
       z-index: $--index-normal;
+      display: none
     }
 
     @include when(scrollable) {
@@ -590,4 +591,8 @@
     transform: translateX(-100%);
     opacity: 0
   }
+}
+
+.source .el-radio-group{
+  display: block
 }

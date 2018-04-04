@@ -9,7 +9,7 @@
   const copyArray = (arr, props) => {
     if (!arr || !Array.isArray(arr) || !props) return arr;
     const result = [];
-    const configurableProps = ['__IS__FLAT__OPTIONS', 'label', 'value', 'disabled', 'checked', 'count'];
+    const configurableProps = ['__IS__FLAT__OPTIONS', 'label', 'value', 'disabled', 'checked', 'objectCount', 'onlineCount', 'isOnline'];
     const childrenProp = props.children || 'children';
     arr.forEach(item => {
       const itemCopy = {};
@@ -53,7 +53,8 @@
         label: [],
         menuWidth: 185,
         result: [],
-        please: true
+        please: true,
+        slot: ''
       };
     },
 
@@ -250,20 +251,26 @@
       // 返回筛选结果
       const screen = () => {
         if (this.checkbox) {
-          var obj = {};
+          var obj = {
+            vehicleIds: [],
+            orgIds: []
+          };
           filter(this.options, obj);
           this.$emit('filteritem', obj);
         } else {
-          this.$emit('filteritem', obj);
+          this.$emit('filteritem', activeValue);
         }
       };
 
       const filter = (options, obj) => {
         for (var i = 0; i < options.length; i++) {
           if (options[i].checked !== false && options[i].checked !== undefined) {
-            obj[options[i][this.valueKey]] = {};
-            if (options[i][this.childrenKey]) {
-              filter(options[i][this.childrenKey], obj[options[i][this.valueKey]]);
+            if (options[i][this.childrenKey] && options[i][this.childrenKey].length) {
+              filter(options[i][this.childrenKey], obj);
+            } else if (options[i][this.childrenKey] && options[i][this.childrenKey].length === 0) {
+              obj.orgIds.push(options[i].objectId)
+            } else {
+              obj.vehicleIds.push(options[i].objectId)
             }
           };
         };
@@ -523,7 +530,7 @@
                 this.menuWidth = this.$refs.menus[0].offsetWidth;
                 var isActive;
                 if (event) {
-                  isActive = event.path[0].classList.value.indexOf('is-active');
+                  isActive = event.target.nodeName === 'LI' ? event.path[0].classList.value.indexOf('is-active') : event.path[1].classList.value.indexOf('is-active');
                 }
                 this.activeItem(item, menuIndex);
                 this.$nextTick(() => {
@@ -537,7 +544,7 @@
                     if (this.checkbox) {
                       chech_noone(event, menuIndex);
                     }
-                    if (event.target.nodeName === 'LI') {
+                    if (event.target.nodeName === 'LI' ||　event.target.nodeName === 'I') {
                       if (isActive !== -1) {
                         if (this.$refs.menus[menuIndex].style.left !== (-this.menuWidth * (menuIndex - 1) + 'px') && this.$refs.menus[menuIndex].style.left !== '') {
                           this.$refs.menus.forEach((val)=>{
@@ -619,6 +626,7 @@
               aria-expanded={ item.value === activeValue[menuIndex] }
               id = { itemId }
               aria-owns = { !item.children ? null : ownsId }
+              title = {item.objectCount !== undefined ? item.label + ' (' + item.onlineCount+'/'+item.objectCount + ')' : item.label}
             >
               <label
                 class="el-checkbox" v-show={this.checkbox}>
@@ -635,7 +643,14 @@
                   />
                 </span>
               </label>
+              <i v-show={item.children === undefined}>
+                <svg class={{"svg-icon": true,'online': item.isOnline}} width="18px" height="100%">
+                  <use xlinkHref="#icon_bus_filled_grey"/>
+                </svg>
+              </i>
               {item.label}
+              <i v-show={item.objectCount !== undefined}> ({item.onlineCount}/{item.objectCount})</i>
+              <i class="el-icon-loading" v-show={item.objectCount === undefined && item.children}> </i>
             </li>
           );
         });
@@ -715,6 +730,9 @@
             ]}
             ref="wrapper"
           >
+            <div style="display:none">
+              {this.slot}
+            </div>
             <div class='breadcrumb' v-show={this.breadcrumb}>
               <div class='icon'>
                 <i class="el-icon-arrow-left" onClick={back_click}></i>

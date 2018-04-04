@@ -3,10 +3,11 @@
 @import "common/var";
 
 @mixin menu-item {
-  height: 56px;
-  line-height: 56px;
+  height: 40px;
+  line-height: 40px;
   font-size: 14px;
   color: $--menu-item-color;
+  font-weight:bold;
   padding: 0 20px;
   list-style: none;
   cursor: pointer;
@@ -244,11 +245,27 @@
     .el-submenu__title {
       border-bottom-color: $--color-primary;
     }
+    >.el-submenu__title,.el-icon-location,.el-submenu__icon-arrow{
+      color:$--menu--text-light-color;
+    }
+
   }
   @include when(opened) {
-    > .el-submenu__title .el-submenu__icon-arrow {
-      transform: rotateZ(180deg);
+    background:$--subMenu-open-backgound;
+
+    >.el-menu{
+      background:$--menu-inline-background;
     }
+
+
+    > .el-submenu__title .el-submenu__icon-arrow {
+          transform: rotateZ(180deg);
+        }
+
+    >.el-submenu__title,.el-icon-location,.el-submenu__icon-arrow{
+      color:$--menu--text-light-color;
+    }
+
   }
   @include when(disabled) {
     .el-submenu__title,

@@ -1,6 +1,6 @@
 {
   "name": "element-ui",
-  "version": "2.2.1",
+  "version": "2.2.4",
   "description": "yutong local element-ui dev branch based on element-ui@2.2.1",
   "main": "lib/element-ui.common.js",
   "files": [
@@ -31,7 +31,7 @@
     "yutong": "node -e console.log('=====以下命令供发布组件库和组件管理平台使用=====')",
     "adduser": "npm --registry=http://10.66.196.55:7000 adduser",
     "login": "npm --registry=http://10.66.196.55:7000 login",
-    "dist": "npm run clean && npm run build:file && npm run lint && cooking build -c build/cooking.conf.js,build/cooking.common.js,build/cooking.component.js -p && npm run build:utils && npm run build:umd && npm run build:theme",
+    "dist": "npm run clean && npm run build:file && cooking build -c build/cooking.conf.js,build/cooking.common.js,build/cooking.component.js -p && npm run build:utils && npm run build:umd && npm run build:theme",
     "pub": "npm publish --registry=http://10.66.196.55:7000",
     "deploy": "npm run build:file && cooking build -c build/cooking.demo.js -p"
   },
@@ -57,6 +57,7 @@
   "style": "lib/theme-chalk/index.css",
   "dependencies": {
     "async-validator": "~1.8.1",
+    "axios": "^0.18.0",
     "babel-helper-vue-jsx-merge-props": "^2.0.0",
     "deepmerge": "^1.2.0",
     "mockjs": "^1.0.1-beta3",

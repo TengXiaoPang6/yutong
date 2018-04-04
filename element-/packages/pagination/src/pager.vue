@@ -3,7 +3,8 @@
     <li
       :class="{ active: currentPage === 1, disabled }"
       v-if="pageCount > 0"
-      class="number">1</li>
+      class="number"
+      >1</li>
     <li
       class="el-icon more btn-quickprev"
       :class="[quickprevIconClass, { disabled }]"
@@ -11,11 +12,17 @@
       @mouseenter="onMouseenter('left')"
       @mouseleave="quickprevIconClass = 'el-icon-more'">
     </li>
+
     <li
       v-for="pager in pagers"
       :key="pager"
       :class="{ active: currentPage === pager, disabled }"
       class="number">{{ pager }}</li>
+  
+    <!-- <li >
+      <input type="text" v-model="currentPage">/{{pageCount}}
+    </li> -->
+
     <li
       class="el-icon more btn-quicknext"
       :class="[quicknextIconClass, { disabled }]"
@@ -23,6 +30,7 @@
       @mouseenter="onMouseenter('right')"
       @mouseleave="quicknextIconClass = 'el-icon-more'">
     </li>
+
     <li
       :class="{ active: currentPage === pageCount, disabled }"
       class="number"
@@ -39,7 +47,10 @@
 
       pageCount: Number,
 
-      disabled: Boolean
+      disabled: Boolean,
+
+      // simple:Boolean,
+
     },
 
     watch: {

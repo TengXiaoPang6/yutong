@@ -1,0 +1,2659 @@
+{
+    "product": "platform",
+    "api": {
+        "getVersionInfo": {
+            "params": "*",
+            "method": "POST",
+            "url": "platform/applogin/getAppLoginByDomain",
+            "simulateUrl": "",
+            "simulate": false
+        },
+        "getUserIndexConfig": {
+            "params": "*",
+            "url": "platform/workbench/getWorkbenchInfo",
+            "simulateUrl": "common/workspace.json",
+            "simulate": false,
+            "base": true
+        },
+        "getRoleList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/sysauth/getV2RoleList",
+            "simulateUrl": "auth/role/getRoleList.json",
+            "base": true
+        },
+        "getUserList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/userinfo/getV2UserList",
+            "simulateUrl": "auth/user/getUserList.json",
+            "base": true
+        },
+        "getUserSettingList": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/userinfo/getUserSettingList",
+            "simulateUrl": "setting/getUserSettingList.json",
+            "base": true
+        },
+        "exportUserList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/userinfo/getUserListReport",
+            "simulateUrl": "auth/user/getUserList.json",
+            "base": true
+        },
+        "addUser": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/userinfo/addV2User",
+            "simulateUrl": "auth/user/addUser.json",
+            "base": true
+        },
+        "modifyUser": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/userinfo/updateV2User",
+            "simulateUrl": "auth/user/modifyUser.json",
+            "base": true
+        },
+        "deleteUser": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/userinfo/deleteV2User",
+            "simulateUrl": "auth/user/deleteUser.json",
+            "base": true
+        },
+        "setUserStatus": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/userinfo/setV2UserStatus",
+            "simulateUrl": "auth/user/setUserStatus.json",
+            "base": true
+        },
+        "resetUserPwd": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/userinfo/resetV2UserPwd",
+            "simulateUrl": "auth/user/resetUserPwd.json",
+            "base": true
+        },
+        "getDisplayNameSettingXny": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/syssetting/getDisplayNameSettingXny",
+            "simulateUrl": "setting/getDisplayNameSetting.json",
+            "base": true
+        },
+        "setDisplayNameSetting": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/syssetting/setDisplayNameSetting",
+            "simulateUrl": "setting/setDisplayNameSetting.json",
+            "base": true
+        },
+        "getUserDetail": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/userinfo/getV2UserDetail",
+            "simulateUrl": "auth/user/getUserDetail.json",
+            "base": true
+        },
+        "exportRoleList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/sysauth/exportV2RoleList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "addRole": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/sysauth/addV2Role",
+            "simulateUrl": "auth/role/addRole.json",
+            "base": true
+        },
+        "modifyRole": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/sysauth/updateV2Role",
+            "simulateUrl": "auth/role/modifyRole.json",
+            "base": true
+        },
+        "deleteRole": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/sysauth/deleteV2Role",
+            "simulateUrl": "auth/role/deleteRole.json",
+            "base": true
+        },
+        "getAuthTree": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/sysauth/getAuthTree",
+            "simulateUrl": "auth/getAuthTree.json",
+            "base": true
+        },
+        "setRoleAuth": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/sysauth/setV2RoleAuth",
+            "simulateUrl": "auth/role/setRoleAuth.json",
+            "base": true
+        },
+        "getRoleAuth": {
+            "params": "*",
+            "url": "platform/sysauth/getV2RoleAuth",
+            "simulateUrl": "auth/role/getRoleAuth.json",
+            "base": true
+        },
+        "getRoleMalfunc": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/faultcode/getV2RoleMalfunc",
+            "simulateUrl": "faultcode/getV2RoleMalfunc.json",
+            "base": true
+        },
+        "getRoleMalfuncPhone": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/faultcode/getV2RoleMalfuncPhone",
+            "simulateUrl": "faultcode/getV2RoleMalfuncPhone.json",
+            "base": true
+        },
+        "getMalfuncTreeForSelect": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/faultcode/getV2MalfuncTreeForSelect",
+            "simulateUrl": "faultcode/getV2MalfuncTreeForSelect.json",
+            "base": true
+        },
+        "getMalfuncTreeForSearch": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/faultcode/getV2MalfuncTreeForSearch",
+            "simulateUrl": "auth/getMalfuncTreeForSearch.json",
+            "base": true
+        },
+        "setRoleMalfunc": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/faultcode/setV2RoleMalfunc",
+            "simulateUrl": "auth/setV2RoleMalfunc.json",
+            "base": true
+        },
+        "setV2RolePowerPileFault": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/faultcode/setV2RolePowerPileFault",
+            "simulateUrl": "auth/setV2RolePowerPileFault.json",
+            "base": true
+        },
+        "getPhoneRoleAuthTree": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/sysauth/getAuthTree",
+            "simulateUrl": "auth/getAuthTree.json",
+            "base": true
+        },
+        "getPhoneRoleAuth": {
+            "params": "*",
+            "url": "platform/sysauth/getV2RoleAuth",
+            "simulateUrl": "auth/role/getRoleAuth.json",
+            "base": true
+        },
+        "setPhoneRoleAuth": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/sysauth/setV2RoleAuth",
+            "simulateUrl": "auth/role/setRoleAuth.json",
+            "base": true
+        },
+        "copyV2Role": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/sysauth/copyV2Role",
+            "simulateUrl": "auth/role/modifyRole.json",
+            "base": true
+        },
+        "getDataAuthUnSelChargingPileList": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/xnyDataAuth/getDataAuthUnSelChargingPileList",
+            "simulateUrl": "xnyDataAuth/getDataAuthUnSelChargingPileList.json",
+            "base": true
+        },
+        "getDataAuthSelChargingPileList": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/xnyDataAuth/getDataAuthSelChargingPileList",
+            "simulateUrl": "xnyDataAuth/getDataAuthUnSelChargingPileList.json",
+            "base": true
+        },
+        "addDataAuthChargingPileById": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/xnyDataAuth/addDataAuthChargingPileById",
+            "simulateUrl": "xnyDataAuth/authOperate.json",
+            "base": true
+        },
+        "addDataAuthChargingPileByCondition": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/xnyDataAuth/addDataAuthChargingPileByCondition",
+            "simulateUrl": "xnyDataAuth/authOperate.json",
+            "base": true
+        },
+        "deleteDataAuthChargingPileById": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/xnyDataAuth/deleteDataAuthChargingPileById",
+            "simulateUrl": "xnyDataAuth/authOperate.json",
+            "base": true
+        },
+        "clearDataAuthChargingPileByRoleId": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/xnyDataAuth/clearDataAuthChargingPileByRoleId",
+            "simulateUrl": "xnyDataAuth/authOperate.json",
+            "base": true
+        },
+        "getDataAuthUnSelVehicleList": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/xnyDataAuth/getDataAuthUnSelVehicleList",
+            "simulateUrl": "xnyDataAuth/getDataAuthUnSelVehicleList.json",
+            "base": true
+        },
+        "getDataAuthSelVehicleList": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/xnyDataAuth/getDataAuthSelVehicleList",
+            "simulateUrl": "xnyDataAuth/getDataAuthUnSelVehicleList.json",
+            "base": true
+        },
+        "addDataAuthVehicleById": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/xnyDataAuth/addDataAuthVehicleById",
+            "simulateUrl": "xnyDataAuth/authOperate.json",
+            "base": true
+        },
+        "addDataAuthVehicleByCondition": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/xnyDataAuth/addDataAuthVehicleByCondition",
+            "simulateUrl": "xnyDataAuth/authOperate.json",
+            "base": true
+        },
+        "deleteDataAuthVehicleById": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/xnyDataAuth/deleteDataAuthVehicleById",
+            "simulateUrl": "xnyDataAuth/authOperate.json",
+            "base": true
+        },
+        "clearDataAuthVehicleByRoleId": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/xnyDataAuth/clearDataAuthVehicleByRoleId",
+            "simulateUrl": "xnyDataAuth/authOperate.json",
+            "base": true
+        },
+        "getBatteryOems": {
+            "method": "get",
+            "data": "*",
+            "url": "platform/oem/getBatteryOemList",
+            "simulateUrl": "oem/getBatteryOemList.json",
+            "base": true
+        },
+        "getVehicleBrandList": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/vehicleinfo/getVehicleBrandList",
+            "simulateUrl": "vehicle/getVehicleBrandList.json",
+            "base": true
+        },
+        "getOrgTreeV2": {
+            "params": "*",
+            "url": "platform/orginfo/getV2OrgTree",
+            "simulateUrl": "ent/getOrgTreeV2.json",
+            "base": true
+        },
+        "getPcComponentSnList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleComponentNo/getVehicleComponentNoList",
+            "simulateUrl": "",
+            "base": true
+        },
+        "getVehicleTerminalFilesList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/xnyVehicleTerminal/getVehicleTerminalFilesList",
+            "simulateUrl": "xnyVehicleTerminal/getVehicleTerminalFilesList.json",
+            "base": true
+        },
+        "getOrgDetail": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/orginfo/getV2OrgDetail",
+            "simulateUrl": "auth/org/getOrgDetail.json",
+            "base": true
+        },
+        "modifyOrg": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/orginfo/modifyV2Org",
+            "simulateUrl": "auth/org/modifyOrg.json",
+            "base": true
+        },
+        "deleteOrg": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/orginfo/deleteV2Org",
+            "simulateUrl": "auth/org/deleteOrg.json",
+            "base": true
+        },
+        "addOrg": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/orginfo/addV2Org",
+            "simulateUrl": "auth/org/addOrg.json",
+            "base": true
+        },
+        "getPcFleetList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/orginfo/getV2PcFleetList",
+            "simulateUrl": "fleet/getPcFleetList.json",
+            "base": true
+        },
+        "exportPcFleetList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/orginfo/exportGetV2PcFleetList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "terminalParamQuery": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleaction/terminalParamQuery",
+            "simulateUrl": "vehicle/terminalParamQuery.json",
+            "base": true
+        },
+        "terminalParamQueryState": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/terminalCommand/getTerminalCommandState",
+            "simulateUrl": "vehicle/terminalParamQueryState.json",
+            "base": true
+        },
+        "terminalParamRefresh": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleaction/terminalParamRefresh",
+            "simulateUrl": "vehicle/terminalParamRefresh.json",
+            "simulate": false,
+            "base": true
+        },
+        "terminalParamSetup": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleaction/terminalParamSetup",
+            "simulateUrl": "vehicle/terminalParamSetup.json",
+            "base": true
+        },
+        "getVehicleTree": {
+            "params": "orgId",
+            "url": "platform/vehicleinfo/getVehicleTree",
+            "simulateUrl": "vehicle/getVehicleTree.json",
+            "base": true
+        },
+        "getVehicleTreeState": {
+            "method":"get",
+            "params": "orgId",
+            "url": "platform/vehicleinfo/getVehicleTreeState",
+            "simulateUrl": "vehicle/getVehicleTreeState.json",
+            "simulate":false,
+            "base": true
+        },
+        "getVehicleTreeKy": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/vehicleinfo/getVehicleTreeKy",
+            "simulateUrl": "vehicle/getVehicleTree.json",
+            "base": true
+        },
+        "getVehicleTreeJw": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleinfo/getVehicleTreeNew",
+            "simulateUrl": "jwfaultmonitor/getVehicleTreeJw.json"
+        },
+        "getVehicleTreeNodesByOrg": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/vehicleinfo/getVehicleTreeNodesByOrgNew",
+            "simulateUrl": "vehicle/getVehicleTreeNodesByOrg.json",
+            "base": true
+        },
+        "getVehicleTreeNodesByOrgNoCount": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/vehicleinfo/getVehicleTreeNodesByOrgNewNoCount",
+            "simulateUrl": "vehicle/getVehicleTreeNodesByOrg.json",
+            "base": true
+        },
+        "getVehicleTreeXny": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/vehicleinfo/getVehicleTreeNew",
+            "simulateUrl": "vehicle/getVehicleTreeXny.json",
+            "base": true
+        },
+        "getVehicleTreeNoCountXny": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/vehicleinfo/getVehicleTreeNewNoCount",
+            "simulateUrl": "vehicle/getVehicleTreeXny.json",
+            "base": true
+        },
+        "getVehicleBaseInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleinfo/getVehicleBaseInfo",
+            "simulateUrl": "objectMonitor/getVehicleBaseInfo.json",
+            "base": true
+        },
+        "getChargingPileConfigList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/newenergy/getV2ChargingPileConfigList",
+            "simulateUrl": "energyPlusStation/getChargingPileConfigList.json",
+            "base": true
+        },
+        "getChargingPileConfigsFromDevice": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/newenergy/getV2ChargingPileConfigsFromDevice",
+            "simulateUrl": "energyPlusStation/getChargingPileConfigsFromDevice.json",
+            "base": true
+        },
+        "getIntegratedQueryFields": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/integratedQuery/getIntegratedQueryFields",
+            "simulateUrl": "integratedQuery/getIntegratedQueryFields.json",
+            "base": true
+        },
+        "getIntegratedQueryTemplates": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/integratedQuery/getIntegratedQueryTemplates",
+            "simulateUrl": "integratedQuery/getIntegratedQueryTemplates.json",
+            "base": true
+        },
+        "integratedQuery": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/integratedQuery/integratedQuery",
+            "simulateUrl": "integratedQuery/integratedQuery.json",
+            "base": true
+        },
+        "createIntegratedQueryTemplate": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/integratedQuery/createIntegratedQueryTemplate",
+            "simulateUrl": "integratedQuery/createIntegratedQueryTemplate.json",
+            "base": true
+        },
+        "updateIntegratedQueryTemplate": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/integratedQuery/updateIntegratedQueryTemplate",
+            "simulateUrl": "integratedQuery/updateIntegratedQueryTemplate.json",
+            "base": true
+        },
+        "deleteIntegratedQueryTemplate": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/integratedQuery/deleteIntegratedQueryTemplate",
+            "simulateUrl": "integratedQuery/deleteIntegratedQueryTemplate.json",
+            "base": true
+        },
+        "exportIntegratedQuery": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/integratedQuery/exportIntegratedQuery",
+            "simulateUrl": "integratedQuery/exportIntegratedQuery.json",
+            "base": true
+        },
+        "getFeedbackList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/feedbackinfo/getFeedbackList",
+            "simulateUrl": "feedback/getFeedbackList.json",
+            "base": true
+        },
+        "getFeedbackDetail": {
+            "params": "*",
+            "url": "platform/feedbackinfo/getFeedbackDetail",
+            "simulateUrl": "feedback/getFeedbackDetail_{{feedbackId}}.json",
+            "base": true
+        },
+        "setFeedbackReplyReadStatus": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/feedbackinfo/setFeedbackReplyReadStatus",
+            "simulateUrl": "feedback/setFeedbackReplyReadStatus.json",
+            "base": true
+        },
+        "addUserFeedback": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/feedbackinfo/addUserFeedback",
+            "simulateUrl": "feedback/addUserFeedback.json",
+            "base": true
+        },
+        "getPcDriverList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/driverinfo/getV2PcDriverList",
+            "simulateUrl": "person/getPcDriverList.json",
+            "base": true
+        },
+        "deleteDriver": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/driverinfo/deleteV2Driver",
+            "simulateUrl": "person/addDriver.json",
+            "base": true
+        },
+        "exportPcDriverList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/driverinfo/exportV2PcDriverList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "getDriverDetail": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/driverinfo/getV2DriverDetail",
+            "simulateUrl": "person/getDriverDetail.json",
+            "base": true
+        },
+        "addDriver": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/driverinfo/addV2Driver",
+            "simulateUrl": "person/addDriver.json",
+            "base": true
+        },
+        "modifyDriver": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/driverinfo/updateV2Driver",
+            "simulateUrl": "person/addDriver.json",
+            "base": true
+        },
+        "setNoticeReadStatus": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/noticeinfo/setNoticeReadStatus",
+            "simulateUrl": "common/setNoticeReadStatus.json",
+            "base": true
+        },
+        "getNoticeList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/noticeinfo/getNoticeList",
+            "simulateUrl": "common/getNoticeList.json",
+            "base": true
+        },
+        "getNotReadNoticeCount": {
+            "url": "platform/noticeinfo/getNotReadNoticeCount",
+            "simulateUrl": "common/getNotReadNoticeCount.json",
+            "base": true
+        },
+        "getPcInfoCommonList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/noticeinfo/getV2PcInfoCommonList",
+            "simulateUrl": "info/getPcInfoCommonList.json",
+            "base": true
+        },
+        "getInfoCommonDetail": {
+            "params": "*",
+            "url": "platform/noticeinfo/getV2InfoCommonDetail",
+            "simulateUrl": "info/getInfoCommonDetail.json",
+            "base": true
+        },
+        "getPcTaskList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/taskinfo/getV2PcTaskList",
+            "simulateUrl": "task/getPcTaskList.json",
+            "base": true
+        },
+        "getPcConductorList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/personinfo/getV2PcConductorList",
+            "simulateUrl": "person/getPcConductorList.json",
+            "base": true
+        },
+        "deleteConductor": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/personinfo/deleteV2Conductor",
+            "simulateUrl": "person/addConductor.json",
+            "base": true
+        },
+        "exportPcConductorList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/personinfo/exportV2PcConductorList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "getConductorDetail": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/personinfo/getV2ConductorDetail",
+            "simulateUrl": "person/getConductorDetail.json",
+            "base": true
+        },
+        "addConductor": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/personinfo/addV2Conductor",
+            "simulateUrl": "person/addConductor.json",
+            "base": true
+        },
+        "modifyConductor": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/personinfo/updateV2Conductor",
+            "simulateUrl": "person/addConductor.json",
+            "base": true
+        },
+        "getPcStudentList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/stu/getV2PcStudentList",
+            "simulateUrl": "student/getPcStudentList.json",
+            "base": true
+        },
+        "deleteStudent": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/stu/deleteStudent",
+            "simulateUrl": "student/addStudent.json",
+            "base": true
+        },
+        "deleteStudents": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/stu/deleteStudents",
+            "simulateUrl": "stu/deleteStudents"
+        },
+        "updateStuCardCode": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/stu/updateStuCardCode",
+            "simulateUrl": "stu/updateStuCardCode"
+        },
+        "exportPcStudentList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/stu/exportV2PcStudentList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "getStudentDetail": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/stu/getStudentDetail",
+            "simulateUrl": "student/getStudentDetail.json",
+            "base": true
+        },
+        "addStudent": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/stu/addStudent",
+            "simulateUrl": "student/addStudent.json",
+            "base": true
+        },
+        "modifyStudent": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/stu/modifyStudent",
+            "simulateUrl": "student/addStudent.json",
+            "base": true
+        },
+        "getJwVehicleInfoList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/jwVehicleConf/getJwVehicleInfoList",
+            "simulateUrl": "jwVehicleConf/getVehicleList.json"
+        },
+        "batchAssignVehicleOrg": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleinfo/batchAssignVehicleOrg",
+            "simulateUrl": "vehicle/batchAssignVehicleOrg.json",
+            "base": true
+        },
+        "exportPcVehicleList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleinfo/exportV2PcVehicleList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "exportJwPcVehicleList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/jwVehicleConf/exportPcVehicleList",
+            "simulateUrl": "jwVehicleConf/exportPcVehicleList.json"
+        },
+        "modifyJwVehicleInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/jwVehicleConf/modifyJwVehicleInfo",
+            "simulateUrl": "vehicle/modifyVehicle.json"
+        },
+        "addJwVehicleInfo": {
+            "method": "post",
+            "url": "platform/jwVehicleConf/addJwVehicleInfo",
+            "data": "*",
+            "simulateUrl": "vehicleCreate/addJwVehicleInfo.json"
+        },
+        "addVehicleTemplate": {
+            "method": "post",
+            "url": "platform/jwVehicleConf/addVehicleTemplate",
+            "data": "*",
+            "simulateUrl": "vehicleCreate/addJwVehicleInfo.json"
+        },
+        "deleteVehicleTemplate": {
+            "method": "get",
+            "url": "platform/jwVehicleConf/deleteVehicleTemplate",
+            "data": "*",
+            "simulateUrl": "vehicleCreate/addJwVehicleInfo.json"
+        },
+        "renameVehicleTemplate": {
+            "method": "post",
+            "url": "platform/jwVehicleConf/renameVehicleTemplate",
+            "data": "*",
+            "simulateUrl": "vehicleCreate/addJwVehicleInfo.json"
+        },
+        "getVehicleTemplateInfo": {
+            "method": "get",
+            "url": "platform/jwVehicleConf/getVehicleTemplateInfo",
+            "param": "*",
+            "simulateUrl": "vehicleCreate/getVehicleTemplateInfo.json"
+        },
+        "getVehicleTemplateList": {
+            "method": "get",
+            "url": "platform/jwVehicleConf/getVehicleTemplateList",
+            "param": "*",
+            "simulateUrl": "vehicleCreate/getVehicleTemplateList.json"
+        },
+        "getAllVehicleBrandModelList": {
+            "method": "get",
+            "url": "platform/jwVehicleConf/getAllVehicleBrandModelList",
+            "data": "*",
+            "simulateUrl": "vehicleCreate/getAllVehicleModelList.json"
+        },
+        "getVehicleConf": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/jwVehicleConf/getVehicleConf",
+            "simulateUrl": "jwVehicleConf/getVehicleConfList.json"
+        },
+        "getEngineBrandModelList": {
+            "method": "get",
+            "url": "platform/jwVehicleConf/getEngineBrandModelList",
+            "data": "*",
+            "simulateUrl": ""
+        },
+        "getJwVehicleDetail": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/jwVehicleConf/getJwVehicleDetail",
+            "simulateUrl": "jwVehicleConf/getVehicleDetail.json"
+        },
+        "getPcVehicleListXny": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/xnyvehicleinfo/getV2PcVehicleListDB",
+            "simulateUrl": "vehicle/getPcVehicleList.json",
+            "base": true
+        },
+        "exportPcVehicleListXny": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/xnyvehicleinfo/exportV2PcVehicleListDB",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "cacheTree": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleinfo/cacheTree",
+            "simulateUrl": "vehicle/cacheTree.json",
+            "base": true
+        },
+        "getVehicleTypes": {
+            "method": "get",
+            "data": "*",
+            "url": "platform/systemConfig/getVehicleTypes",
+            "simulateUrl": "vehicle/getVehicleTypes.json",
+            "base": true
+        },
+        "getVehicleDetail": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/vehicleinfo/getV2VehicleDetail",
+            "simulateUrl": "vehicle/getVehicleDetail.json",
+            "base": true
+        },
+        "modifyVehicle": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleinfo/updateV2Vehicle",
+            "simulateUrl": "vehicle/modifyVehicle.json",
+            "base": true
+        },
+        "getBatteryType": {
+            "method": "get",
+            "data": "*",
+            "url": "platform/systemConfig/getBatteryType",
+            "simulateUrl": "vehicle/getBatteryType.json",
+            "base": true
+        },
+        "getPcVehicleList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleinfo/getV2PcVehicleList",
+            "simulateUrl": "vehicle/getPcVehicleList.json",
+            "base": true
+        },
+        "getVinValid": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/kyVehicleinfo/getVinValid",
+            "simulateUrl": "frame/getVinValid.json"
+        },
+        "getKyVehicleDetail": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/kyVehicleinfo/getKyVehicleDetail",
+            "simulateUrl": "frame/getVehicleDetail.json"
+        },
+        "getKyVehicleEnum": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/kyVehicleinfo/getKyVehicleEnum",
+            "simulateUrl": "frame/getVehicleEnum.json"
+        },
+        "modifyKyVehicle": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/kyVehicleinfo/modifyKyVehicle",
+            "simulateUrl": "frame/modifyVehicle.json"
+        },
+        "getVehicleListXc": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/xcVehicleinfo/getVehicleListXc",
+            "simulateUrl": "xcVehicleinfo/getVehicleListXc.json",
+            "base": true
+        },
+        "exportVehicleList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/xcVehicleinfo/exportVehicleList",
+            "simulateUrl": "xcVehicleinfo/exportVehicleList.json",
+            "base": true
+        },
+        "getComponentAddrList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleComponentNo/getXnyDeviceList",
+            "simulateUrl": "",
+            "base": true
+        },
+        "exportPcComponentSnList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleComponentNo/exportVehicleComponentNoList",
+            "simulateUrl": "",
+            "base": true
+        },
+        "getPcVehicleTerminalOnlineState": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/xnyVehicleTerminal/getPcVehicleTerminalOnlineState",
+            "simulateUrl": "",
+            "base": true
+        },
+        "sendVehicleTerminalFileTokenCmd": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/xnyVehicleTerminal/sendVehicleTerminalFileTokenCmd",
+            "simulateUrl": "",
+            "base": true
+        },
+        "downloadVehicleTerminalFiles": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/xnyVehicleTerminal/downloadVehicleTerminalFiles",
+            "simulateUrl": "",
+            "base": true
+        },
+        "setParamsBySettingItem": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/usersetting/setParamsBySettingItem",
+            "simulateUrl": "setting/setParamsBySettingItem.json",
+            "base": true
+        },
+        "setCurrentUserInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/userinfo/setUserAccountInfo",
+            "simulateUrl": "setting/setCurrentUserInfo.json",
+            "base": true
+        },
+        "sendPhoneValidation": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/userauth/sendPhoneValidation",
+            "simulateUrl": "auth/sendPhoneValidation.json",
+            "base": true
+        },
+        "updatePersonalMapSetting": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/baseMap/updatePersonalMapSetting",
+            "simulateUrl": ""
+        },
+        "getMenuMapping": {
+            "method": "get",
+            "data": "*",
+            "url": "platform/menuinfo/getMenuMapping",
+            "simulateUrl": "menuinfo/getSelectPage.json"
+        },
+        "changePassword": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/userauth/changePassword",
+            "simulateUrl": "auth/changePassword.json",
+            "base": true
+        },
+        "getMatchedObjectInfo": {
+            "method": "post",
+            "data": "keyword",
+            "url": "platform/smartsearch/getMatchedObjectInfos",
+            "simulateUrl": "smartSearch/getMatchedObjectInfo.json",
+            "base": true
+        },
+        "getVehicleTreeJyd": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/jydvehicleinfo/getVehicleTree",
+            "simulateUrl": "vehicle/getVehicleTree.json"
+        },
+        "getVehicleModelList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/energystatreport/getVehicleModelList",
+            "simulateUrl": "consumption/getVehicleModelList.json",
+            "base": true
+        },
+        "getV2VehicleListByIds": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleinfo/getV2VehicleListByIds",
+            "simulateUrl": "vehicle/getV2VehicleListByIds.json"
+        },
+        "getJwVehicleListByIds": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/jwfaultmonitor/getJwVehicleListByIds",
+            "simulateUrl": "jwfaultmonitor/getV2VehicleListByIds.json"
+        },
+        "updateMaintainTime": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/xcVehicleinfo/updateMaintainTime",
+            "simulateUrl": "xcVehicleinfo/updateMaintainTime.json",
+            "base": true
+        },
+        "getObjectLogoInfo": {
+            "params": "*",
+            "url": "platform/objinfo/getObjectLogoInfo",
+            "simulateUrl": "common/getObjectLogoInfo_{{objectId}}.json",
+            "base": true
+        },
+        "getVehicleCategoryList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/jwVehicleConf/getVehicleCategoryList",
+            "simulateUrl": "jwVehicleConf/getVehicleCategoryList.json"
+        },
+        "getVehicleConfList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/jwVehicleConf/getVehicleConfList",
+            "simulateUrl": "jwVehicleConf/getVehicleConfList.json"
+        },
+        "getKyDriverDetail": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/kyDriverinfo/getKyDriverDetail",
+            "simulateUrl": "person/getDriverDetail.json",
+            "base": true
+        },
+        "scrapVehicle": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/jwVehicleConf/scrappageJwVehicleInfo",
+            "simulateUrl": "vehicle/scrappageJwVehicleInfo.json"
+        },
+        "addKyDriver": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/kyDriverinfo/addKyDriver",
+            "simulateUrl": "person/addDriver.json",
+            "base": true
+        },
+        "modifyKyDriver": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/kyDriverinfo/updateKyDriver",
+            "simulateUrl": "person/addDriver.json",
+            "base": true
+        },
+        "deleteKyDriver": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/kyDriverinfo/deleteKyDriver",
+            "simulateUrl": "person/addDriver.json",
+            "base": true
+        },
+        "getV2ChargingStationTree": {
+            "params": "*",
+            "method": "post",
+            "url": "platform/newenergy/getV2ChargingStationTree",
+            "simulateUrl": "newenergy/getV2ChargingStationTree.json",
+            "base": true
+        },
+        "getV2ChargingStationTreeNoCount": {
+            "params": "*",
+            "method": "post",
+            "url": "platform/newenergy/getV2ChargingStationTreeNoCount",
+            "simulateUrl": "newenergy/getV2ChargingStationTreeNoCount.json",
+            "base": true
+        },
+        "getChargingPileTreeXnyNoCount": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/newenergy/getChargingPileTreeXnyNoCount",
+            "simulateUrl": "energyPlusStation/getChargingPileTreeXnyNoCount.json",
+            "base": true
+        },
+        "getVehicleTerminalList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleinfo/getVehicleTerminal",
+            "simulateUrl": "vehicle/getVehicleTerminalList.json",
+            "base": true
+        },
+        "getConfig": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/bspConfig/getConfig",
+            "simulateUrl": "bspConfig/getConfig.json",
+            "base": true
+        },
+        "saveConfig": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/bspConfig/saveConfig",
+            "simulateUrl": "bspConfig/saveConfig.json",
+            "base": true
+        },
+        "energyGetVehicleTreeNodesByOrg": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/vehicleinfo/getVehicleTreeNodesByOrgNew",
+            "simulateUrl": "vehicle/getVehicleTreeNodesByOrg.json",
+            "base": true
+        },
+        "getVehicleIdsByOrg": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/vehicleinfo/getVehicleIdsByOrg",
+            "simulateUrl": "vehicle/getVehicleIdsByOrg.json",
+            "base": true
+        },
+        "getServicePeriodCatch": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/xcVehicleinfo/getServicePeriodCatch",
+            "simulateUrl": "xcVehicleinfo/getServicePeriodCatch.json",
+            "base": true
+        },
+        "setServicePeriodCatch": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/xcVehicleinfo/setServicePeriodCatch",
+            "simulateUrl": "xcVehicleinfo/getServicePeriodCatch.json",
+            "base": true
+        },
+        "getVehicleListServicePeriodXc": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/xcVehicleinfo/getVehicleListServicePeriodXc",
+            "simulateUrl": "xcVehicleinfo/getVehicleListServicePeriodXc.json",
+            "base": true
+        },
+        "getVehicleTyreInfo": {
+            "method": "post",
+            "url": "platform/{root}jwVehicleTyre/getVehicleTyreInfo",
+            "data": "*",
+            "simulateUrl": "jwVehicleTyre/getVehicleTyreInfo.json"
+        },
+        "getTyreListByVehicleId": {
+            "method": "post",
+            "url": "platform/{root}jwVehicleTyre/getTyreListByVehicleId",
+            "data": "*",
+            "simulateUrl": "jwVehicleTyre/getTyreListByVehicleId.json"
+        },
+        "getCcEntPandectXny": {
+            "params": "*",
+            "url": "platform/newenergy/getCcEntPandectXny",
+            "simulateUrl": "index/getCcEntPandectXny.json",
+            "base": true
+        },
+        "getVehicleServiceDueTime": {
+            "method": "get",
+            "data": "*",
+            "url": "platform/xnyvehicleinfo/getVehicleServiceDueTime",
+            "simulateUrl": "xnyvehicleinfo/getVehicleServiceDueTime.json",
+            "base": true
+        },
+        "getV1UserRltUserDetail": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/userinfo/getV1UserRltUserDetail",
+            "simulateUrl": "userinfo/getV1UserRltUserDetail.json"
+        },
+        "getAllConfigName": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/jwVehicleConf/getAllConfigName",
+            "simulateUrl": "jwVehicleConf/getAllConfigName.json"
+        },
+        "getThumbnailModelOrgTree": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/jwfaultmonitor/getThumbnailModelOrgTree",
+            "simulateUrl": "jwfaultmonitor/getThumbnailModelOrgTree.json"
+        },
+        "getThumbnailModelVehicleList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/jwfaultmonitor/getThumbnailModelVehicleList",
+            "simulateUrl": "jwfaultmonitor/getThumbnailModelVehicleList.json"
+        },
+        "getXnyAllVehicleStatis": {
+            "params": "*",
+            "method": "post",
+            "url": "platform/xnyvehicleinfo/getVehicleStatis",
+            "simulateUrl": ""
+        },
+        "getNewCcPileInfoIndicator": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/xnystata/getNewAllEnergySupplyDeviceList",
+            "simulateUrl": "newenergy/getCcPileInfoList.json",
+            "base": true
+        },
+        "getWidgetPersonalInfo": {
+            "params": "*",
+            "url": "platform/workbenchinfo/getWidgetPersonalInfo",
+            "simulateUrl": "index/getWidgetPersonalInfo.json",
+            "base": true
+        },
+        "uploadVehicleDataPermission": {
+            "url": "platform/xnyDataAuth/uploadVehicleDataPermission"
+        },
+        "saveWorkspaceConfig": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/workbench/saveMsWorkspaceConfig",
+            "simulateUrl": "ms/workspace/saveWorkspaceConfig.json",
+            "base": true
+        },
+        "getWorkspaceLayoutList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/workbench/getMsWorkspaceLayoutList",
+            "simulateUrl": "ms/workspace/getWorkspaceLayoutList.json",
+            "base": true
+        },
+        "getCcCommonObjects": {
+            "params": "*",
+            "url": "platform/workbenchinfo/getV2CcCommonObjects",
+            "simulateUrl": "index/getCcCommonObjects.json",
+            "base": true
+        },
+        "getWorkspaceLayoutConfig": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/workbench/getMsWorkspaceLayoutConfig",
+            "simulateUrl": "ms/workspace/getWorkspaceLayoutConfig.json",
+            "base": true
+        },
+        "getWorkspaceConfigList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/workbench/getMsWorkspaceConfigList",
+            "simulateUrl": "ms/workspace/getWorkspaceConfigList.json",
+            "base": true
+        },
+        "getModelFleetTree": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/vehmodel/getTree",
+            "simulateUrl": "fleet/getFleetTreeV2.json",
+            "base": true
+        },
+        "getChannelTreeV2": {
+            "params": "*",
+            "url": "platform/vehicleinfo/getVehicleVedioTree",
+            "simulateUrl": "ent/getChannelTreeV2.json",
+            "base": true
+        },
+        "getBrandFleetTree": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/vehmodel/getBrandTree",
+            "simulateUrl": "fleet/getFleetTreeV2.json",
+            "base": true
+        },
+        "getVehicleStaticInfo": {
+            "url": "platform/vehicleinfo/getVehicleStaticInfo/{{vehicleId}}",
+            "simulateUrl": "vehicle/getVehicleStaticInfo.json",
+            "base": true
+        },
+        "getPcVehicleDriverRelationList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleinfo/getV2PcVehicleDriverRelationList",
+            "simulateUrl": "vehicle/getPcVehicleList.json",
+            "base": true
+        },
+        "getCcVehicleModelParam": {
+            "params": "*",
+            "url": "platform/vehicleinfo/getV2CcVehicleModelParam",
+            "simulateUrl": "vehicle/getCcVehicleModelParam.json",
+            "base": true
+        },
+        "getVehicleRealTimeState": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleinfo/getV2VehicleRealTimeState",
+            "simulateUrl": "vehicle/getVehicleRealTimeState.json",
+            "base": true
+        },
+        "createVehicleRecordStopTask": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleinfo/sendVehicleRecordStopTask",
+            "simulateUrl": "listen/createVehicleRecordStopTask.json",
+            "base": true
+        },
+        "getPcVehicleOnlineList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleinfo/getPcVehicleOnlineList",
+            "simulateUrl": "vehicle/getPcVehicleOnlineList.json",
+            "base": true
+        },
+        "getCcVehicleList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleinfo/getV2CcVehicleList",
+            "simulateUrl": "vehicle/getCcVehicleList.json",
+            "base": true
+        },
+        "getPcRealTimeDataList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleinfo/getPcRealTimeDataList",
+            "simulateUrl": "vehicle/getPcRealTimeDataList.json",
+            "base": true
+        },
+        "exportPcVehicleOnlineList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleinfo/exportPcVehicleOnlineList",
+            "simulateUrl": "vehicle/getPcVehicleOnlineList.json",
+            "base": true
+        },
+        "exportPcRealTimeDataList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleinfo/exportPcRealTimeDataList",
+            "simulateUrl": "vehicle/getPcRealTimeDataList.json",
+            "base": true
+        },
+        "getCcVehicleOnlineList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleinfo/getCcVehicleOnlineList",
+            "simulateUrl": "vehicle/getPcVehicleOnlineList.json",
+            "base": true
+        },
+        "getWorkspaceConfig": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/workbench/getMsWorkspaceConfig",
+            "simulateUrl": "ms/workspace/getWorkspaceConfig.json",
+            "base": true
+        },
+        "exportPcVehicleOnlineMonthList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleinfo/exportPcVehicleOnlineMonthList",
+            "simulateUrl": "vehicle/getPcVehicleOnlineMonthList.json",
+            "base": true
+        },
+        "getUserOpList": {
+            "url": "platform/usersetting/getUserOpList",
+            "simulateUrl": "common/getUserOpList.json",
+            "base": true
+        },
+        "validPhone": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/userauth/validPhone",
+            "simulateUrl": "auth/validPhone.json",
+            "base": true
+        },
+        "resetPassword": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/userauth/resetPasswd",
+            "simulateUrl": "user/resetPassword.json",
+            "base": true
+        },
+        "validFindPasswordSmsCode": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/userauth/validPasswdSmsCode",
+            "simulateUrl": "user/validFindPasswordSmsCode.json",
+            "base": true
+        },
+        "sendFindPasswordPhoneValidation": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/userauth/sendPasswdPhoneValidation",
+            "simulateUrl": "user/sendFindPasswordPhoneValidation.json",
+            "base": true
+        },
+        "getPcVehicleListTqc": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/tqc/getV2PcVehicleListTqc",
+            "simulateUrl": "tqc/getPcVehicleList.json",
+            "base": true
+        },
+        "getTaskDynamicInfoList": {
+            "params": "*",
+            "url": "platform/taskinfo/getV2TaskDynamicInfoList",
+            "simulateUrl": "task/getTaskDynamicInfoList.json",
+            "base": true
+        },
+        "getTaskDetailV2": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/taskinfo/getV2TaskDetail",
+            "simulateUrl": "task/getTaskDetailV2.json",
+            "base": true
+        },
+        "getCurrentTaskListV2": {
+            "params": "*",
+            "url": "platform/taskinfo/getV2CurrentTaskList",
+            "simulateUrl": "common/getCurrentTaskListV2.json",
+            "base": true
+        },
+        "getCompletedTaskList": {
+            "des":"获取已完成的任务列表",
+            "params": "*",
+            "url": "platform/taskinfo/getCompletedTaskList",
+            "simulateUrl": "common/getUnDownloadTaskList.json",
+            "base": true,
+            "simulate":false
+        },
+        "getLogoInfo": {
+            "url": "platform/syssetting/getLogoInfo",
+            "simulateUrl": "common/getLogoInfo.json",
+            "base": true
+        },
+        "getSlideADInfoList": {
+            "url": "platform/syssetting/getSlideADInfoList",
+            "simulateUrl": "common/getSlideADInfoList.json",
+            "base": true
+        },
+        "getCcSubTaskList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/taskinfo/getV2CcSubTaskList",
+            "simulateUrl": "task/getCcSubTaskList.json",
+            "base": true
+        },
+        "getDisplayNameSetting": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/syssetting/getDisplayNameSetting",
+            "simulateUrl": "setting/getDisplayNameSetting.json",
+            "base": true
+        },
+        "getCopyrightInfo": {
+            "url": "platform/syssetting/getCopyrightInfo",
+            "simulateUrl": "common/getCopyrightInfo.json",
+            "base": true
+        },
+        "getV2PcExportDetail": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/taskinfo/getV2PcExportDetail",
+            "simulateUrl": "task/getV2PcExportDetail.json",
+            "base": true
+        },
+        "uploadStudents": {
+            "url": "platform/stu/uploadStudents",
+            "simulateUrl": "customform/upload.json",
+            "base": true
+        },
+        "getEntAuthTreeForSelect": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/sysauth/getEntAuthTreeForSelect",
+            "simulateUrl": "auth/getEntAuthTreeForSelect.json",
+            "base": true
+        },
+        "modifyStuMsgCfg": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/stu/modifyStuMsgCfg",
+            "simulateUrl": "student/modifyStuMsgCfg.json",
+            "base": true
+        },
+        "updateStuMsgCfgByIds": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/stu/updateStuMsgCfgByIds",
+            "simulateUrl": "stu/updateStuMsgCfgByIds"
+        },
+        "getFloatPanelInfoStudentV2": {
+            "params": "*",
+            "url": "platform/stu/getV2FloatPanelInfoStudent",
+            "simulateUrl": "float/getFloatPanelInfoStudentV2.json",
+            "base": true
+        },
+        "getCcStudentSummary": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/stu/getV2CcStudentSummary",
+            "simulateUrl": "student/getCcStudentSummary.json",
+            "base": true
+        },
+        "getStuMsgCfgDetail": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/stu/getStuMsgCfgDetail",
+            "simulateUrl": "student/getStuMsgCfgDetail.json",
+            "base": true
+        },
+        "exportPcStuMsgCfgList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/stu/exportStuMsgCfgList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "getPcStuMsgCfgList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/stu/getPcStuMsgCfgList",
+            "simulateUrl": "student/getPcStuMsgCfgList.json",
+            "base": true
+        },
+        "deleteStuMsgCfg": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/stu/deleteStuMsgCfg",
+            "simulateUrl": "student/deleteStuMsgCfg.json",
+            "base": true
+        },
+        "addStuMsgCfg": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/stu/addStuMsgCfg",
+            "simulateUrl": "student/addStuMsgCfg.json",
+            "base": true
+        },
+        "submitSearchUseful": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/smartsearch/submitSearchUseful",
+            "simulateUrl": "smartSearch/submitSearchUseful.json",
+            "base": true
+        },
+        "getVehicleSearchResultDetail": {
+            "params": "*",
+            "url": "platform/smartsearch/getVehicleSearchResultDetail",
+            "simulateUrl": "smartSearch/getVehicleSearchResultDetail.json",
+            "base": true
+        },
+        "search": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/smartsearch/search",
+            "simulateUrl": "smartSearch/search.json",
+            "base": true
+        },
+        "getStationSearchResultDetail": {
+            "params": "*",
+            "url": "platform/smartsearch/getStationSearchResultDetail",
+            "simulateUrl": "smartSearch/getStationSearchResultDetail.json",
+            "base": true
+        },
+        "getUserDefaultObjectInfo": {
+            "url": "platform/smartsearch/getUserDefaultObjectInfo",
+            "simulateUrl": "smartSearch/getUserDefaultObjectInfo.json",
+            "base": true
+        },
+        "getRouteSearchResultDetail": {
+            "params": "*",
+            "url": "platform/smartsearch/getRouteSearchResultDetail",
+            "simulateUrl": "smartSearch/getRouteSearchResultDetail.json",
+            "base": true
+        },
+        "getPassengerSearchResultDetail": {
+            "params": "*",
+            "url": "platform/smartsearch/getPassengerSearchResultDetail",
+            "simulateUrl": "smartSearch/getPassengerSearchResultDetail.json",
+            "base": true
+        },
+        "getHistoryKeywords": {
+            "method": "post",
+            "data": "keyword",
+            "url": "platform/smartsearch/getHistoryKeywords",
+            "simulateUrl": "smartSearch/getHistoryKeywords{%if keyword %}_0{% endif %}.json",
+            "base": true
+        },
+        "getEnergyStationSearchResultDetail": {
+            "params": "*",
+            "url": "platform/smartsearch/getEnergyStationSearchResultDetail",
+            "simulateUrl": "smartSearch/getEnergyStationSearchResultDetail.json",
+            "base": true
+        },
+        "getEnergyEquipSearchResultDetail": {
+            "params": "*",
+            "url": "platform/smartsearch/getEnergyEquipSearchResultDetail",
+            "simulateUrl": "smartSearch/getEnergyEquipSearchResultDetail.json",
+            "base": true
+        },
+        "getDriverSearchResultDetail": {
+            "params": "*",
+            "url": "platform/smartsearch/getDriverSearchResultDetail",
+            "simulateUrl": "smartSearch/getDriverSearchResultDetail.json",
+            "base": true
+        },
+        "getAttendantSearchResultDetail": {
+            "params": "*",
+            "url": "platform/smartsearch/getAttendantSearchResultDetail",
+            "simulateUrl": "smartSearch/getAttendantSearchResultDetail.json",
+            "base": true
+        },
+        "getPcVehicleListScd": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/scd/getV2PcVehicleListScd",
+            "simulateUrl": "vehicle/getPcVehicleListScd.json",
+            "base": true
+        },
+        "getEleStationPileList": {
+            "params": "*",
+            "method": "post",
+            "url": "platform/powerPileOpsStats/getPowerPileInfoList",
+            "simulateUrl": "pileMonitoring/getPowerPileInfoList.json"
+        },
+        "getEleStationMapInfo": {
+            "params": "*",
+            "method": "post",
+            "url": "platform/powerPileOpsStats/getPoiInfoList",
+            "simulateUrl": "pileMonitoring/getEleStationMapInfo.json"
+        },
+        "getAreaProvinceList": {
+            "url": "platform/politicsinfo/getAreaProvinceList",
+            "params": "areaId",
+            "simulateUrl": "customform/getAreaProvinceList.json",
+            "base": true
+        },
+        "getAreaPath": {
+            "url": "platform/politicsinfo/getAreaPath",
+            "params": "areaId",
+            "simulateUrl": "customform/getAreaPath.json",
+            "base": true
+        },
+        "getAreaCityList": {
+            "url": "platform/politicsinfo/getAreaCityList",
+            "params": "areaId",
+            "simulateUrl": "customform/getAreaCityList.json",
+            "base": true
+        },
+        "getPassengerSearchResultV2": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/personinfo/getV2PassengerSearchResult",
+            "simulateUrl": "object/getPassengerSearchResultV2.json",
+            "base": true
+        },
+        "submitCustomerManagerEvaluation": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/personinfo/submitV2CustomerManagerEvaluation",
+            "simulateUrl": "person/submitCustomerManagerEvaluation.json",
+            "base": true
+        },
+        "getConductorSearchResultV2": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/personinfo/getV2ConductorSearchResult",
+            "simulateUrl": "object/getConductorSearchResultV2.json",
+            "base": true
+        },
+        "getCcCustomerManagerDeclaration": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/personinfo/getV2CcCustomerManagerDeclaration",
+            "simulateUrl": "person/getCcCustomerManagerDeclaration.json",
+            "base": true
+        },
+        "getFloatPanelInfoConductorV2": {
+            "params": "*",
+            "url": "platform/personinfo/getV2FloatPanelInfoConductor",
+            "simulateUrl": "float/getFloatPanelInfoConductorV2.json",
+            "base": true
+        },
+        "getCcCustomerManagerEvaluation": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/personinfo/getV2CcCustomerManagerEvaluation",
+            "simulateUrl": "person/getCcCustomerManagerEvaluation.json",
+            "base": true
+        },
+        "getCcConductorSummary": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/personinfo/getV2CcConductorSummary",
+            "simulateUrl": "conductor/getCcConductorSummary.json",
+            "base": true
+        },
+        "getCcConductorList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/personinfo/getV2CcConductorList",
+            "simulateUrl": "person/getCcConductorList.json",
+            "base": true
+        },
+        "getPassengerTree": {
+            "params": "*",
+            "url": "platform/personinfo/getPassengerTree",
+            "simulateUrl": "person/getPassengerTree.json",
+            "base": true
+        },
+        "getConductorTree": {
+            "params": "*",
+            "url": "platform/personinfo/getConductorTree",
+            "simulateUrl": "person/getConductorTree.json",
+            "base": true
+        },
+        "getCcCustomerManagerSummary": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/personinfo/getV2CcCustomerManager",
+            "simulateUrl": "person/getCcCustomerManagerSummary.json",
+            "base": true
+        },
+        "selectV2FleetList": {
+            "params": "*",
+            "method": "post",
+            "url": "platform/orginfo/selectV2FleetList",
+            "simulateUrl": "fleet/selectV2FleetList.json",
+            "base": true
+        },
+        "getOrgSearchResultV2": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/orginfo/getV2OrgSearchResult",
+            "simulateUrl": "object/getOrgSearchResultV2.json",
+            "base": true
+        },
+        "getFloatPanelInfoFleetV2": {
+            "params": "*",
+            "url": "platform/orginfo/getV2FloatPanelInfoFleet",
+            "simulateUrl": "float/getFloatPanelInfoFleetV2.json",
+            "base": true
+        },
+        "getFloatPanelInfoEntV2": {
+            "params": "*",
+            "url": "platform/orginfo/getV2FloatPanelInfoEnt",
+            "simulateUrl": "float/getFloatPanelInfoEntV2.json",
+            "base": true
+        },
+        "getFleetTreeV2Xny": {
+            "params": "*",
+            "url": "platform/orginfo/getV2FleetTreeXny",
+            "simulateUrl": "fleet/getFleetTreeV2.json",
+            "base": true
+        },
+        "getEntTreeV2": {
+            "params": "*",
+            "url": "platform/orginfo/getV2EntTree",
+            "simulateUrl": "ent/getEntTreeV2.json",
+            "base": true
+        },
+        "getFleetTreeV2": {
+            "params": "*",
+            "url": "platform/orginfo/getV2FleetTree",
+            "simulateUrl": "fleet/getFleetTreeV2.json",
+            "base": true
+        },
+        "getCcFleetSummary": {
+            "params": "*",
+            "url": "platform/orginfo/getV2CcFleetSummary",
+            "simulateUrl": "fleet/getCcFleetSummary.json",
+            "base": true
+        },
+        "getCcFleetList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/orginfo/getV2CcFleetList",
+            "simulateUrl": "fleet/getCcFleetList.json",
+            "base": true
+        },
+        "getCcEntPandect": {
+            "params": "*",
+            "url": "platform/orginfo/getV2CcEntPandect",
+            "simulateUrl": "index/getCcEntPandect.json",
+            "base": true
+        },
+        "getCcEntSummary": {
+            "params": "*",
+            "url": "platform/orginfo/getV2CcEntSummary",
+            "simulateUrl": "ent/getCcEntSummary.json",
+            "base": true
+        },
+        "getOrgList": {
+            "method": "get",
+            "url": "platform/orginfo/getOrgList",
+            "param": "*",
+            "simulateUrl": "orginfo/getEntList.json",
+            "base": true
+        },
+        "getObjectLogoInfoV2": {
+            "params": "*",
+            "url": "platform/objinfo/getV2ObjectLogoInfo",
+            "simulateUrl": "float/getObjectLogoInfoV2.json",
+            "base": true
+        },
+        "getObjectNameByTypeIds": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/objinfo/getObjectNameByTypeIds",
+            "simulateUrl": "common/getObjectNameByTypeIds.json",
+            "base": true
+        },
+        "getObjectListByOrg": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/objinfo/getObjectListByOrg",
+            "simulateUrl": "common/getObjectListByOrg.json",
+            "base": true
+        },
+        "getNearbyObjectList": {
+            "params": "*",
+            "url": "platform/objinfo/getNearbyObjectList",
+            "simulateUrl": "operate/getNearbyObjectList.json",
+            "base": true
+        },
+        "getCcInfoCommonList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/noticeinfo/getV2CcInfoCommonList",
+            "simulateUrl": "info/getCcInfoCommonList.json",
+            "base": true
+        },
+        "getPcTerminalStateList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/newenergy/getV2PcTerminalStateList",
+            "simulateUrl": "newenergy/getV2PcTerminalStateList.json",
+            "base": true
+        },
+        "getVehiclePowerTypeStatistic": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/newenergy/getVehiclePowerTypeStatistic",
+            "simulateUrl": "energyStatistic/getVehiclePowerTypeStatistic.json",
+            "base": true
+        },
+        "getCcPileInfoIndicator": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/newenergy/getV2PcAllEnergySupplyDeviceList",
+            "simulateUrl": "newenergy/getCcPileInfoList.json",
+            "base": true
+        },
+        "getChargingPileSearchResultV2": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/newenergy/getV2ChargingPileSearchResult",
+            "simulateUrl": "object/getChargingPileSearchResultV2.json",
+            "base": true
+        },
+        "getChargingPileTreeXny": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/newenergy/getChargingPileTreeXny",
+            "simulateUrl": "energyPlusStation/getChargingPileTreeXny.json",
+            "base": true
+        },
+        "getChargingPileTreeNodesByOrg": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/newenergy/getChargingPileTreeNodesByOrg",
+            "simulateUrl": "energyPlusStation/getChargingPileTreeNodesByOrg.json",
+            "base": true
+        },
+        "getChargingGunDynamicInfo": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/newenergy/getV2ChargingGunDynamicInfo",
+            "simulateUrl": "energyPlusStation/getChargingGunDynamicInfo.json",
+            "base": true
+        },
+        "getChargingPileIdsByOrg": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/newenergy/getChargingPileIdsByOrg",
+            "simulateUrl": "energyPlusStation/getChargingPileIdsByOrg.json",
+            "base": true
+        },
+        "exportVehicleMessageList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/msginfo/getMsgListReport",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "getVehicleMessageList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/msginfo/getMsgList",
+            "simulateUrl": "vehicle/getVehicleMessageList.json",
+            "base": true
+        },
+        "getMsgTemplateList": {
+            "url": "platform/msginfo/getMsgTemplateList",
+            "simulateUrl": "operate/getMsgTemplateList.json",
+            "base": true
+        },
+        "getLatestMsgList": {
+            "params": "*",
+            "url": "platform/msginfo/getLatestMsgList",
+            "simulateUrl": "operate/getLatestMsgList.json",
+            "base": true
+        },
+        "deleteVehicleMessage": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/msginfo/delMsg",
+            "simulateUrl": "vehicle/deleteVehicleMessage.json",
+            "base": true
+        },
+        "deleteMsgTemplate": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/msginfo/deleteMsgTemplate",
+            "simulateUrl": "operate/deleteMsgTemplate.json",
+            "base": true
+        },
+        "setMsStartMenuConfig": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/menu/setMsStartMenuConfig",
+            "simulateUrl": "ms/startMenu/setMsStartMenuConfig.json",
+            "base": true
+        },
+        "getMsStartMenuConfigList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/menu/getMsStartMenuConfigList",
+            "simulateUrl": "ms/startMenu/getMsStartMenuConfigList.json",
+            "base": true
+        },
+        "addMsgTemplate": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/msginfo/addMsgTemplate",
+            "simulateUrl": "operate/addMsgTemplate.json",
+            "base": true
+        },
+        "getMsStartMenuConfig": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/menu/getMsStartMenuConfig",
+            "simulateUrl": "ms/startMenu/getMsStartMenuConfig.json",
+            "base": true
+        },
+        "getMsFavorUrl": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/menu/getMsFavorUrlList",
+            "simulateUrl": "ms/favorUrl/getMsFavorUrl.json",
+            "base": true
+        },
+        "deleteMsStartMenuConfig": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/menu/deleteMsStartMenuConfig",
+            "simulateUrl": "ms/startMenu/deleteMsStartMenuConfig.json",
+            "base": true
+        },
+        "setMsFavorUrl": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/menu/addMsFavorUrl",
+            "simulateUrl": "ms/favorUrl/setMsFavorUrl.json",
+            "base": true
+        },
+        "updateMapPoi": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/map/updateMapPoi",
+            "simulateUrl": "poi/updateMapPoi.json",
+            "base": true
+        },
+        "getAppMapConfig": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/map/getV2AppMapConfig",
+            "simulateUrl": "common/getAppMapConfig.json",
+            "base": true
+        },
+        "deleteMapPoiType": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/map/deleteMapPoiType",
+            "simulateUrl": "poi/deleteMapPoiType.json",
+            "base": true
+        },
+        "getMapPoiList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/map/getMapPoiList",
+            "simulateUrl": "poi/getMapPoiList.json",
+            "base": true
+        },
+        "getMapPoiTypeList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/map/getMapPoiTypeList",
+            "simulateUrl": "poi/getMapPoiTypeList.json",
+            "base": true
+        },
+        "createMapPoiType": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/map/createMapPoiType",
+            "simulateUrl": "poi/createMapPoiType.json",
+            "base": true
+        },
+        "createMapPoi": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/map/createMapPoi",
+            "simulateUrl": "poi/createMapPoi.json",
+            "base": true
+        },
+        "getAllOpTypeList": {
+            "method": "get",
+            "data": "*",
+            "url": "platform/loginfo/getOpTypeList",
+            "simulateUrl": "operate/getOpTypeList.json",
+            "base": true
+        },
+        "getPcOperationLogDetailList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/loginfo/getOpLogList",
+            "simulateUrl": "operate/getPcOperationLogDetailList.json",
+            "base": true
+        },
+        "exportPcOperationLogDetailList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/loginfo/exportPcOperationLogDetailList",
+            "simulateUrl": "operate/getPcOperationLogDetailList.json",
+            "base": true
+        },
+        "setMsLoginConfig": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/login/setMsLoginConfig",
+            "simulateUrl": "ms/login/setMsLoginConfig.json",
+            "base": true
+        },
+        "getMsLoginConfigList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/login/getMsLoginConfigList",
+            "simulateUrl": "ms/login/getMsLoginConfigList.json",
+            "base": true
+        },
+        "getMsLoginConfig": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/login/getMsLoginConfig",
+            "simulateUrl": "ms/login/getMsLoginConfig.json",
+            "base": true
+        },
+        "deleteMsLoginConfig": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/login/deleteMsLoginConfig",
+            "simulateUrl": "ms/login/deleteMsLoginConfig.json",
+            "base": true
+        },
+        "getShowType": {
+            "method": "get",
+            "data": "*",
+            "url": "platform/locationconfig/getShowType",
+            "simulateUrl": "locationconfig/getShowType.json",
+            "base": true
+        },
+        "deleteMapPoi": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/map/deleteMapPoi",
+            "simulateUrl": "poi/deleteMapPoi.json",
+            "base": true
+        },
+        "getV2VehicleListByIdsJyd": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/jydvehicleinfo/getVehicleListByIds",
+            "simulateUrl": "vehicle/getV2VehicleListByIds.json"
+        },
+        "getKyVehicleStaticInfo": {
+            "url": "platform/kyVehicleinfo/getKyVehicleStaticInfo/{{vehicleId}}",
+            "simulateUrl": "vehicle/getVehicleStaticInfo.json",
+            "base": true
+        },
+        "getCcVehicleStatSummaryJyb": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/jyb/getV2VehicleStatSummary",
+            "simulateUrl": "jyb/getCcVehicleStatSummaryJyb.json",
+            "base": true
+        },
+        "getCcVehicleStatListJyb": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/jyb/getV2VehicleStatList",
+            "simulateUrl": "jyb/getCcVehicleStatListJyb.json",
+            "base": true
+        },
+        "getCcVehicleStatIndicatorJyb": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/jyb/getV2VehicleStatIndicator",
+            "simulateUrl": "jyb/getCcVehicleStatIndicatorJyb.json",
+            "base": true
+        },
+        "getCcEntPandectJyb": {
+            "params": "*",
+            "url": "platform/jyb/getV2CcEntPandectJyb",
+            "simulateUrl": "jyb/getCcEntPandectJyb.json",
+            "base": true
+        },
+        "getVehicleIdsByTreeFilter": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/jwfaultmonitor/getVehicleIdsByTreeFilter",
+            "simulateUrl": "jwfaultmonitor/getJwVehicleIdsByFilter.json"
+        },
+        "getXnyVehicleList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/jwfaultmonitor/getXnyVehicleList",
+            "simulateUrl": "jwfaultmonitor/getXnyVehicleList.json"
+        },
+        "getRoadRescueDriver": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/jwfaultmonitor/getRoadRescueDriver",
+            "simulateUrl": "jwfaultmonitor/getRoadRescueDriver.json"
+        },
+        "getPcVehicleStatListJyb": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/jyb/getV2PcVehicleStatListJyb",
+            "simulateUrl": "jyb/getPcVehicleStatListJyb.json",
+            "base": true
+        },
+        "getJwDriverDetailInfo": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/jwdriverinfo/getJwDriverDetailInfo",
+            "simulateUrl": "jwdriverinfo/getJwDriverDetailInfo.json"
+        },
+        "responseInspectTheCentries": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/inspectioninfo/putV2InspectionAnswer",
+            "simulateUrl": "common/responseInspectTheCentries.json",
+            "base": true
+        },
+        "getInfoOrderSettingList": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/infoOrderSetting/getInfoOrderSettingList",
+            "simulateUrl": "route/getRouteTree.json",
+            "base": true
+        },
+        "upload": {
+            "url": "platform/fileinfo/upload",
+            "simulateUrl": "customform/upload.json",
+            "base": true
+        },
+        "getFilesInfo": {
+            "params": "fileIds",
+            "url": "platform/fileinfo/getFilesInfo",
+            "simulateUrl": "customform/getFilesInfo.json",
+            "base": true
+        },
+        "getEnergyPlusStationSearchResultV2": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/energyplusstation/getV2EnergyPlusStationSearchResult",
+            "simulateUrl": "object/getEnergyPlusStationSearchResultV2.json",
+            "base": true
+        },
+        "getVehicleModelName": {
+            "params": "*",
+            "url": "platform/energystatreport/getVehicleModelName",
+            "simulateUrl": "consumption/getVehicleModelName.json",
+            "base": true
+        },
+        "getEnergyPlusDeviceListShort": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/energyplusdevice/getEnergyPlusDeviceListShort",
+            "simulateUrl": "fs/getEnergyPlusDeviceListShort.json",
+            "base": true
+        },
+        "getFloatPanelInfoEnergyStationV2": {
+            "params": "*",
+            "url": "platform/energyplusstation/getFloatPanelInfoEnergyStationV2",
+            "simulateUrl": "float/getFloatPanelInfoEnergyStationV2.json",
+            "base": true
+        },
+        "getEnergyPlusDeviceDynaInfoList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/energyplusdevice/getEnergyPlusDeviceDynaInfoList",
+            "simulateUrl": "fs/getEnergyPlusDeviceDynaInfoList.json",
+            "base": true
+        },
+        "unbindDriverICCard": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/driverinfo/unbindDriverICCard",
+            "simulateUrl": "driver/unbindDriverICCard.json",
+            "base": true
+        },
+        "modifyDriverICCard": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/driverinfo/modifyDriverICCard",
+            "simulateUrl": "driver/modifyDriverICCard.json",
+            "base": true
+        },
+        "getFloatPanelInfoDriverV2": {
+            "params": "*",
+            "url": "platform/driverinfo/getV2FloatPanelInfoDriver",
+            "simulateUrl": "float/getFloatPanelInfoDriverV2.json",
+            "base": true
+        },
+        "getDriverSearchResultV2": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/driverinfo/getV2DriverSearchResult",
+            "simulateUrl": "object/getDriverSearchResultV2.json",
+            "base": true
+        },
+        "getEnergyPlusStationTree": {
+            "params": "orgId",
+            "url": "platform/energyplusstation/getEnergyPlusStationTree",
+            "simulateUrl": "energyPlusStation/getEnergyPlusStationTree.json",
+            "base": true
+        },
+        "getDriverList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/driverinfo/getV2DriverList",
+            "simulateUrl": "person/getPcDriverList.json",
+            "base": true
+        },
+        "getCcDriverList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/driverinfo/getV2CcDriverList",
+            "simulateUrl": "person/getCcDriverList.json",
+            "base": true
+        },
+        "getProducerOrgList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/driverinfo/getProducerOrgList",
+            "simulateUrl": "driver/getProducerOrgList.json",
+            "base": true
+        },
+        "getIssuerOrgList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/driverinfo/getIssuerOrgList",
+            "simulateUrl": "driver/getIssuerOrgList.json",
+            "base": true
+        },
+        "getDriverTree": {
+            "params": "*",
+            "url": "platform/driverinfo/getDriverTree",
+            "simulateUrl": "person/getDriverTree.json",
+            "base": true
+        },
+        "getCcDriverSummary": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/driverinfo/getV2CcDriverSummary",
+            "simulateUrl": "driver/getCcDriverSummary.json",
+            "base": true
+        },
+        "getDriverSearchTree": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/driverinfo/getDriverSearchTree",
+            "simulateUrl": "fleet/getFleetTreeV2.json",
+            "base": true
+        },
+        "getDriverICCardList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/driverinfo/getDriverICCardList",
+            "simulateUrl": "driver/getDriverICCardList.json",
+            "base": true
+        },
+        "cardNoIsUsed": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/driverinfo/cardNoIsUsed",
+            "simulateUrl": "driver/addDriverICCard.json",
+            "base": true
+        },
+        "bindDriverICCard": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/driverinfo/bindDriverICCard",
+            "simulateUrl": "driver/bindDriverICCard.json",
+            "base": true
+        },
+        "exportPcDriverICCardList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/driverinfo/exportPcDriverICCardList",
+            "simulateUrl": "driver/unbindDriverICCard.json",
+            "base": true
+        },
+        "getI18nResources": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/DBI18nResource/getI18nResources",
+            "simulateUrl": "ms/res/getI18nResources.json",
+            "base": true
+        },
+        "getI18nLangs": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/DBI18nResource/getI18nLangs",
+            "simulateUrl": "ms/res/getI18nLangs.json",
+            "base": true
+        },
+        "addI18nResource": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/DBI18nResource/addI18nResource",
+            "simulateUrl": "ms/res/addI18nResource.json",
+            "base": true
+        },
+        "deleteI18nResource": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/DBI18nResource/deleteI18nResource",
+            "simulateUrl": "ms/res/deleteI18nResource.json",
+            "base": true
+        },
+        "addDriverICCard": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/driverinfo/addDriverICCard",
+            "simulateUrl": "driver/addDriverICCard.json",
+            "base": true
+        },
+        "sendCheckCode": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/db/sendCheckCode",
+            "simulateUrl": "",
+            "base": true
+        },
+        "checkCode": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/db/checkCode",
+            "simulateUrl": "",
+            "base": true
+        },
+        "getEntList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/basicInfo/getMsEntsInfoByParams",
+            "simulateUrl": "ms/workspace/getEntList.json",
+            "base": true
+        },
+        "getEntSearchResultV2": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/basicInfo/getV2EntSearchResult",
+            "simulateUrl": "object/getEntSearchResultV2.json",
+            "base": true
+        },
+        "getPcVehicleListDb": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/db/getV2PcVehicleListDb",
+            "simulateUrl": "db/getPcVehicleListDb.json",
+            "base": true
+        },
+        "getEntInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/basicInfo/getMsEntInfo",
+            "simulateUrl": "ms/workspace/getEntInfo.json",
+            "base": true
+        },
+        "getEditionList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/basicInfo/getMsAppEditionsByParams",
+            "simulateUrl": "ms/workspace/getEditionList.json",
+            "base": true
+        },
+        "getEditionInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/basicInfo/getMsEditionInfo",
+            "simulateUrl": "ms/workspace/getEditionInfo.json",
+            "base": true
+        },
+        "getMsSelectedAuths": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/auth/getMsSelectedAuths",
+            "simulateUrl": "auth/getMsSelectedAuths.json",
+            "base": true
+        },
+        "saveMsSelectedAuths": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/auth/saveMsSelectedAuths",
+            "simulateUrl": "auth/saveMsSelectedAuths.json",
+            "base": true
+        },
+        "getAuthTreeForSelect": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/auth/getMsAuthTreeForSelect",
+            "simulateUrl": "auth/getAuthTreeForSelect.json",
+            "base": true
+        },
+        "getV2VehicleInfoByIds": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleinfo/getV2VehicleInfoByIds",
+            "simulateUrl": "setting/getDisplayNameSetting.json",
+            "base": true
+        },
+        "resendMessage": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleaction/resendMessage",
+            "simulateUrl": "vehicle/resendMessage.json",
+            "base": true
+        },
+        "issueMsg": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleaction/issueMsg",
+            "simulateUrl": "operate/issueMsg.json",
+            "base": true
+        },
+        "getMsgSendStatus": {
+            "url": "platform/vehicleaction/getMsgSendStatus/{{batchId}}",
+            "simulateUrl": "operate/getMsgSendStatus.json",
+            "base": true
+        },
+        "getObjectCount": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/orginfo/getV2ObjectCount",
+            "simulateUrl": "common/getObjectCount.json",
+            "base": true
+        },
+        "modifyBusinessParam": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/businessparam/updateV2BusinessParam",
+            "simulateUrl": "operate/deleteVehicleRunTime.json",
+            "base": true
+        },
+        "getBusinessParamList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/businessparam/getV2BusinessParamList",
+            "simulateUrl": "operate/getAbnormalMoveParamList.json",
+            "base": true
+        },
+        "getBusinessParamBindList": {
+            "method": "get",
+            "params": "*",
+            "url": "platform/businessparam/getV2BusinessParamBindList",
+            "simulateUrl": "operate/getAbnormalMoveVehicleList.json",
+            "base": true
+        },
+        "deleteBusinessParam": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/businessparam/deleteV2BusinessParam",
+            "simulateUrl": "operate/deleteVehicleRunTime.json",
+            "base": true
+        },
+        "bindBusinessParamVehicle": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/businessparam/bindV2BusinessParamVehicle",
+            "simulateUrl": "operate/deleteVehicleRunTime.json",
+            "base": true
+        },
+        "addBusinessParam": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/businessparam/addV2BusinessParam",
+            "simulateUrl": "operate/deleteVehicleRunTime.json",
+            "base": true
+        },
+        "exportPcTerminalStateList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/newenergy/exportV2PcTerminalStateList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "getObjectDynamicInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/objinfo/getObjectDynamicInfo",
+            "simulateUrl": "operate/getObjectDynamicInfo.json",
+            "base": true
+        },
+        "exportVehicleListByIds": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/jydvehicleinfo/exportVehicleListByIds",
+            "simulateUrl": "jydvehicleinfo/exportVehicleListByIds.json"
+        },
+        "getVehicleListByIds": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/jydvehicleinfo/getVehicleListByIds",
+            "simulateUrl": "jydvehicleinfo/getVehicleListByIds.json"
+        },
+        "getCountByBasic": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/newenergy/getCountByBasic",
+            "simulateUrl": "newenergy/getCountByBasic.json",
+            "base": true
+        },
+        "getBasicVehicleTree": {
+            "params": "orgId",
+            "url": "platform/vehicleinfo/getBasicVehicleTree",
+            "simulateUrl": "vehicle/getVehicleTree.json",
+            "base": true
+        },
+        "getVehicleSearchResultV2": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/vehicleinfo/getV2VehicleSearchResult",
+            "simulateUrl": "object/getVehicleSearchResultV2.json",
+            "base": true
+        },
+        "getBasicVehicleTreeKy": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/vehicleinfo/getBasicVehicleTreeKy",
+            "simulateUrl": "vehicle/getVehicleTree.json",
+            "base": true
+        },
+        "getPowerPileStatisPl": {
+            "method": "post",
+            "params": "*",
+            "url": "platform/newenergy/getPowerPileStatis",
+            "simulateUrl": "vehicle/getVehicleTree.json",
+            "base": true
+        },
+        "uploadVehicleListJw": {
+            "url": "platform/jwVehicleConf/importJwVehicle",
+            "simulateUrl": "customform/upload.json",
+            "base": true
+        },
+        "getRealTimeData": {
+            "params": "*",
+            "url": "platform/ivctrl/rt/{{vehicleId}}",
+            "simulateUrl": "vehicle/getPcVehicleRealData.json"
+        },
+        "importTerminalFileData": {
+            "url": "platform/xnyVehicleTerminal/importTerminalFileData",
+            "simulateUrl": "xnyVehicleTerminal/importTerminalFileData.json",
+            "base": true
+        },
+        "eleStationInfoData":{
+            "method": "get",
+            "url":"newenergy/getChargeStationById",
+            "simulateUrl": "xnyVehicleTerminal/importTerminalFileData.json",
+            "base": true
+        },
+        "getCcStudentList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/stu/getV2CcStudentList",
+            "simulateUrl": "student/getCcStudentList.json",
+            "base": true
+        },
+        "getV2CcStudentList": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/stu/getV2CcStudentList",
+            "simulateUrl": "student/getCcStudentList.json",
+            "base": true
+        },
+        "getAreaCountryList": {
+            "url": "platform/politicsinfo/getAreaCountryList",
+            "simulateUrl": "customform/getAreaCountryList.json",
+            "base": true
+        },
+        "getFleetSearchResultV2": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/orginfo/getV2FleetSearchResult",
+            "simulateUrl": "object/getFleetSearchResultV2.json",
+            "base": true
+        },
+        "getChargingPileTree": {
+            "method": "post",
+            "data": "*",
+            "url": "platform/newenergy/getV2ChargingPileTree",
+            "simulateUrl": "energyPlusStation/getChargingPileTree.json",
+            "base": true
+        },
+        "updateStuClassByIds":{
+            "method": "post",
+            "data": "*",
+            "url": "platform//stu/updateStuClassByIds",
+            "simulateUrl": "/stu/updateStuClassByIds.json",
+            "base": true
+        },
+        "updateStuMsgByIds":{
+            "method": "post",
+            "data": "*",
+            "url": "platform//stu/updateBatchStuMsgCfgByIds",
+            "simulateUrl": "/stu/updateStuClassByIds.json",
+            "base": true
+        }
+
+    },
+    "simulate": false
+}

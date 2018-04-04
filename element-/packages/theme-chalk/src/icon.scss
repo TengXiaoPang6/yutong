@@ -8,6 +8,13 @@
   font-style: normal
 }
 
+@font-face{
+  font-family:'Heebo';
+  src:url('#{$--font-path}/heebo-light.woff') format('woff'),;
+  font-weight: normal;
+  font-style:normal;
+}
+
 [class^="el-icon-"], [class*=" el-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'element-icons' !important;

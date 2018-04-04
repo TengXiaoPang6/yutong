@@ -1,0 +1,65 @@
+@import "common/var";
+
+.el-text-title{
+    font-size:$--font-size-title;
+    line-height: 48px;
+    color:$--color-title-primary;
+}
+
+.el-text-h1{
+    font-size:$--font-size-h1;
+    line-height: 32px;
+    color:$--color-title-primary;
+}
+
+.el-text-h2{
+    font-size:$--font-size-h2 ;
+    line-height: 24px;
+    color:$--color-title-primary;
+}
+
+.el-text-h3{
+    font-size:$--font-size-h3 ;
+    line-height: 22px;
+    color:$--color-title-primary;
+}
+
+.el-text-base{
+    font-size:$--font-size-base ;
+    line-height: 20px;
+    color:$--color-title-primary;
+}
+
+.el-test-small{
+    font-size:$--font-size-small ;
+    line-height: 18px;
+    color:$--color-title-primary;
+}
+
+.el-text-large{
+    font-size:$--font-size-large ;
+    line-height: 30px;
+    color:$--color-title-primary;
+}
+
+.el-text-base{
+    font-size:$--font-size-base ;
+    line-height: 20px;
+    color:$--color-title-primary;
+}
+
+.el-test-small{
+    font-size:$--font-size-small ;
+    line-height: 18px;
+    color:$--color-title-primary;
+}
+
+.el-text-large{
+    font-size:$--font-size-large ;
+    line-height: 30px;
+    color:$--color-title-primary;
+}
+
+.el-text-pagination{
+    color:$--color-text-gray;
+}

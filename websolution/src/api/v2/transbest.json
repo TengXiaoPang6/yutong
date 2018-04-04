@@ -1,0 +1,1632 @@
+{
+    "product": "transbest",
+    "path": "resource/data/",
+    "api": {
+        "detailsVehicleInAndOutStats": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/historyreport/detailsVehicleInAndOutStats",
+            "simulateUrl": "historyreport/detailsVehicleInAndOutStats.json"
+        },
+        "getVehilceInfoByVehicleId": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/planschedule/getVehilceInfoByVehicleId",
+            "simulateUrl": "planschedule/getVehilceInfoByVehicleId.json"
+        },
+        "getTripPlanListLxyt": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/planschedule/getTripPlanListLxyt",
+            "simulateUrl": "planschedule/getTripPlanListLxyt.json"
+        },
+        "getRelStudentsLxyt": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/planschedule/getRelStudentsLxyt",
+            "simulateUrl": "planschedule/getRelStudentsLxyt.json"
+        },
+        "getNotRelStudentsLxyt": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/planschedule/getNotRelStudentsLxyt",
+            "simulateUrl": "planschedule/getNotRelStudentsLxyt.json"
+        },
+        "exportVehicleInAndOutStats": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/historyreport/exportVehicleInAndOutStats",
+            "simulateUrl": "historyreport/exportVehicleInAndOutStats.json"
+        },
+        "getVehicleInAndOutStats": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/historyreport/getVehicleInAndOutStats",
+            "simulateUrl": "historyreport/getVehicleInAndOutStats.json"
+        },
+        "addCommandLog": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/addCommandLog",
+            "simulateUrl": "routeinfo/addCommandLog.json"
+        },
+        "getCommandLog": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/getCommandLog",
+            "simulateUrl": "routeinfo/getCommandLog.json"
+        },
+        "uploadRouteFile": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/terminalUpgrade/uploadRouteFile",
+            "simulateUrl": "terminalUpgrade/uploadRouteFile.json"
+        },
+        "getRouteFileByPage": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/terminalUpgrade/getRouteFileByPage",
+            "simulateUrl": "terminalUpgrade/getRouteFileByPage.json"
+        },
+        "updateCommentById": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/terminalUpgrade/updateCommentById",
+            "simulateUrl": "terminalUpgrade/updateCommentById.json"
+        },
+        "delRouteFileById": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/terminalUpgrade/delRouteFileById",
+            "simulateUrl": "terminalUpgrade/delRouteFileById.json"
+        },
+        "getRouteIssueInfoByPage": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/terminalUpgrade/getRouteIssueInfoByPage",
+            "simulateUrl": "terminalUpgrade/getRouteIssueInfoByPage.json"
+        },
+        "issueRouteFileByAll": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/terminalUpgrade/issueRouteFileByAll",
+            "simulateUrl": "terminalUpgrade/issueRouteFileByAll.json"
+        },
+        "getVehicleRouteFileStatus": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/terminalUpgrade/getVehicleRouteFileStatus",
+            "simulateUrl": "terminalUpgrade/getVehicleRouteFileStatus.json"
+        },
+        "issueRouteFileByVehicleIds": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/terminalUpgrade/issueRouteFileByVehicleIds",
+            "simulateUrl": "terminalUpgrade/issueRouteFileByVehicleIds.json"
+        },
+        "getMonitorLogInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/monitorLogController/getMonitorLogInfo",
+            "simulateUrl": "monitorLogController/getMonitorLogInfo.json"
+        },
+        "getLocInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/monitorLogController/getLocInfo",
+            "simulateUrl": "monitorLogController/getLocInfo.json"
+        },
+        "getRouteInfoList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/monitorLogController/getRouteInfoList",
+            "simulateUrl": "monitorLogController/getRouteInfoList.json"
+        },
+        "getRouteBindVehicleList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/monitorLogController/getRouteBindVehicleList",
+            "simulateUrl": "monitorLogController/getRouteBindVehicleList.json"
+        },
+        "terminalUpgradeAddTerminalUpgrade": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/terminalUpgrade/addTerminalUpgrade",
+            "simulateUrl": "terminalUpgrade/addTerminalUpgrade.json"
+        },
+        "terminalUpgradeGetTerminalUpgrade": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/terminalUpgrade/getTerminalUpgrade",
+            "simulateUrl": "terminalUpgrade/getTerminalUpgrade.json"
+        },
+        "terminalUpgradeGetTerminalModel": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/terminalUpgrade/getTerminalModel",
+            "simulateUrl": "terminalUpgrade/getTerminalModel.json"
+        },
+        "terminalUpgradeGetTerminalOem": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/terminalUpgrade/getTerminalOem",
+            "simulateUrl": "terminalUpgrade/getTerminalOem.json"
+        },
+        "getBizConfig": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/bizConfig/getBizConfig",
+            "simulateUrl": "punctualityReport/getFirstLastPuntualityReport.json"
+        },
+        "saveBizConfig": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/bizConfig/saveBizConfig",
+            "simulateUrl": "bizConfig/saveBizConfig.json"
+        },
+        "getFirstLastPuntualityReport": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/punctualityReport/getFirstLastPuntualityReport",
+            "simulateUrl": "punctualityReport/getFirstLastPuntualityReport.json"
+        },
+        "queryExportFirstLastPuntualityReport": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/punctualityReport/queryExportFirstLastPuntualityReport",
+            "simulateUrl": "punctualityReport/queryExportFirstLastPuntualityReport.json"
+        },
+        "updateCalendarInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/calendarMaintain/updateCalendarInfo",
+            "simulateUrl": "vehicleChargeMonitor/getVehicleChargeMonitorInfo.json"
+        },
+        "getCalendarInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/calendarMaintain/getCalendarInfo",
+            "simulateUrl": "vehicleChargeMonitor/getCalendarInfo.json"
+        },
+        "getVehicleChargeMonitorInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/vehicleChargeMonitor/getVehicleChargeMonitorInfo",
+            "simulateUrl": "vehicleChargeMonitor/getVehicleChargeMonitorInfo.json"
+        },
+        "getPunctualityReport": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/punctualityReport/getPunctualityReport",
+            "simulateUrl": "punctualityReport/getPunctualityReport.json"
+        },
+        "exportPunctualityReport": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/punctualityReport/exportPunctualityReport",
+            "simulateUrl": "punctualityReport/exportPunctualityReport.json"
+        },
+        "getAlarmReport": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingReport/getAlarmReport",
+            "simulateUrl": "schedulingReport/getAlarmReport.json"
+        },
+        "exportAlarmReport": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingReport/exportAlarmReport",
+            "simulateUrl": "schedulingReport/exportAlarmReport.json"
+        },
+        "getAlarmReportDetail": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingReport/getAlarmReportDetail",
+            "simulateUrl": "schedulingReport/getAlarmReportDetail.json"
+        },
+        "exportAlarmReportDetail": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingReport/exportAlarmReportDetail",
+            "simulateUrl": "schedulingReport/exportAlarmReportDetail.json"
+        },
+        "deleteSchedulingRecord": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/deleteSchedulingRecord",
+            "simulateUrl": "schedulingPlan/deleteSchedulingRecord.json"
+        },
+        "getTripReport": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingReport/getTripReport",
+            "simulateUrl": "schedulingReport/getTripReport.json"
+        },
+        "exportTripReport": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingReport/exportTripReport",
+            "simulateUrl": "schedulingReport/exportTripReport.json"
+        },
+        "getMileageReport": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingReport/getMileageReport",
+            "simulateUrl": "schedulingReport/getMileageReport.json"
+        },
+        "exportMileageReport": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingReport/exportMileageReport",
+            "simulateUrl": "schedulingReport/exportMileageReport.json"
+        },
+        "getVehicleAndDriverList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/getVehicleAndDriverList",
+            "simulateUrl": "schedulingPlan/getVehicleAndDriverList.json"
+        },
+        "genSchedulePlan": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/genSchedulePlan",
+            "simulateUrl": "schedulingPlan/genSchedulePlan.json"
+        },
+        "updateBusiReqRecord": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftScheduleMonitor/updateBusiReqRecord",
+            "simulateUrl": "shiftScheduleMonitor/updateBusiReqRecord.json"
+        },
+        "getSchedulingRecord": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/getSchedulingRecord",
+            "simulateUrl": "schedulingPlan/getSchedulingRecord.json"
+        },
+        "getVehicleRunTimeByIds": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/runTime/getVehicleRunTimeByIds",
+            "simulateUrl": "export/export.json"
+        },
+        "editSchedulingRecord": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/editSchedulingRecord",
+            "simulateUrl": "schedulingPlan/editSchedulingRecord.json"
+        },
+        "newSchedulingRecord": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/newSchedulingRecord",
+            "simulateUrl": "schedulingPlan/newSchedulingRecord.json"
+        },
+        "judgmentDriverAndVehicle": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/judgmentDriverAndVehicle",
+            "simulateUrl": "schedulingPlan/judgmentDriverAndVehicle.json"
+        },
+        "shiftGroupDelete": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftGroup/delete",
+            "simulateUrl": "shiftGroup/delete.json"
+        },
+        "removeShiftSchedule": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/removeShiftSchedule",
+            "simulateUrl": "schedulingPlan/removeShiftSchedule.json"
+        },
+        "exportSchedulingPlanDetail": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/exportSchedulingPlanDetail",
+            "simulateUrl": "schedulingPlan/exportSchedulingPlanDetail.json"
+        },
+        "shiftScheduleCheck": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/shiftScheduleCheck",
+            "simulateUrl": "schedulingPlan/shiftScheduleCheck.json"
+        },
+        "batchUpdateSchedulingPlan": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/batchUpdateSchedulingPlan",
+            "simulateUrl": "schedulingPlan/batchUpdateSchedulingPlan.json"
+        },
+        "getReplaceContent": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/getReplaceContent",
+            "simulateUrl": "schedulingPlan/getReplaceContent.json"
+        },
+        "issuedSchedulingPlan": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/issuedSchedulingPlan",
+            "simulateUrl": "schedulingPlan/issuedSchedulingPlan.json"
+        },
+        "shiftScheduleMonitor_deletePlan": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftScheduleMonitor/deletePlan",
+            "simulateUrl": "shiftScheduleMonitor/deletePlan.json"
+        },
+        "shiftScheduleMonitor_batchUpdatePlan": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftScheduleMonitor/batchUpdatePlan",
+            "simulateUrl": "shiftScheduleMonitor/batchUpdatePlan.json"
+        },
+        "shiftScheduleMonitor_createPlan": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftScheduleMonitor/createPlan",
+            "simulateUrl": "shiftScheduleMonitor/createPlan.json"
+        },
+        "shiftScheduleMonitor_exchangePlan": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftScheduleMonitor/exchangePlan",
+            "simulateUrl": "shiftScheduleMonitor/exchangePlan.json"
+        },
+        "shiftScheduleMonitor_depart": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftScheduleMonitor/depart",
+            "simulateUrl": "shiftScheduleMonitor/depart.json"
+        },
+        "shiftScheduleMonitor_getNotOperatedVehicle": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftScheduleMonitor/getNotOperatedVehicle",
+            "simulateUrl": "shiftScheduleMonitor/getNotOperatedVehicle.json"
+        },
+        "shiftScheduleMonitor_getOperatingVehicle": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftScheduleMonitor/getOperatingVehicle",
+            "simulateUrl": "shiftScheduleMonitor/getOperatingVehicle.json"
+        },
+        "shiftScheduleMonitor_getUnfinishedOperationPlan": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftScheduleMonitor/getUnfinishedOperationPlan",
+            "simulateUrl": "shiftScheduleMonitor/getUnfinishedOperationPlan.json"
+        },
+        "shiftScheduleMonitor_getOperationPlanToExecute": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftScheduleMonitor/getOperationPlanToExecute",
+            "simulateUrl": "shiftScheduleMonitor/getOperationPlanToExecute.json"
+        },
+        "getThroughProgramVehicleList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftScheduleMonitor/getVehicleReplacement",
+            "simulateUrl": "shiftScheduleMonitor/getVehicleReplacement.json"
+        },
+        "getSchedulingPlanDetail": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/getSchedulingPlanDetail",
+            "simulateUrl": "schedulingPlan/getSchedulingPlanDetail.json"
+        },
+        "isSchedulingRuleIntersect": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/isSchedulingRuleIntersect",
+            "simulateUrl": "schedulingPlan/isSchedulingRuleIntersect.json"
+        },
+        "addSchedulingRule": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/addSchedulingRule",
+            "simulateUrl": "schedulingPlan/addSchedulingRule.json"
+        },
+        "getSchedulingRules": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/getSchedulingRules",
+            "simulateUrl": "schedulingPlan/getSchedulingRules.json"
+        },
+        "getSchedulingRulesIcvt": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/getSchedulingRulesIcvt",
+            "simulateUrl": "schedulingPlan/getSchedulingRulesIcvt.json"
+        },
+        "getSchedulingPlans": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/getSchedulingPlans",
+            "simulateUrl": "schedulingPlan/getSchedulingPlans.json"
+        },
+        "getRouteVehicleList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/getRouteVehicleList",
+            "simulateUrl": "routeinfo/getRouteVehicleList.json"
+        },
+        "shiftGroupFind": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftGroup/find",
+            "simulateUrl": "shiftGroup/find.json"
+        },
+        "shiftGroupUpdate": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftGroup/update",
+            "simulateUrl": "shiftGroup/update.json"
+        },
+        "shiftSchemeUpdate": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftScheme/update",
+            "simulateUrl": "shiftScheme/update.json"
+        },
+        "shiftSchemeSave": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftScheme/save",
+            "simulateUrl": "shiftScheme/save.json"
+        },
+        "shiftSchemeDelete": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftScheme/delete",
+            "simulateUrl": "shiftScheme/delete.json"
+        },
+        "shiftSchemeFindByPage": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftScheme/findByPage",
+            "simulateUrl": "shiftScheme/findByPage.json"
+        },
+        "shiftInfoImportData": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftInfo/importData",
+            "simulateUrl": "shiftInfo/importData.json"
+        },
+        "shiftInfoDelete": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftInfo/delete",
+            "simulateUrl": "shiftInfo/delete.json"
+        },
+        "shiftInfoSaveTimeTable": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftInfo/saveTimeTable",
+            "simulateUrl": "shiftInfo/saveTimeTable.json"
+        },
+        "shiftInfoFindTimeTable": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftInfo/findTimeTable",
+            "simulateUrl": "shiftInfo/findTimeTable.json"
+        },
+        "routeScheduleUpdate": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeSchedule/update",
+            "simulateUrl": "routeSchedule/update.json"
+        },
+        "routeScheduleSave": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeSchedule/save",
+            "simulateUrl": "routeSchedule/save.json"
+        },
+        "routeScheduleCheckScheduleInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeSchedule/checkScheduleInfo",
+            "simulateUrl": "routeSchedule/checkScheduleInfo.json"
+        },
+        "routeScheduleDelete": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeSchedule/delete",
+            "simulateUrl": "routeSchedule/delete.json"
+        },
+        "routeScheduleCheck": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeSchedule/check",
+            "simulateUrl": "routeSchedule/check.json"
+        },
+        "routeScheduleFindByPage": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeSchedule/findByPage",
+            "simulateUrl": "routeSchedule/findByPage.json"
+        },
+        "routeScheduleFind": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeSchedule/find",
+            "simulateUrl": "routeSchedule/find.json"
+        },
+        "routeJudgment": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/routeJudgment",
+            "simulateUrl": "routeinfo/routeJudgment.json"
+        },
+        "addRouteInfoBatch": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/addRouteInfoBatch",
+            "simulateUrl": "routeinfo/addRouteInfoBatch.json"
+        },
+        "getRouteBaseInfoZndd": {
+            "method": "get",
+            "data": "*",
+            "url": "transbest/routeinfo/getRouteBaseInfoZndd",
+            "simulateUrl": "routeinfo/removeShiftSchedule.json"
+        },
+        "getRouteInfoZndd": {
+            "method": "get",
+            "data": "*",
+            "url": "transbest/routeinfo/getRouteInfoZndd",
+            "simulateUrl": "routeinfo/getRouteInfoZndd.json"
+        },
+        "saveLineSegments": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/saveLineSegments",
+            "simulateUrl": "routeinfo/saveLineSegments.json"
+        },
+        "getRouteTripVehiclesZndd": {
+            "method": "get",
+            "data": "*",
+            "url": "transbest/tripinfo/getRouteTripVehiclesZndd",
+            "simulateUrl": "tripinfo/getRouteTripVehiclesZndd.json"
+        },
+        "getDepotRouteInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/DepotManage/getDepotRouteInfo",
+            "simulateUrl": "DepotManage/getDepotRouteInfo.json"
+        },
+        "newDepotRouteInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/DepotManage/newDepotRouteInfo",
+            "simulateUrl": "DepotManage/newDepotRouteInfo.json"
+        },
+        "getParkingDepotInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/DepotManage/getDepotInfo",
+            "simulateUrl": "DepotManage/getDepotInfo.json"
+        },
+        "exportParkingDepotInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/DepotManage/exportDepotInfo",
+            "simulateUrl": "DepotManage/exportDepotInfo.json"
+        },
+        "newParkingDepot": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/DepotManage/newDepot",
+            "simulateUrl": "DepotManage/getDepotInfo.json"
+        },
+        "editParkingDepot": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/DepotManage/editDepot",
+            "simulateUrl": "DepotManage/editDepot.json"
+        },
+        "deleteParkingDepot": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/DepotManage/deleteDepot",
+            "simulateUrl": "DepotManage/deleteDepot.json"
+        },
+        "uploadParkingDepot": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/DepotManage/uploadDepot",
+            "simulateUrl": "DepotManage/uploadDepot.json"
+        },
+        "getLineRouteList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/getLineRouteList",
+            "simulateUrl": "routeinfo/getLineRouteList.json"
+        },
+        "modifyRouteInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/modifyRouteInfo",
+            "simulateUrl": "routeinfo/modifyRouteInfo.json"
+        },
+        "removeRoute": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/deleteRouteBatch",
+            "simulateUrl": "routeinfo/removeRoute.json"
+        },
+        "getRouteStationList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/getRouteStationList",
+            "simulateUrl": "routeinfo/getRouteStationList.json"
+        },
+        "getLineSegmentList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/getLineSegmentList",
+            "simulateUrl": "routeinfo/getLineSegmentList.json"
+        },
+        "saveRouteStations": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/saveRouteStations",
+            "simulateUrl": "routeinfo/saveRouteStations.json"
+        },
+        "exportRouteList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/exportRouteList",
+            "simulateUrl": "routeinfo/exportRouteList.json"
+        },
+        "parkingJudgment": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/DepotManage/judgment",
+            "simulateUrl": "DepotManage/judgment.json"
+        },
+        "addPassengerLeave": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/leaveinfo/addPassengerLeave",
+            "simulateUrl": "passengerLeave/addPassengerLeave.json",
+            "base": true
+        },
+        "editPassengerLeave": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/leaveinfo/editPassengerLeave",
+            "simulateUrl": "passengerLeave/editPassengerLeave.json",
+            "base": true
+        },
+        "getPassengerLeaveDetail": {
+            "params": "*",
+            "url": "transbest/leaveinfo/getPassengerLeaveDetail",
+            "simulateUrl": "passengerLeave/getPassengerLeaveDetail.json",
+            "base": true
+        },
+        "getPassengerLeaveList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/leaveinfo/getPassengerLeaveList",
+            "simulateUrl": "passengerLeave/getPassengerLeaveList.json",
+            "base": true
+        },
+        "exportPassengerLeaveList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/leaveinfo/exportPassengerLeaveList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "cancelPassengerLeave": {
+            "params": "*",
+            "url": "transbest/leaveinfo/cancelPassengerLeave",
+            "simulateUrl": "passengerLeave/cancelPassengerLeave.json",
+            "base": true
+        },
+        "getTripPlan": {
+            "method": "get",
+            "params": "*",
+            "url": "transbest/planschedule/getTripPlan",
+            "simulateUrl": "trip/getTripPlan.json",
+            "base": true
+        },
+        "addTripPlan": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/planschedule/addTripPlan",
+            "simulateUrl": "trip/addTripPlan.json",
+            "base": true
+        },
+        "editTripPlan": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/planschedule/editTripPlan",
+            "simulateUrl": "trip/editTripPlan.json",
+            "base": true
+        },
+        "getRouteStationsV2": {
+            "method": "get",
+            "params": "*",
+            "url": "transbest/routeinfo/getV2RouteStations",
+            "simulateUrl": "route/getRouteStationsV2.json",
+            "base": true
+        },
+        "getRouteBaseInfoV2": {
+            "method": "get",
+            "params": "*",
+            "url": "transbest/routeinfo/getV2RouteBaseInfo",
+            "simulateUrl": "route/getRouteBaseInfoV2.json",
+            "base": true
+        },
+        "modifyV2LineRouteInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/modifyV2LineRouteInfo",
+            "simulateUrl": "route/modifyV2LineRouteInfo.json",
+            "base": true
+        },
+        "getV2RouteLineDetail": {
+            "method": "get",
+            "data": "*",
+            "url": "transbest/routeinfo/getV2RouteLineDetail",
+            "simulateUrl": "route/getV2RouteLineDetail.json",
+            "base": true
+        },
+        "getRouteTypes": {
+            "method": "get",
+            "params": "*",
+            "url": "transbest/routeinfo/getV2RouteTypes",
+            "simulateUrl": "route/getRouteTypes.json",
+            "base": true
+        },
+        "getImportLocusPointsInfoV2": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/locusinfo/getImportLocusPointsInfoV2",
+            "simulateUrl": "locus/getImportLocusPointsInfoV2.json",
+            "base": true
+        },
+        "getRouteEnvInfoList": {
+            "method": "get",
+            "data": "*",
+            "url": "transbest/../ecomodel/jwrouteinfo/getRouteEnvInfoList",
+            "simulateUrl": "jwRouteEnv/getRouteEnvInfoList.json"
+        },
+        "getRouteDetail": {
+            "method": "get",
+            "data": "*",
+            "url": "transbest/jwrouteinfo/getRouteDetail",
+            "simulateUrl": "jwRouteEnv/getPcRouteList.json"
+        },
+        "addRoute": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/jwrouteinfo/addRoute",
+            "simulateUrl": "jwRouteEnv/addRouteEnv.json"
+        },
+        "updateRoute": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/jwrouteinfo/updateRoute",
+            "simulateUrl": "jwRouteEnv/addRouteEnv.json"
+        },
+        "setRouteStationsV2": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/setV2RouteStations",
+            "simulateUrl": "route/setRouteStationsV2.json",
+            "base": true
+        },
+        "getRouteEnvDetail": {
+            "method": "get",
+            "data": "*",
+            "url": "transbest/../ecomodel/jwrouteinfo/getRouteEnvDetail",
+            "simulateUrl": "jwRouteEnv/getPcRouteList.json"
+        },
+        "getRouteLocusPointsV2": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/getV2RouteLocusPoints",
+            "simulateUrl": "route/getRouteLocusPointsV2.json",
+            "base": true
+        },
+        "addV2LineRouteInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/addV2LineRouteInfo",
+            "simulateUrl": "route/addV2LineRouteInfo.json",
+            "base": true
+        },
+        "getRoutePointsV2": {
+            "method": "post",
+            "params": "*",
+            "url": "transbest/routeinfo/getV2RoutePoints",
+            "simulateUrl": "route/getRoutePointsV2.json",
+            "base": true
+        },
+        "setRoutePointsV2": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/setV2RoutePoints",
+            "simulateUrl": "route/setRoutePointsV2.json",
+            "base": true
+        },
+        "getV2LineRouteList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/getV2LineRouteList",
+            "simulateUrl": "route/getPcRouteList.json",
+            "base": true
+        },
+        "getV2LineRouteBinding": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/getV2LineRouteBinding",
+            "simulateUrl": "route/getV2LineRouteBinding.json",
+            "base": true
+        },
+        "unbindV2RouteVehicleRel": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/unbindV2RouteVehicleRel",
+            "simulateUrl": "route/unbindV2RouteVehicleRel.json",
+            "base": true
+        },
+        "getV2RouteVehicleRelsAll": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/getV2RouteVehicleRelsAll",
+            "simulateUrl": "route/getV2RouteVehicleRelsAll.json",
+            "base": true
+        },
+        "bindV2RouteVehicleRel": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/bindV2RouteVehicleRel",
+            "simulateUrl": "route/bindV2RouteVehicleRel.json",
+            "base": true
+        },
+        "bindRouteVehicleRelation": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/bindRouteVehicleRelation",
+            "simulateUrl": "route/bindRouteVehicleRelation.json",
+            "base": true
+        },
+        "deleteV2RouteLine": {
+            "method": "get",
+            "data": "*",
+            "url": "transbest/routeinfo/deleteV2RouteLine",
+            "simulateUrl": "route/deleteV2RouteLine.json",
+            "base": true
+        },
+        "exportV2LineRouteList": {
+            "method": "post",
+            "params": "*",
+            "url": "transbest/routeinfo/exportV2LineRouteList",
+            "simulateUrl": "route/getRouteTree.json",
+            "base": true
+        },
+        "exportV2LineRouteBinding": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/exportV2LineRouteBinding",
+            "simulateUrl": "route/exportV2LineRouteBinding.json",
+            "base": true
+        },
+        "getRouteList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/jwrouteinfo/getRouteList",
+            "simulateUrl": "jwRouteEnv/getPcRouteList.json"
+        },
+        "checkVehicleBindOneRouteRel": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/checkVehicleBindOneRouteRel",
+            "simulateUrl": "route/checkVehicleBindOneRouteRel.json"
+        },
+        "exportV2PcRouteList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/jwrouteinfo/exportV2PcRouteList",
+            "simulateUrl": "jwrouteinfo/exportV2PcRouteList.json"
+        },
+        "getRouteTree": {
+            "params": "*",
+            "url": "transbest/routeinfo/getRouteTree",
+            "simulateUrl": "route/getRouteTree.json",
+            "base": true
+        },
+        "getStationList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/stationinfo/getStationList",
+            "simulateUrl": "station/getStationList.json",
+            "base": true
+        },
+        "getStationsV2": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/stationinfo/getV2Stations",
+            "simulateUrl": "station/getStationsV2.json",
+            "base": true
+        },
+        "addStationsV2": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/stationinfo/addV2Stations",
+            "simulateUrl": "station/addStationsV2.json",
+            "base": true
+        },
+        "editStationsV2": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/stationinfo/editV2Stations",
+            "simulateUrl": "station/editStationsV2.json",
+            "base": true
+        },
+        "updateStation": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/stationinfo/updateStation",
+            "simulateUrl": "station/updateStation.json",
+            "base": true
+        },
+        "exportStationList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/stationinfo/exportStationList",
+            "simulateUrl": "station/exportStationList.json",
+            "base": true
+        },
+        "checkStationCode": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/stationinfo/checkStationCode",
+            "simulateUrl": "station/checkStationCode.json",
+            "base": true
+        },
+        "importStationList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/stationinfo/uploadStations",
+            "simulateUrl": "station/importStationList.json",
+            "base": true
+        },
+        "getStationCandidatesV2": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/stationinfo/getV2StationCandidates",
+            "simulateUrl": "station/getStationCandidatesV2.json",
+            "base": true
+        },
+        "getPcStationList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/stationinfo/getV2PcStationList",
+            "simulateUrl": "station/getPcStationList.json",
+            "base": true
+        },
+        "deleteStationsV2": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/stationinfo/deleteV2Stations",
+            "simulateUrl": "station/deleteStationsV2.json",
+            "base": true
+        },
+        "exportPcStationList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/stationinfo/exportV2PcStationList",
+            "simulateUrl": "station/exportPcStationList.json",
+            "base": true
+        },
+        "getPcTravelRecordListAxxc": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/historyreport/getV2PcTravelRecordListAxxc",
+            "simulateUrl": "passengerStat/getPcTravelRecordListAxxc.json",
+            "base": true
+        },
+        "exportPcTravelRecordListAxxc": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/historyreport/exportV2PcTravelRecordListAxxc",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "getTripPlanList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/planschedule/getTripPlanList",
+            "simulateUrl": "trip/getTripPlanList.json",
+            "base": true
+        },
+        "issueTripPlan": {
+            "method": "get",
+            "params": "*",
+            "url": "transbest/planschedule/issueTripPlan",
+            "simulateUrl": "trip/issueTripPlan.json",
+            "base": true
+        },
+        "quickIssueAllTrip": {
+            "method": "get",
+            "params": "*",
+            "url": "transbest/tripinfo/quickIssueAllTrip",
+            "simulateUrl": "trip/quickIssueAllTrip.json",
+            "base": true
+        },
+        "deleteTripPlan": {
+            "method": "get",
+            "params": "*",
+            "url": "transbest/planschedule/deleteTripPlan",
+            "simulateUrl": "trip/deleteTripPlan.json",
+            "base": true
+        },
+        "issueTrips": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/tripinfo/issueV2Trips",
+            "simulateUrl": "trip/issueTrips.json",
+            "base": true
+        },
+        "getTripStatus": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/tripinfo/getV2TripStatus",
+            "simulateUrl": "trip/getTripStatus.json",
+            "base": true
+        },
+        "getTripListAxxc": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/tripinfo/getV2TripListAxxc",
+            "simulateUrl": "trip/getTripListAxxc.json",
+            "base": true
+        },
+        "deleteTripV2": {
+            "method": "get",
+            "params": "*",
+            "url": "transbest/tripinfo/deleteV2Trip",
+            "simulateUrl": "trip/deleteTripV2.json",
+            "base": true
+        },
+        "getJobInfoList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/jobinfo/getJobInfoList",
+            "simulateUrl": "jobinfo/getJobInfoList.json",
+            "base": true
+        },
+        "getJobInfo": {
+            "method": "get",
+            "data": "*",
+            "url": "transbest/jobinfo/getJobInfo",
+            "simulateUrl": "jobinfo/getJobInfo.json",
+            "base": true
+        },
+        "addJobInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/jobinfo/addJobInfo",
+            "simulateUrl": "auth/user/getUserList.json",
+            "base": true
+        },
+        "modifyJobInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/jobinfo/modifyJobInfo",
+            "simulateUrl": "auth/user/getUserList.json",
+            "base": true
+        },
+        "getJobBindVehicles": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/jobinfo/getJobBindVehicles",
+            "simulateUrl": "auth/user/getUserList.json",
+            "base": true
+        },
+        "exportJobInfoList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/jobinfo/exportJobInfoList",
+            "simulateUrl": "auth/user/getUserList.json",
+            "base": true
+        },
+        "deleteJobInfo": {
+            "method": "get",
+            "data": "*",
+            "url": "transbest/jobinfo/deleteJobInfo",
+            "simulateUrl": "auth/user/getUserList.json",
+            "base": true
+        },
+        "addScheduleRule": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/addScheduleRule",
+            "simulateUrl": "",
+            "base": true
+        },
+        "delScheduleRule": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/delScheduleRule",
+            "simulateUrl": "",
+            "base": true
+        },
+        "updateScheduleRule": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/updateScheduleRule",
+            "simulateUrl": "",
+            "base": true
+        },
+        "exportScheduleRules": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/exportScheduleRules",
+            "simulateUrl": "",
+            "base": true
+        },
+        "insertPoints": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/xcVehicleinfo/insertPoints",
+            "simulateUrl": "xcVehicleinfo/insertPoints.json",
+            "base": true
+        },
+        "updatePoints": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/xcVehicleinfo/updatePoints",
+            "simulateUrl": "xcVehicleinfo/updatePoints.json",
+            "base": true
+        },
+        "getPointsDetail": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/xcVehicleinfo/getPointsDetail",
+            "simulateUrl": "xcVehicleinfo/getPointsDetail.json",
+            "base": true
+        },
+        "exportPcDriverSwipeCardInfoList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/driverinfo/exportPcDriverSwipeCardInfoList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "getRoadSectionList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/xcVehicleinfo/getRoadSectionList",
+            "simulateUrl": "xcVehicleinfo/getRoadSectionList.json",
+            "base": true
+        },
+        "exportRoadSectionList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/xcVehicleinfo/exportRoadSectionList",
+            "simulateUrl": "xcVehicleinfo/exportRoadSectionList.json",
+            "base": true
+        },
+        "getVehiclePointsList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/xcVehicleinfo/getVehiclePointsList",
+            "simulateUrl": "xcVehicleinfo/getVehiclePointsList.json",
+            "base": true
+        },
+        "exportVehiclePointsList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/xcVehicleinfo/exportVehiclePointsList",
+            "simulateUrl": "xcVehicleinfo/exportVehiclePointsList.json",
+            "base": true
+        },
+        "deleteVehiclePointsBand": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/xcVehicleinfo/deleteVehiclePointsBand",
+            "simulateUrl": "xcVehicleinfo/deleteVehiclePointsBand.json",
+            "base": true
+        },
+        "getVehiclePointsShow": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/xcVehicleinfo/getVehiclePointsShow",
+            "simulateUrl": "xcVehicleinfo/getVehiclePointsShow.json",
+            "base": true
+        },
+        "deletePoints": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/xcVehicleinfo/deletePoints",
+            "simulateUrl": "xcVehicleinfo/deletePoints.json",
+            "base": true
+        },
+        "saveVehiclePointsBand": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/xcVehicleinfo/saveVehiclePointsBand",
+            "simulateUrl": "xcVehicleinfo/saveVehiclePointsBand.json",
+            "base": true
+        },
+        "getPcVehicleRunTimeList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/runTime/getVehicleRunTimeList",
+            "simulateUrl": "runTime/getVehicleRunTimeList.json",
+            "base": true
+        },
+        "addVehicleRunTime": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/runTime/addVehicleRunTime",
+            "simulateUrl": "runTime/addVehicleRunTime.json",
+            "base": true
+        },
+        "modifyVehicleRunTime": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/runTime/modifyVehicleRunTime",
+            "simulateUrl": "runTime/modifyVehicleRunTime.json",
+            "base": true
+        },
+        "deleteVehicleRunTime": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/runTime/deleteVehicleRunTime",
+            "simulateUrl": "runTime/deleteVehicleRunTime.json",
+            "base": true
+        },
+        "getPcDriverSwipeCardInfoList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/driverinfo/getPcDriverSwipeCardInfoList",
+            "simulateUrl": "driver/getPcDriverSwipeCardInfoList.json",
+            "base": true
+        },
+        "getRoadConditions": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/getRouteStateInfo",
+            "simulateUrl": "roadcondition.json",
+            "base": true
+        },
+        "autoGenTimeTable": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftInfo/autoGenTimeTable",
+            "simulateUrl": "timetable.json",
+            "base": true
+        },
+        "getShiftInfoIntervalData": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/shiftInfo/getIntervalData",
+            "simulateUrl": "",
+            "base": true
+        },
+        "getStations": {
+            "get": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/stations"
+        },
+        "routes": {
+            "method": "get",
+            "data": "*",
+            "url": "transbest/routeinfo/routes"
+        },
+        "getRouteListByVehicle": {
+            "get": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/getRouteListByVehicle"
+        },
+        "getTrafficLightInfoByOrg": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/trafficLight/getTrafficLightInfoByOrg"
+        },
+        "getRealTimeStatisticByOrg": {
+            "method": "get",
+            "data": "*",
+            "url": "transbest/shiftRecord/getRealTimeStatisticByOrg"
+        },
+        "getOrderRank": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/ridingOrder/getOrderRank"
+        },
+        "getVehicleRunningRouteInfo": {
+            "method": "get",
+            "data": "*",
+            "url": "transbest/tripinfo/getVehicleRunningRouteInfo"
+        },
+        "issueRouteChangeMsg": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/vehicleaction/issueRouteChangeMsg"
+        },
+        "issueBusinessChangeMsg": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/vehicleaction/issueBusinessChangeMsg"
+        },
+        "getCcRouteSummary": {
+            "method": "get",
+            "params": "*",
+            "url": "transbest/routeinfo/getV2CcRouteSummary",
+            "simulateUrl": "route/getCcRouteSummary.json",
+            "base": true
+        },
+        "getRouteSearchResultV2": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/getV2RouteSearchResult",
+            "simulateUrl": "object/getRouteSearchResultV2.json",
+            "base": true
+        },
+        "getCcStationRouteList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/getV2CcStationRouteList",
+            "simulateUrl": "route/getCcStationRouteList.json",
+            "base": true
+        },
+        "getStationTipsInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/getStationTipsInfo",
+            "simulateUrl": "routesiteinfo.json",
+            "base": true
+        },
+        "getVehicleTipsInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/getVehicleTipsInfo",
+            "simulateUrl": "routevehicleinfo.json",
+            "base": true
+        },
+        "getVehicleTipsInfoByRouteIds": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/routeinfo/getVehicleTipsInfoByRouteIds",
+            "base": true
+        },
+        "getSchedulePlans": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/getSchedulePlans",
+            "simulateUrl": "vehicleScheduling.json",
+            "base": true
+        },
+        "importSchedulePlan": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/importSchedulePlan"
+        },
+        "exportSchedulePlan": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/exportSchedulePlan"
+        },
+        "saveSchedulePlan": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/saveSchedulePlan"
+        },
+        "editSchedulePlan": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/editSchedulePlan"
+        },
+        "delSchedulePlan": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/schedulingPlan/delSchedulePlan"
+        },
+        "getDriverInfoByVehicleId": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/driverinfo/getDriverInfoByVehicleId"
+        },
+        "getCcTripListAxxc": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/tripinfo/getV2CcTripListAxxc",
+            "simulateUrl": "trip/getCcTripListAxxc.json",
+            "base": true
+        },
+        "getTripBaseInfoAxxc": {
+            "method": "get",
+            "params": "*",
+            "url": "transbest/tripinfo/getV2TripBaseInfoAxxc",
+            "simulateUrl": "trip/getTripBaseInfoAxxc.json",
+            "base": true
+        },
+        "getTripPassengerInfoAxxc": {
+            "method": "get",
+            "params": "*",
+            "url": "transbest/tripinfo/getV2TripPassengerInfoAxxc",
+            "simulateUrl": "trip/getTripPassengerInfoAxxc.json",
+            "base": true
+        },
+        "getTripRunningLogAxxc": {
+            "method": "get",
+            "params": "*",
+            "url": "transbest/tripinfo/getV2TripRunningLogAxxc",
+            "simulateUrl": "trip/getTripRunningLogAxxc.json",
+            "base": true
+        },
+        "getCcEntPandectScd": {
+            "params": "*",
+            "url": "transbest/scd/getV2OrgVehicleDeliveryStatsScd",
+            "simulateUrl": "scd/getCcOrgVehicleDeliveryStatsScd.json",
+            "base": true
+        },
+        "getCcNightDriRecordListScd": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/scd/getV2CcNightDriRecordListScd",
+            "simulateUrl": "scd/getV2CcNightDriRecordListScd.json",
+            "base": true
+        },
+        "getFloatPanelInfoRouteV2": {
+            "params": "*",
+            "url": "transbest/routeinfo/getV2FloatPanelInfoRoute",
+            "simulateUrl": "float/getFloatPanelInfoRouteV2.json",
+            "base": true
+        },
+        "getFloatPanelInfoStationV2": {
+            "params": "*",
+            "url": "transbest/stationinfo/getV2FloatPanelInfoStation",
+            "simulateUrl": "float/getFloatPanelInfoStationV2.json",
+            "base": true
+        },
+        "getRouteTripVehicles": {
+            "method": "get",
+            "params": "*",
+            "url": "transbest/tripinfo/getV2RouteTripVehicles",
+            "simulateUrl": "trip/getRouteTripVehicles.json",
+            "base": true
+        },
+        "getCcSendVehicleCountIndicatorScd": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/scd/getCcSendVehicleCountIndicator",
+            "simulateUrl": "scd/getCcSendVehicleCountIndicatorScd.json",
+            "base": true
+        },
+        "getPcSendVehicleOrderListScd": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/scd/getV2PcSendVehicleOrderList",
+            "simulateUrl": "scd/getPcSendVehicleOrderListScd.json",
+            "base": true
+        },
+        "getCcSendVehicleOrderSummaryScd": {
+            "method": "get",
+            "params": "*",
+            "url": "transbest/scd/getCcSendVehicleOrderSummaryScd",
+            "simulateUrl": "scd/getCcSendVehicleOrderSummaryScd.json",
+            "base": true
+        },
+        "getCcSendVehicleStatIndicatorScd": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/scd/getCcSendVehicleStatIndicator",
+            "simulateUrl": "scd/getCcSendVehicleStatIndicatorScd.json",
+            "base": true
+        },
+        "getCcSendVehicleStatListScd": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/scd/getV2CcSendVehicleStatList",
+            "simulateUrl": "scd/getCcSendVehicleStatListScd.json",
+            "base": true
+        },
+        "getCcSendVehicleStatSummaryScd": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/scd/getCcSendVehicleStatSummary",
+            "simulateUrl": "scd/getCcSendVehicleStatSummaryScd.json",
+            "base": true
+        },
+        "getCcSendVehShortScd": {
+            "method": "get",
+            "params": "*",
+            "url": "transbest/scd/getV2CcSendVehShortScd",
+            "simulateUrl": "scd/getCcSendVehShortScd.json",
+            "base": true
+        },
+        "getCcStationList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/stationinfo/getV2CcStationList",
+            "simulateUrl": "station/getCcStationList.json",
+            "base": true
+        },
+        "getCcStationSummary": {
+            "method": "get",
+            "params": "*",
+            "url": "transbest/stationinfo/getV2CcStationSummary",
+            "simulateUrl": "station/getCcStationSummary.json",
+            "base": true
+        },
+        "getTripArrivingInfo": {
+            "method": "get",
+            "params": "*",
+            "url": "transbest/tripinfo/getV2TripArrivingInfo",
+            "simulateUrl": "trip/getTripArrivingInfo.json",
+            "base": true
+        },
+        "getTripBaseInfoTq": {
+            "method": "get",
+            "params": "*",
+            "url": "transbest/tripinfo/getV2TripBaseInfoTq",
+            "simulateUrl": "trip/getTripBaseInfoTq.json",
+            "base": true
+        },
+        "getTripRunningLogTq": {
+            "method": "get",
+            "params": "*",
+            "url": "transbest/tripinfo/getV2TripRunningLogTq",
+            "simulateUrl": "trip/getTripRunningLogTq.json",
+            "base": true
+        },
+        "getCcVehicleSummaryScd": {
+            "params": "*",
+            "url": "transbest/scd/getV2CcVehicleSummaryScd",
+            "simulateUrl": "vehicle/getV2CcVehicleSummaryScd.json",
+            "base": true
+        },
+        "issueSpecialTask": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/tripinfo/issueV2SpecialTrips",
+            "simulateUrl": "trip/issueSpecialTask.json",
+            "base": true
+        },
+        "getPcPassengerList": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/passenger/getPcPassengerList",
+            "simulateUrl": "person/getPcPassengerList.json",
+            "base": true
+        },
+        "getStationTree": {
+            "params": "*",
+            "url": "transbest/stationinfo/getV2StationTree",
+            "simulateUrl": "station/getStationTree.json",
+            "base": true
+        },
+        "getStationSearchResultV2": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/stationinfo/getV2StationSearchResult",
+            "simulateUrl": "object/getStationSearchResultV2.json",
+            "base": true
+        },
+        "getStationCollects": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/stationinfo/getStationCollects",
+            "simulateUrl": "getStationCollects.json",
+            "simulate":true,
+            "base": true
+        },
+        "getVehicleByUser": {
+            "method": "post",
+            "data": "*",
+            "url": "transbest/stationinfo/getVehicleByUser",
+            "base": true
+        }
+
+    },
+    "simulate": false
+}

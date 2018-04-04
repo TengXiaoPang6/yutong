@@ -24,6 +24,7 @@
       <span slot="content">{{ formatValue }}</span>
       <div class="el-slider__button" :class="{ 'hover': hovering, 'dragging': dragging }"></div>
     </el-tooltip>
+
   </div>
 </template>
 

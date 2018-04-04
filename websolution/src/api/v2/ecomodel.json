@@ -1,0 +1,1949 @@
+{
+  "product": "ecomodel",
+  "api": {
+    "getEnergyVehicleSumList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/getVehicleSumList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getEnergyVehicleSumList.json"
+    },
+    "exportEnergyVehicleSumList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/exportVehicleSumList",
+      "data": "*",
+      "simulateUrl": "jwExport/export.json"
+    },
+    "getEnergyVehicleDayList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/getVehicleDayList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getEnergyVehicleDayList.json"
+    },
+    "exportEnergyVehicleDayList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/exportVehicleDayList",
+      "data": "*",
+      "simulateUrl": "jwExport/export.json"
+    },
+    "getEnergyVehicleMonthList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/getVehicleMonthList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getEnergyVehicleMonthList.json"
+    },
+    "exportEnergyVehicleMonthList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/exportVehicleMonthList",
+      "data": "*",
+      "simulateUrl": "jwExport/export.json"
+    },
+    "getEnergyOrgSumList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/getOrgSumList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getEnergyOrgSumList.json"
+    },
+    "exportEnergyOrgSumList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/exportOrgSumList",
+      "data": "*",
+      "simulateUrl": "jwExport/export.json"
+    },
+    "getEnergyOrgDayList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/getOrgDayList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getEnergyOrgDayList.json"
+    },
+    "exportEnergyOrgDayList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/exportOrgDayList",
+      "data": "*",
+      "simulateUrl": "jwExport/export.json"
+    },
+    "getEnergyOrgMonthList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/getOrgMonthList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getEnergyOrgMonthList.json"
+    },
+    "exportEnergyOrgMonthList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/exportOrgMonthList",
+      "data": "*",
+      "simulateUrl": "jwExport/export.json"
+    },
+    "getEnergyLineSumList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/getLineSumList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getEnergyLineSumList.json"
+    },
+    "exportEnergyLineSumList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/exportLineSumList",
+      "data": "*",
+      "simulateUrl": "jwExport/export.json"
+    },
+    "getEnergyLineDayList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/getLineDayList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getEnergyLineDayList.json"
+    },
+    "exportEnergyLineDayList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/exportLineDayList",
+      "data": "*",
+      "simulateUrl": "jwExport/export.json"
+    },
+    "getEnergyLineMonthList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/getLineMonthList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getEnergyLineMonthList.json"
+    },
+    "exportEnergyLineMonthList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/exportLineMonthList",
+      "data": "*",
+      "simulateUrl": "jwExport/export.json"
+    },
+    "getEnergyVehicleModelSumList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/getVehicleModelSumList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getEnergyVehicleModelSumList.json"
+    },
+    "exportEnergyVehicleModelSumList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/exportVehicleModelSumList",
+      "data": "*",
+      "simulateUrl": "jwExport/export.json"
+    },
+    "getEnergyVehicleModelDayList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/getVehicleModelDayList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getEnergyVehicleModelDayList.json"
+    },
+    "exportEnergyVehicleModelDayList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/exportVehicleModelDayList",
+      "data": "*",
+      "simulateUrl": "jwExport/export.json"
+    },
+    "getEnergyVehicleModelMonthList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/getVehicleModelMonthList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getEnergyVehicleModelMonthList.json"
+    },
+    "exportEnergyVehicleModelMonthList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/exportVehicleModelMonthList",
+      "data": "*",
+      "simulateUrl": "jwExport/export.json"
+    },
+    "getEnergyDriverSumList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/getDriverSumList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getEnergyDriverSumList.json"
+    },
+    "exportEnergyDriverSumList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/exportDriverSumList",
+      "data": "*",
+      "simulateUrl": "jwExport/export.json"
+    },
+    "getEnergyDriverDayList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/getDriverDayList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getEnergyDriverDayList.json"
+    },
+    "exportEnergyDriverDayList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/exportDriverDayList",
+      "data": "*",
+      "simulateUrl": "jwExport/export.json"
+    },
+    "getEnergyDriverMonthList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/getDriverMonthList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getEnergyDriverMonthList.json"
+    },
+    "exportEnergyDriverMonthList": {
+      "method": "post",
+      "url": "ecomodel/jwenergymonitor/exportDriverMonthList",
+      "data": "*",
+      "simulateUrl": "jwExport/export.json"
+    },
+    "getEnergyAbstract": {
+      "method": "post",
+      "url": "ecomodel/jwengreport/getEnergyAbstract",
+      "data": "*",
+      "simulateUrl": "jwengreport/getEnergyAbstract.json"
+    },
+    "getOrgSavingRateList": {
+      "method": "post",
+      "url": "ecomodel/jwengreport/getOrgSavingRateList",
+      "data": "*",
+      "simulateUrl": "jwengreport/getOrgSavingRateList.json"
+    },
+    "getOrgOverEnergyCountList": {
+      "method": "post",
+      "url": "ecomodel/jwengreport/getOrgOverEnergyCountList",
+      "data": "*",
+      "simulateUrl": "jwengreport/getOrgOverEnergyCountList.json"
+    },
+    "getOrgSavingList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/jwengreport/getOrgSavingList",
+      "simulateUrl": "jwengreport/getOrgSavingList.json"
+    },
+    "getSavingList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyDashbord/getSavingList",
+      "simulateUrl": "energyDashbord/getSavingList.json"
+    },
+    "getOrgOverEnergyList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/jwengreport/getOrgOverEnergyList",
+      "simulateUrl": "jwengreport/getOrgOverEnergyList.json"
+    },
+    "getOrg100KmList": {
+      "method": "post",
+      "url": "ecomodel/jwengreport/getOrg100KmList",
+      "data": "*",
+      "simulateUrl": "jwengreport/getOrg100KmList.json"
+    },
+    "getEnergyGasUnitOrg": {
+      "method": "get",
+      "url": "ecomodel/jwenergyparam/getGasUnitOrg",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getEnergyGasUnitOrg.json"
+    },
+    "getEnergyHighCostVehicle": {
+      "method": "post",
+      "url": "ecomodel/jwenergyhighcost/getHighCostVehicles",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getEnergyHighCostVehicle.json"
+    },
+    "updateEnergyHighCostVehicleState": {
+      "method": "post",
+      "url": "ecomodel/jwenergyhighcost/updateHighCostVehicle",
+      "data": "*",
+      "simulateUrl": "jwEnergy/updateEnergyHighCostVehicleState.json"
+    },
+    "updateHighCostVehicleRepair": {
+      "method": "post",
+      "url": "ecomodel/jwenergyhighcost/updateHighCostVehicleRepair",
+      "data": "*",
+      "simulateUrl": "jwEnergy/updateHighCostVehicleRepair.json"
+    },
+    "getSuggestions": {
+      "method": "post",
+      "url": "ecomodel/jwengvehreport/getSuggestions",
+      "data": "*",
+      "simulateUrl": "jwengvehreport/getSuggestions.json"
+    },
+    "getRepairOrderList": {
+      "method": "post",
+      "url": "ecomodel/jwenergyhighcost/getRepairOrderList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getRepairOrderList.json"
+    },
+    "exportRepairOrderList": {
+      "method": "post",
+      "url": "ecomodel/jwenergyhighcost/exportRepairOrderList",
+      "data": "*",
+      "simulateUrl": "jwExport/export.json"
+    },
+    "getEnergyHighCostVehicleList": {
+      "method": "post",
+      "url": "ecomodel/jwenergyhighcost/getHighCostVehicleList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getEnergyHighCostVehicleList.json"
+    },
+    "exportEnergyHighCostVehicleList": {
+      "method": "post",
+      "url": "ecomodel/jwenergyhighcost/exportHighCostVehicleList",
+      "data": "*",
+      "simulateUrl": "jwExport/export.json"
+    },
+    "getEnergyRecords": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/jwengrcd/getEnergyRecords",
+      "simulateUrl": "jwengrcd/getEnergyRecords.json"
+    },
+    "exportEnergyRecords": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/jwengrcd/exportEnergyRecords",
+      "simulateUrl": "jwengrcd/exportEnergyRecords.json"
+    },
+    "deleteEnergyRecords": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/jwengrcd/deleteEnergyRecords",
+      "simulateUrl": "jwengrcd/deleteEnergyRecords.json"
+    },
+    "updateEnergyRecords": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/jwengrcd/updateEnergyRecords",
+      "simulateUrl": "jwengrcd/updateEnergyRecords.json"
+    },
+    "getVehicleRealOilMassList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/jwoilmass/getVehicleRealOilMassList",
+      "simulateUrl": "oilmass/getVehicleRealOilMassList.json",
+      "base": true
+    },
+    "getOilChangeList": {
+      "data": "*",
+      "method": "post",
+      "url": "ecomodel/jwoilmass/getOilChangeList",
+      "simulateUrl": "oilmass/getOilChangeList.json",
+      "base": true
+    },
+    "getOilChangePageList": {
+      "data": "*",
+      "method": "post",
+      "url": "ecomodel/jwoilmass/getOilChangePageList",
+      "simulateUrl": "oilmass/getOilChangePageList.json",
+      "base": true
+    },
+    "exportOilMonitoringDetailsList": {
+      "data": "*",
+      "method": "post",
+      "url": "ecomodel/jwoilmass/exportOilMonitoringDetailsList",
+      "simulateUrl": "oilmass/exportOilMonitoringDetailsList.json",
+      "base": true
+    },
+    "getOilQuantityStats": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/jwoilmass/getOilQuantityStats",
+      "simulateUrl": "oilmass/getOilQuantityStats.json",
+      "base": true
+    },
+    "exportOilQuantityStats": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/jwoilmass/exportOilQuantityStats",
+      "simulateUrl": "oilmass/exportOilQuantityStats.json",
+      "base": true
+    },
+    "getLowOil": {
+      "params": "*",
+      "method": "get",
+      "url": "ecomodel/jwenergyparam/getLowOil",
+      "simulateUrl": "oilmass/getLowOil.json",
+      "base": true
+    },
+    "addLowOil": {
+      "data": "*",
+      "method": "post",
+      "url": "ecomodel/jwenergyparam/addLowOil",
+      "simulateUrl": "oilmass/addLowOil.json",
+      "base": true
+    },
+    "resetLowOil": {
+      "params": "*",
+      "method": "get",
+      "url": "ecomodel/jwenergyparam/resetLowOil",
+      "simulateUrl": "oilmass/resetLowOil.json",
+      "base": true
+    },
+    "getEnergy100KmList": {
+      "method": "post",
+      "url": "ecomodel/jwengvehreport/getEnergy100KmList",
+      "data": "*",
+      "simulateUrl": "jwengvehreport/getEnergy100KmList.json"
+    },
+    "getDriverEnergyList": {
+      "method": "post",
+      "url": "ecomodel/jwengvehreport/getDriverEnergyList",
+      "data": "*",
+      "simulateUrl": "jwengvehreport/getDriverEnergyList.json"
+    },
+    "getYearRatedConsumptionSetting": {
+      "method": "post",
+      "url": "ecomodel/jwenergyparam/getRatedConsYearList",
+      "data": "*",
+      "simulateUrl": "jwParam/getYearRatedConsumptionSetting.json"
+    },
+    "saveYearRatedConsumptionSetting": {
+      "method": "post",
+      "url": "ecomodel/jwenergyparam/addRatedConsYear",
+      "data": "*",
+      "simulateUrl": "jwParam/saveJwParamSetting.json"
+    },
+    "getMonthlyCoefficientSetting": {
+      "method": "post",
+      "url": "ecomodel/jwenergyparam/getMonthRatioList",
+      "data": "*",
+      "simulateUrl": "jwParam/getMonthlyCoefficientSetting.json"
+    },
+    "saveMonthlyCoefficientSetting": {
+      "method": "post",
+      "url": "ecomodel/jwenergyparam/addMonthRatio",
+      "data": "*",
+      "simulateUrl": "jwParam/saveJwParamSetting.json"
+    },
+    "resetMonthlyCoefficientSetting": {
+      "method": "post",
+      "url": "ecomodel/jwenergyparam/resetMonthRatio",
+      "data": "*",
+      "simulateUrl": "jwParam/saveJwParamSetting.json"
+    },
+    "getAirConditionerRiseRatioSetting": {
+      "method": "get",
+      "url": "ecomodel/jwenergyparam/getAcRatioList",
+      "params": "*",
+      "simulateUrl": "jwParam/getAirConditionerRiseRatioSetting.json"
+    },
+    "saveAirConditionerRiseRatioSetting": {
+      "method": "post",
+      "url": "ecomodel/jwenergyparam/addAcRatio",
+      "data": "*",
+      "simulateUrl": "jwParam/saveJwParamSetting.json"
+    },
+    "resetAirConditionerRiseRatioSetting": {
+      "method": "get",
+      "url": "ecomodel/jwenergyparam/resetAcRatio",
+      "params": "*",
+      "simulateUrl": "jwParam/saveJwParamSetting.json"
+    },
+    "saveGasUnitSetting": {
+      "method": "post",
+      "url": "ecomodel/jwenergyparam/addGasUnit",
+      "data": "*",
+      "simulateUrl": "jwParam/saveJwParamSetting.json"
+    },
+    "resetGasUnitSetting": {
+      "method": "get",
+      "url": "ecomodel/jwenergyparam/resetGasUnit",
+      "params": "*",
+      "simulateUrl": "jwParam/saveJwParamSetting.json"
+    },
+    "getDrivingBehaviorParamSetting": {
+      "method": "get",
+      "url": "ecomodel/jwenergyparam/getDriveAction",
+      "params": "*",
+      "simulateUrl": "jwParam/getDrivingBehaviorParamSetting.json"
+    },
+    "saveDrivingBehaviorParamSetting": {
+      "method": "post",
+      "url": "ecomodel/jwenergyparam/addDriveAction",
+      "data": "*",
+      "simulateUrl": "jwParam/saveJwParamSetting.json"
+    },
+    "resetDrivingBehaviorParamSetting": {
+      "method": "get",
+      "url": "ecomodel/jwenergyparam/resetDriveAction",
+      "params": "*",
+      "simulateUrl": "jwParam/saveJwParamSetting.json"
+    },
+    "getDriverScoreEvaluateSetting": {
+      "method": "get",
+      "url": "ecomodel/jwenergyparam/getBadDrvScoreList",
+      "params": "*",
+      "simulateUrl": "jwParam/getDriverScoreEvaluateSetting.json"
+    },
+    "saveDriverScoreEvaluateSetting": {
+      "method": "post",
+      "url": "ecomodel/jwenergyparam/addBadDrvScore",
+      "data": "*",
+      "simulateUrl": "jwParam/saveJwParamSetting.json"
+    },
+    "resetDriverScoreEvaluateSetting": {
+      "method": "get",
+      "url": "ecomodel/jwenergyparam/resetBadDrvScore",
+      "params": "*",
+      "simulateUrl": "jwParam/saveJwParamSetting.json"
+    },
+    "getPcDrivingSystemList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnyDrivingSystem/getDrivingSystemList",
+      "simulateUrl": "newenergy/getDrivingSystemList.json",
+      "base": true
+    },
+    "exportPcDrivingSystemList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnyDrivingSystem/exportDrivingSystemList",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "getPcDrivingSystemListFromHbase": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnyDrivingSystem/getDrivingSystemListFromHbase",
+      "simulateUrl": "",
+      "base": true
+    },
+    "exportPcDrivingSystemListFromHbase": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnyDrivingSystem/exportDrivingSystemListFromHbase",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "getPcSuperCapacitorList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnySuperCapacitor/getSuperCapacitorList",
+      "simulateUrl": "newenergy/getSuperCapacitorList.json",
+      "base": true
+    },
+    "exportPcSuperCapacitorList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnySuperCapacitor/exportSuperCapacitorList",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "getSparePartConsumptionDataListDb": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnystata/getSparePartConsumptionDataListDb",
+      "simulateUrl": "newenergy/getPcSparePartConsumptionDataList.json",
+      "base": true
+    },
+    "exportSparePartConsumptionDataListDb": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnystata/exportSparePartConsumptionDataListDb",
+      "simulateUrl": "newenergy/exportSparePartConsumptionDataList.json",
+      "base": true
+    },
+    "getPcChargerRunStatisList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/powerPileOpsStats/getPowerPileOpsStatsList",
+      "simulateUrl": "newenergy/getChargerRunStatisList.json",
+      "base": true
+    },
+    "exportPcChargerRunStatisList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/powerPileOpsStats/exportPowerPileOpsStatsList",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "getAirConditionDataList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnystata/getAirConditionDataList",
+      "simulateUrl": "newenergy/getPcAirConditionDataList.json",
+      "base": true
+    },
+    "exportAirConditionDataList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnystata/exportAirConditionDataList",
+      "simulateUrl": "newenergy/exportPcAirConditionDataList.json",
+      "base": true
+    },
+    "getEnergyAbstractReport": {
+      "method": "post",
+      "url": "ecomodel/jwengvehreport/getEnergyAbstract",
+      "data": "*",
+      "simulateUrl": "jwengvehreport/getEnergyAbstract.json"
+    },
+    "addEnergyRecords": {
+      "method": "post",
+      "url": "ecomodel/jwengrcd/addEnergyRecords",
+      "data": "*",
+      "simulateUrl": "jwengrcd/addEnergyRecords.json"
+    },
+    "getVehicleInfo": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/jwengrcd/getVehicleInfo",
+      "simulateUrl": "jwengrcd/getVehicleInfo.json"
+    },
+    "getPcEnergySupplyDeviceRecordList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/newenergy/getV2PcEnergySupplyDeviceRecordList",
+      "simulateUrl": "newenergy/getV2PcEnergySupplyDeviceRecordList.json",
+      "base": true
+    },
+    "getEnergyPlusStationSelector": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyplusstation/getAllEnergyPlusStationList",
+      "simulateUrl": "fs/getEnergyPlusStationSelector.json",
+      "base": true
+    },
+    "exportPcEnergySupplyDeviceRecordList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/newenergy/exportV2PcEnergySupplyDeviceRecordList",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "getCcPileInfoList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/newenergy/getV2PcEnergySupplyDeviceList",
+      "simulateUrl": "newenergy/getV2PcEnergySupplyDeviceList.json",
+      "base": true
+    },
+    "exportPcEnergySupplyDeviceList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/newenergy/exportV2PcEnergySupplyDeviceList",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "getPcEnergySupplyDeviceList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/newenergy/getV2PcEnergySupplyDeviceList",
+      "simulateUrl": "newenergy/getV2PcEnergySupplyDeviceList.json",
+      "base": true
+    },
+    "getEnergyPlusDeviceInfo": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyplusdevice/getEnergyPlusDeviceInfo",
+      "simulateUrl": "fs/getEnergyPlusDeviceInfo.json",
+      "base": true
+    },
+    "getPcEnergyEveryChargingList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/chargeRecord/getChargeRecordList",
+      "simulateUrl": "newenergy/getV2PcEnergyConsumptionStatisticList.json",
+      "base": true
+    },
+    "exportPcEnergyEveryChargingList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/chargeRecord/exportChargeRecordList",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "getDailyChargeStatisticsList": {
+      "params": "*",
+      "method": "post",
+      "url": "ecomodel/chargeRecord/getDailyChargeStatisticsList",
+      "simulateUrl": "chargeRecord/getDailyChargeStatisticsList.json"
+    },
+    "getDailyChargeStatisticsDetail": {
+      "params": "*",
+      "method": "post",
+      "url": "ecomodel/chargeRecord/getDailyChargeStatisticsDetail",
+      "simulateUrl": "chargeRecord/getDailyChargeStatisticsDetail.json"
+    },
+    "getDailyChargeStatisticsDetailListDayByDay": {
+      "params": "*",
+      "method": "post",
+      "url": "ecomodel/chargeRecord/getDailyChargeStatisticsDetailListDayByDay",
+      "simulateUrl": "chargeRecord/getDailyChargeStatisticsDetail.json"
+    },
+    "exportDailyChargeStatisticsList": {
+      "params": "*",
+      "method": "post",
+      "url": "ecomodel/chargeRecord/exportDailyChargeStatisticsList",
+      "simulateUrl": ""
+    },
+    "exportDailyChargeStatisticsDetail": {
+      "params": "*",
+      "method": "post",
+      "url": "ecomodel/chargeRecord/exportDailyChargeStatisticsDetail",
+      "simulateUrl": ""
+    },
+    "getVehicleChargingRecordList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnystata/getVehicleChargingRecordList",
+      "simulateUrl": "newenergy/getV2PcEnergySupplyVehicleRecordList.json",
+      "base": true
+    },
+    "exportVehicleChargingRecordList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnystata/exportVehicleChargingRecordList",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "getPcEnergyConsumptionDetailList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnyEnergyConsumptionDetails/getPcEnergyConsumptionDetailList",
+      "simulateUrl": "newenergy/getV2PcEnergyConsumptionDetailList.json",
+      "base": true
+    },
+    "exportPcEnergyConsumptionDetailList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnyEnergyConsumptionDetails/exportPcEnergyConsumptionDetailList",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "getPcEnergyConsumptionStatistic2ListXny": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/powerConsStats/getPowerConsStats2List",
+      "simulateUrl": "newenergy/getV2PcEnergyConsumptionStatisticList.json",
+      "base": true
+    },
+    "getEnergyTypeSelector": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyplusrecord/getEnergyTypeBySelector",
+      "simulateUrl": "fs/getEnergyTypeBySelector.json",
+      "base": true
+    },
+    "exportPcEnergyConsumptionStatistic2ListXny": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/powerConsStats/exportPowerConsStats2List",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "getPcEnergyConsumptionStatisticListXny": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/powerConsStats/getPowerConsStatsList",
+      "simulateUrl": "newenergy/getV2PcEnergyConsumptionStatisticList.json",
+      "base": true
+    },
+    "exportPcEnergyConsumptionStatisticListXny": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/powerConsStats/exportPowerConsStatsList",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "getRouteEnvList": {
+      "method": "post",
+      "url": "ecomodel/jwrouteinfo/getRouteEnvList",
+      "data": "*",
+      "simulateUrl": "jwRouteEnv/getRouteEnvList.json"
+    },
+    "addRouteEnv": {
+      "method": "post",
+      "url": "ecomodel/jwrouteinfo/addRouteEnv",
+      "data": "*",
+      "simulateUrl": "jwRouteEnv/addRouteEnv.json"
+    },
+    "updateRouteEnv": {
+      "method": "post",
+      "url": "ecomodel/jwrouteinfo/updateRouteEnv",
+      "data": "*",
+      "simulateUrl": "jwRouteEnv/addRouteEnv.json"
+    },
+    "deleteRouteEnv": {
+      "method": "post",
+      "url": "ecomodel/jwrouteinfo/deleteRouteEnv",
+      "data": "*",
+      "simulateUrl": "jwRouteEnv/addRouteEnv.json"
+    },
+    "resetRouteEnv": {
+      "method": "get",
+      "url": "ecomodel/jwrouteinfo/resetRouteEnv",
+      "params": "*",
+      "simulateUrl": "jwRouteEnv/addRouteEnv.json"
+    },
+    "batchUpdateRouteEnv": {
+      "method": "post",
+      "url": "ecomodel/jwrouteinfo/batchUpdateRouteEnv",
+      "data": "*",
+      "simulateUrl": "jwRouteEnv/addRouteEnv.json"
+    },
+    "getEnergyPlusStationList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyplusstation/getEnergyPlusStationList",
+      "simulateUrl": "fs/getEnergyPlusStationList.json",
+      "base": true
+    },
+    "exportEnergyPlusStationList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyplusstation/exportEnergyPlusStationList",
+      "simulateUrl": "fs/getEnergyPlusStationList.json",
+      "base": true
+    },
+    "getPcChargingPileList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/newenergy/getV2PcChargingPileList",
+      "simulateUrl": "energyPlusStation/getPcChargingPileList.json",
+      "base": true
+    },
+    "exportPcChargingPileList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/newenergy/exportV2PcChargingPileList",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "getAssessMonthRangeSetList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/month/getAssessMonthRangeSetList",
+      "simulateUrl": "set/getAssessMonthRangeSetList.json",
+      "base": true
+    },
+    "addAssessMonthRangeSet": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/month/addAssessMonthRangeSet",
+      "simulateUrl": "set/addAssessMonthRangeSet.json",
+      "base": true
+    },
+    "modifyAssessMonthRangeSet": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/month/modifyAssessMonthRangeSet",
+      "simulateUrl": "set/modifyAssessMonthRangeSet.json",
+      "base": true
+    },
+    "deleteAssessMonthRangeSet": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/month/deleteAssessMonthRangeSet",
+      "simulateUrl": "set/deleteAssessMonthRangeSet.json",
+      "base": true
+    },
+    "getAssessConsumptionSetList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energy/getAssessConsumptionSetList",
+      "simulateUrl": "set/getAssessConsumptionSetList.json",
+      "base": true
+    },
+    "saveAssessConsumptionSet": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energy/saveAssessConsumptionSet",
+      "simulateUrl": "set/saveAssessConsumptionSet.json",
+      "base": true
+    },
+    "batchSaveAssessConsumptionSet": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energy/batchSaveAssessConsumptionSet",
+      "simulateUrl": "set/batchSaveAssessConsumptionSet.json",
+      "base": true
+    },
+    "deleteAssessConsumptionSet": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energy/deleteAssessConsumptionSet",
+      "simulateUrl": "set/deleteAssessConsumptionSet.json",
+      "base": true
+    },
+    "getOilMonitoringList": {
+      "method": "post",
+      "params": "*",
+      "url": "ecomodel/jwoilmass/getOilMassSummaryList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getOilMonitoringList.json"
+    },
+    "getOilAmountLineChartData": {
+      "method": "post",
+      "params": "*",
+      "url": "ecomodel/jwoilmass/getOilMassDetailList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getOilAmountLineChartData.json"
+    },
+    "getOilAmountExceptionMapData": {
+      "method": "post",
+      "params": "*",
+      "url": "ecomodel/jwoilmass/getOilMassPositionList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getOilAmountExceptionMapData.json"
+    },
+    "getOilAmountSlumpList": {
+      "method": "post",
+      "url": "ecomodel/jwoilmass/getOilMassSlumpList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getOilAmountSlumpList.json"
+    },
+    "getOilAmountAddList": {
+      "method": "post",
+      "url": "ecomodel/jwoilmass/getOilMassAddList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/getOilAmountAddList.json"
+    },
+    "exportOilMassAddList": {
+      "method": "post",
+      "url": "ecomodel/jwoilmass/exportOilMassAddList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/exportOilMassAddList.json"
+    },
+    "exportOilMassSlumpList": {
+      "method": "post",
+      "url": "ecomodel/jwoilmass/exportOilMassSlumpList",
+      "data": "*",
+      "simulateUrl": "jwEnergy/exportOilMassSlumpList.json"
+    },
+    "getNextOrgList": {
+      "method": "get",
+      "params": "*",
+      "url": "ecomodel/energystatreport/getNextOrgList",
+      "simulateUrl": "energystatreport/getNextOrgList.json",
+      "base": true
+    },
+    "getEnergyConsumptionTypesV2": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energystatreport/getV2EnergyConsumptionTypes",
+      "simulateUrl": "consumption/getEnergyConsumptionTypesV2.json",
+      "base": true
+    },
+    "getConsumptionIndicatorV2": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energystatreport/getV2ConsumptionIndicator",
+      "simulateUrl": "consumption/indicator/getConsumptionIndicator_{{statRangeType}}_{{statObjType}}.json",
+      "base": true
+    },
+    "getCcConsumptionList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energystatreport/getV2CcConsumptionList",
+      "simulateUrl": "consumption/getCcConsumptionList.json",
+      "base": true
+    },
+    "getConsumptionSummaryV2": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energystatreport/getV2ConsumptionSummary",
+      "simulateUrl": "consumption/getConsumptionSummaryV2.json",
+      "base": true
+    },
+    "getOrgEnergyInfoByOrgIds": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energystatreport/getOrgEnergyInfoByOrgIds",
+      "simulateUrl": "energystatreport/getOrgEnergyInfoByOrgIds.json",
+      "base": true
+    },
+    "exportOrgEnergyInfoByOrgIds": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energystatreport/exportOrgEnergyInfoByOrgIds",
+      "simulateUrl": "energystatreport/exportOrgEnergyInfoByOrgIds.json",
+      "base": true
+    },
+    "getPcSaveOilDriveStatisticList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/saveOilDriveAnalysed/getSaveOilDriveAnalyseds",
+      "simulateUrl": "kc/getPcSaveOilDriveStatisticList.json",
+      "base": true
+    },
+    "exportPcSaveOilDriveStatisticList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/saveOilDriveAnalysed/exportSaveOilDriveAnalyseds",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "getEnergyConsumptionTypes": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energystatreport/getEnergyConsumptionTypes",
+      "simulateUrl": "consumption/getEnergyConsumptionTypes.json",
+      "base": true
+    },
+    "getVehicleSpeedDistribution": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/singleVehicleAnalyed/getVehicleSpeedDistribution",
+      "simulateUrl": "singleVehicleAnalyed/getVehicleSpeedDistribution.json",
+      "base": true
+    },
+    "getVehicleRpmDistribution": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/singleVehicleAnalyed/getVehicleRpmDistribution",
+      "simulateUrl": "singleVehicleAnalyed/getVehicleRpmDistribution.json",
+      "base": true
+    },
+    "getVehicleOilWearInstWithPage": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/singleVehicleAnalyed/getVehicleOilWearInstWithPage",
+      "simulateUrl": "singleVehicleAnalyed/getVehicleOilWearInstWithPage.json",
+      "base": true
+    },
+    "exportRealtimeRemainOilmassList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/singleVehicleAnalyed/exportRealtimeRemainOilmassList",
+      "simulateUrl": "jwExport/exportVehicleOilWearInst.json",
+      "base": true
+    },
+    "getRealtimeRemainOilmassList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/singleVehicleAnalyed/getRealtimeRemainOilmassList",
+      "simulateUrl": "oilmass/getRealtimeRemainOilmassList.json",
+      "base": true
+    },
+    "getVehicleOilWearInst": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/singleVehicleAnalyed/getVehicleOilWearInst",
+      "simulateUrl": "singleVehicleAnalyed/getVehicleOilWearInst.json",
+      "base": true
+    },
+    "exportVehicleOilWearInst": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/singleVehicleAnalyed/exportVehicleOilWearInst",
+      "simulateUrl": "singleVehicleAnalyed/exportVehicleOilWearInst.json",
+      "base": true
+    },
+    "getPcEnergyConsumptionStatisticListXc": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/powerConsStats/getPowerConsStatsListXc",
+      "simulateUrl": "newenergy/getV2PcEnergyConsumptionStatisticList.json",
+      "base": true
+    },
+    "exportPcEnergyConsumptionStatisticListXc": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/powerConsStats/exportPowerConsStatsListXc",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "getChargingPileDetail": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/newenergy/getChargingPileDetail",
+      "simulateUrl": "energyPlusStation/getPcChargingPileDetail.json",
+      "base": true
+    },
+    "modifyChargingPile": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/newenergy/modifyChargingPile",
+      "simulateUrl": "energyPlusStation/getPcChargingPileList.json",
+      "base": true
+    },
+    "getEnergySubsidyStatList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energySubsidyReport/getEnergySubsidyStatList",
+      "simulateUrl": "energySubsidyReport/getEnergySubsidyStatList.json",
+      "base": true
+    },
+    "getForcastMileageList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energySubsidyReport/getForcastMileageList",
+      "simulateUrl": "energySubsidyReport/getForcastMileageList.json",
+      "base": true
+    },
+    "exportEnergySubsidyStatList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energySubsidyReport/exportEnergySubsidyStatList",
+      "simulateUrl": "energySubsidyReport/exportEnergySubsidyStatList.json",
+      "base": true
+    },
+    "uploadVehicleBaseInfo": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energySubsidyReport/uploadVehicleBaseInfo",
+      "simulateUrl": "energySubsidyReport/exportEnergySubsidyStatList.json",
+      "base": true
+    },
+    "getBranchCompanyList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energySubsidyReport/getBranchCompanyList",
+      "simulateUrl": "energySubsidyReport/getBranchCompanyList.json",
+      "base": true
+    },
+    "exportForcastMileageList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energySubsidyReport/exportForcastMileageList",
+      "simulateUrl": "energySubsidyReport/exportEnergySubsidyStatList.json",
+      "base": true
+    },
+    "getAirConsumptionStatList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/jwEnergy/getAirConsumptionStatList",
+      "simulateUrl": "jwEnergy/getAirConsumptionStatList.json",
+      "base": true
+    },
+    "exportAirConsumptionStatList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/jwEnergy/exportAirConsumptionStatList",
+      "simulateUrl": "jwEnergy/exportAirConsumptionStatList.json",
+      "base": true
+    },
+    "getElectricalAccessoriesAnalysisList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnyElectricalAccessories/getElectricalAccessoriesAnalysisList",
+      "simulateUrl": "jwEnergy/getElectricalAccessoriesAnalysisList.json",
+      "base": true
+    },
+    "exporElectricalAccessoriesAnalysis": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnyElectricalAccessories/exporElectricalAccessoriesAnalysis",
+      "simulateUrl": "jwEnergy/exporElectricalAccessoriesAnalysis.json",
+      "base": true
+    },
+    "getElectricalStateList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/electricAnalysis/getElectricalStateList",
+      "simulateUrl": "jwEnergy/getElectricalStateList.json",
+      "base": true
+    },
+    "exportElectricalStateList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/electricAnalysis/exportElectricalStateList",
+      "simulateUrl": "jwEnergy/exportElectricalStateList.json",
+      "base": true
+    },
+
+    "getGameRecodeList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/ytcupgamedata/getYtCupGameDataList",
+      "simulateUrl": "getGameRecodeList.json"
+    },
+    "getGameVehicleList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/ytcupvehicleinfo/getVehicleGroup",
+      "simulateUrl": "getGameVehicleList.json"
+    },
+    "saveYtCupGameData": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/ytcupgamedata/saveYtCupGameData",
+      "simulateUrl": "getGameRecodeList.json"
+    },
+    "modifyYtCupGameData": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/ytcupgamedata/updateYtCupGameData",
+      "simulateUrl": "getGameRecodeList.json"
+    },
+    "deleteYtCupGameData": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/ytcupgamedata/deleteYtCupGameData",
+      "simulateUrl": "getGameRecodeList.json"
+    },
+    "getDriverById": {
+      "method": "get",
+      "data": "*",
+      "url": "ecomodel/ytcupdriverinfo/getDriverById",
+      "simulateUrl": ""
+    },
+    "getGameSortRecodeList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/ytcupvehicleinfo/getGameSortRecodeList",
+      "simulateUrl": "record/getGameSortRecodeList.json"
+    },
+    "getLocusPointsInfo": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/ytcupvehicleinfo/getLocusPointsInfo",
+      "simulateUrl": "locus/getLocusPointsInfo.json"
+    },
+    "getHistoryDriverSummary": {
+      "method": "get",
+      "data": "*",
+      "url": "ecomodel/ytcupdriverinfo/getHistoryDriverSummary",
+      "simulateUrl": "getDriverSummary.json"
+    },
+    "getBadDriveTotalList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/ytcupvehicleinfo/getBadDriveTotalList",
+      "simulateUrl": "getBadDriveTotalList.json"
+    },
+    "getYtcupVehicleSpeedRotateSpeed": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/ytcupvehicleinfo/getVehicleSpeedRotateSpeed",
+      "simulateUrl": "getVehicleSpeedRotateSpeed.json"
+    },
+    "getYtcupMonitoringVehicleList": {
+      "method": "get",
+      "data": "*",
+      "url": "ecomodel/ytcupvehicleinfo/getVehicleMonitor",
+      "simulateUrl": "getVehicleMonitor.json"
+    },
+    "getYtcupBadDriveDetailList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/ytcupvehicleinfo/getBadDriveDetailList",
+      "simulateUrl": "getBadDriveDetailList.json"
+    },
+    "getBadDriveList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/ytcupvehicleinfo/getBadDriveList",
+      "simulateUrl": "getBadDriveList.json"
+    },
+    "getYtcupDriverSummary": {
+      "method": "get",
+      "data": "*",
+      "url": "ecomodel/ytcupdriverinfo/getDriverSummary",
+      "simulateUrl": "getDriverSummary.json"
+    },
+    "getYtcupVehiclePositionList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/ytcupvehicleinfo/getVehiclePositionList",
+      "simulateUrl": "getVehiclePositionList.json"
+    },
+    "getOilStatsByVehicleId": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/jwoilmass/getOilStatsByVehicleId",
+      "simulateUrl": ""
+    },
+    "getAirExceptionReminderParam": {
+      "method": "get",
+      "data": "*",
+      "url": "ecomodel/acCtrl/getAirExceptionReminderParam",
+      "simulateUrl": "../../../ecomodel/resource/data/ariConditionMonitor/getAirExceptionReminderParam.json"
+    },
+    "setAirExceptionReminderParam": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/acCtrl/setAirExceptionReminderParam",
+      "simulateUrl": "../../../ecomodel/resource/data/ariConditionMonitor/setAirExceptionReminderParam.json"
+    },
+    "resetAirExceptionReminderParam": {
+      "method": "get",
+      "data": "*",
+      "url": "ecomodel/acCtrl/resetAirExceptionReminderParam",
+      "simulateUrl": "../../../ecomodel/resource/data/ariConditionMonitor/resetAirExceptionReminderParam.json"
+    },
+    "getAirConditionInfo": {
+      "method": "get",
+      "params": "*",
+      "url": "ecomodel/acCtrl/getAirConditionInfo",
+      "simulateUrl": "../../../ecomodel/resource/data/ariConditionMonitor/getAirConditionInfo.json"
+    },
+    "getAcExceptionInfo": {
+      "method": "get",
+      "params": "*",
+      "url": "ecomodel/acCtrl/getAcExceptionInfo",
+      "simulateUrl": "../../../ecomodel/resource/data/ariConditionMonitor/getAcExceptionInfo.json"
+    },
+    "getAcMonitor": {
+      "method": "get",
+      "params": "*",
+      "url": "ecomodel/acCtrl/getAcMonitor",
+      "simulateUrl": "../../../ecomodel/resource/data/ariConditionMonitor/getAcMonitor.json"
+    },
+    "sendIssueAcMsg": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/acCtrl/sendIssueAcMsg",
+      "simulateUrl": "../../../ecomodel/resource/data/ariConditionMonitor/sendIssueAcMsg.json"
+    },
+
+
+
+    "setChargingPileConfigs": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/newenergy/setV2ChargingPileConfigs",
+      "simulateUrl": "energyPlusStation/setChargingPileConfigs.json",
+      "base": true
+    },
+    "getChargingPileConfigs": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/newenergy/getV2ChargingPileConfigs",
+      "simulateUrl": "energyPlusStation/getChargingPileConfigs.json",
+      "base": true
+    },
+    "getXnyBcPcPureElectricVehicleOprList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnyevehicle/getXnyPureElectricVehicleList",
+      "simulateUrl": "newenergy/getXnyBcPcPureElectricVehicleOprList.json",
+      "base": true
+    },
+    "exportXnyBcPcPureElectricVehicleOprList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnyevehicle/exportXnyPureElectricVehicleList",
+      "simulateUrl": "newenergy/getXnyBcPcPureElectricVehicleOprList.json",
+      "base": true
+    },
+    "getXnyBcPcVehicleNoOperationList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnyevehicle/getXnyVehicleNoOperationList",
+      "simulateUrl": "newenergy/getXnyBcPcPureElectricVehicleOprList.json",
+      "base": true
+    },
+
+    "exportXnyBcPcVehicleNoOperationList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnyevehicle/exportXnyVehicleNoOperationList",
+      "simulateUrl": "newenergy/getXnyBcPcPureElectricVehicleOprList.json",
+      "base": true
+    },
+    "getXnyBcPcVehicleTotalMileageReportList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnyVehicleCondition/getXnyBcPcVehicleTotalMileageReportList",
+      "simulateUrl": "newenergy/getXnyBcPcVehicleTotalMileageReportList.json",
+      "base": true
+    },
+    "exportXnyBcPcVehicleTotalMileageReportList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnyVehicleCondition/exportXnyBcPcVehicleTotalMileageReportList",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "getPcConsumptionList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energystatreport/getV2PcConsumptionList",
+      "simulateUrl": "consumption/getPcConsumptionList.json",
+      "base": true
+    },
+    "exportPcConsumptionList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energystatreport/exportV2PcConsumptionList",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "getPcDayEnergyConsStatisticList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/newenergy/getV2PcDayEnergyConsStatisticList",
+      "simulateUrl": "newenergy/getV2PcDayEnergyConsStatisticList.json",
+      "base": true
+    },
+    "exportPcDayEnergyConsStatisticList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/newenergy/exportV2PcDayEnergyConsStatisticList",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "getPcEnergySupplyDailyStatisticList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/powerPileOpsStats/getPowPileChargeDay",
+      "simulateUrl": "newenergy/getV2PcEnergySupplyDeviceRecordList.json",
+      "base": true
+    },
+    "exportPcEnergySupplyDailyStatisticList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/powerPileOpsStats/exportPowPileChargeDay",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "getPcOnBoardChargerList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/newenergy/getOnBoardChargerList",
+      "simulateUrl": "newenergy/getOnBoardChargerList.json",
+      "base": true
+    },
+    "exportPcOnBoardChargerList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/newenergy/exportOnBoardChargerList",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "getV2PowerReduceList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/powerreduce/getV2PowerReduceList",
+      "simulateUrl": "powerReduce/getV2PowerReduceList.json",
+      "base": true
+    },
+    "getVehicleChargingStatisticsList": {
+      "method": "post",
+      "url": "ecomodel/xnyVehicleChargingStatistics/getVehicleChargingStatisticsList",
+      "params": "*",
+      "simulateUrl": "newenergy/getVehicleChargingStatisticsList.json",
+      "base": true
+    },
+    "exportVehicleChargingStatisticsList": {
+      "method": "post",
+      "url": "ecomodel/xnyVehicleChargingStatistics/exportVehicleChargingStatisticsList",
+      "params": "*",
+      "simulateUrl": "newenergy/getVehicleChargingStatisticsList.json",
+      "base": true
+    },
+    "getEnergyPlusDeviceListPc": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyplusdevice/getEnergyPlusDeviceListShort",
+      "simulateUrl": "fs/getEnergyPlusDeviceListPc.json",
+      "base": true
+    },
+    "getEnergyPlusStatList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyplusstat/getEnergyPlusStatList",
+      "simulateUrl": "fs/getEnergyPlusStatList.json",
+      "base": true
+    },
+    "getEnergyPlusRecordList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyplusrecord/getEnergyPlusRecordList",
+      "simulateUrl": "fs/getEnergyPlusRecordList.json",
+      "base": true
+    },
+    "getPcEnergyConsumptionStatisticList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/newenergy/getV2PcEnergyConsumptionStatisticList",
+      "simulateUrl": "newenergy/getV2PcEnergyConsumptionStatisticList.json",
+      "base": true
+    },
+    "exportPcEnergyConsumptionStatisticList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/newenergy/exportV2PcEnergyConsumptionStatisticList",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "getOrgMonthEnergy": {
+      "method": "get",
+      "params": "*",
+      "url": "ecomodel/jwengreport/getOrgMonthEnergy",
+      "simulateUrl": "jwengreport/getOrgMonthEnergy.json"
+    },
+    "getOrgMonthOverEnergyList": {
+      "method": "get",
+      "params": "*",
+      "url": "ecomodel/jwengreport/getOrgMonthOverEnergyList",
+      "simulateUrl": "jwengreport/getOrgMonthOverEnergyList.json"
+    },
+    "getOrgMonthsEnergyList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/jwengreport/getOrgMonthsEnergyList",
+      "simulateUrl": "jwengreport/getOrgMonthsEnergyList.json"
+    },
+    "getVehicleComparisonList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/ecoboard/getVehicleComparisonList",
+      "simulateUrl": "ecoboard/getVehicleComparisonList.json"
+    },
+    "getEnergyOverview": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyDashbord/getEnergyOverview",
+      "simulateUrl": "ecoboard/getEnergyOverview.json"
+    },
+    "getOilTendency" :{
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyDashbord/getOilTendency",
+      "simulateUrl": "ecoboard/getOilTendency.json"
+    },
+    "getEnergyTendency" :{
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyDashbord/getEnergyTendency",
+      "simulateUrl": "ecoboard/getEnergyTendency.json"
+    },
+    "getEnergyTendency100km" :{
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyDashbord/getEnergyTendency100km",
+      "simulateUrl": "ecoboard/getEnergyTendency100km.json"
+    },
+    "getVehicleTypeDistribute" :{
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyDashbord/getVehicleTypeDistribute",
+      "simulateUrl": "ecoboard/getVehicleTypeDistribute.json"
+    },
+    "getVehiclePowerDistribute" :{
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyDashbord/getVehiclePowerDistribute",
+      "simulateUrl": "ecoboard/getVehiclePowerDistribute.json"
+    },
+    "getSaveRateRank" :{
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyDashbord/getSaveRateRank",
+      "simulateUrl": "ecoboard/getSaveRateRank.json"
+    },
+    "getOrgAndRouteAndPower" :{
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyDashbord/getOrgAndRouteAndPower",
+      "simulateUrl": "ecoboard/getOrgAndRouteAndPower.json"
+    },
+    "getVehicleEnergyRankList" :{
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyDashbord/getVehicleEnergyRankList",
+      "simulateUrl": "ecoboard/getVehicleEnergyRankList.json"
+    },
+    "getVehicleAbstract": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/saveEnergy/getVehicleAbstract",
+      "simulateUrl": "saveEnergy/getVehicleAbstract.json"
+    },
+    "getOrgEnergyAbstractList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/saveEnergy/getOrgEnergyAbstractList",
+      "simulateUrl": "saveEnergy/getOrgEnergyAbstractList.json"
+    },
+    "getVehicleOperateStat": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/saveEnergy/getEnergyAbstractList",
+      "simulateUrl": "saveEnergy/getEnergyAbstractList.json"
+    },
+    "getEnergyAbstractCompareList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/saveEnergy/getEnergyAbstractCompareList",
+      "simulateUrl": "saveEnergy/getEnergyAbstractList.json"
+    },
+    "getVehicleDriveBehaviorStat": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/saveEnergy/getDriveAnalysedsList",
+      "simulateUrl": "saveEnergy/getDriveAnalysedsList.json"
+    },
+    "getDriveAnalysedsCompareList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/saveEnergy/getDriveAnalysedsCompareList",
+      "simulateUrl": "saveEnergy/getDriverDriveAnalysedsList.json"
+    },
+    "getVehicleEnergyStat": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/saveEnergy/getEnergyRecordList",
+      "simulateUrl": "saveEnergy/getEnergyRecordList.json"
+    },
+    "getEnergyRecordCompareList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/saveEnergy/getEnergyRecordCompareList",
+      "simulateUrl": "saveEnergy/getEnergyRecordList.json"
+    },
+    "getEnergyConsumption100km": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/saveEnergy/getEnergyAnalysed100km",
+      "simulateUrl": "saveEnergy/getEnergyAnalysed100km.json"
+    },
+    "getBadDrivingBehaviorAnalysis": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/saveEnergy/getDriverDriveAnalysedsList",
+      "simulateUrl": "saveEnergy/getDriverDriveAnalysedsList.json"
+    },
+    "getVehicleSpeedAnalysis": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/saveEnergy/getSpeedAnalysedsList",
+      "simulateUrl": "saveEnergy/getSpeedAnalysedsList.json"
+    },
+    "getEngineRotateAnalysis": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/saveEnergy/getRpmAnalysedsList",
+      "simulateUrl": "saveEnergy/getRpmAnalysedsList.json"
+    },
+    "getSpeedRpmTorAnalyseds": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/saveEnergy/getSpeedRpmTorAnalyseds",
+      "simulateUrl": "saveEnergy/getSpeedRpmTorAnalyseds.json"
+    },
+    "getLineModelAnalysedsList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/saveEnergy/getLineModelAnalysedsList",
+      "simulateUrl": "saveEnergy/getLineModelAnalysedsList.json"
+    },
+    "getUserDefinedDashbord" :{
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyDashbord/getUserDefinedDashbord",
+      "simulateUrl": "ecoboard/getUserDefinedDashbord.json"
+    },
+    "saveUserDefinedDashbord" :{
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyDashbord/saveUserDefinedDashbord",
+      "simulateUrl": "ecoboard/saveUserDefinedDashbord.json"
+    },
+    "resetUserDefinedDashbord" :{
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyDashbord/resetUserDefinedDashbord",
+      "simulateUrl": "ecoboard/getUserDefinedDashbord.json"
+    },
+    "getQuickChangeBatteryList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnystata/getQuickChangeBatteryList",
+      "simulateUrl": "newenergy/getV2PcQuickChangeBatteryList.json"
+    },
+    "exportQuickChangeBatteryList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnystata/exportQuickChangeBatteryList",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "getBatteryOverviewList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnystata/getBatteryOverviewList",
+      "simulateUrl": "newenergy/getV2PcBatteryOverviewList.json",
+      "base": true
+    },
+    "exportBatteryOverviewList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnystata/exportBatteryOverviewList",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "getPcChargerBatteryList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnyChargerBattery/getChargerBatteryList",
+      "simulateUrl": "newenergy/getChargerBatteryList.json",
+      "base": true
+    },
+    "exportPcChargerBatteryList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/xnyChargerBattery/exportChargerBatteryList",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "fuelcellquery": {
+      "params": "*",
+      "method": "post",
+      "url": "ecomodel/fuelcell/fuelcellquery",
+      "simulateUrl": "fuelcell/fuelcellquery.json"
+    },
+    "exportfuelcellquery": {
+      "params": "*",
+      "method": "post",
+      "url": "ecomodel/fuelcell/exportfuelcellquery",
+      "simulateUrl": ""
+    },
+    "getEcomodelParamSetting" :{
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/jwenergyparam/getEcomodelParamSetting",
+      "simulateUrl": "ecoboard/getEcoParam.json"
+    },
+    "setEcomodelParamSetting" :{
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/jwenergyparam/setEcomodelParamSetting",
+      "simulateUrl": "ecoboard/setEcoParam.json"
+    },
+    "resetEcomodelParamSetting" :{
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/jwenergyparam/resetEcomodelParamSetting",
+      "simulateUrl": "ecoboard/setEcoParam.json"
+    },
+    "getEnergyPercent" :{
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyDashbord/getEnergyPercent",
+      "simulateUrl": "ecoboard/getEnergyPercent.json"
+    },
+    "getEnergyPlusRecordListShort": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyplusrecord/getEnergyPlusRecordListShort",
+      "simulateUrl": "fs/getEnergyPlusRecordListShort.json"
+    },
+    "getVehicleAbstractSum": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/{root}jwenergymonitor/getVehicleAbstractSum",
+      "simulateUrl": "jwenergymonitor/getVehicleAbstractSum.json"
+    },
+    "getEnergyPlusStationSummary": {
+      "params": "*",
+      "url": "ecomodel/energyplusstation/getEnergyPlusStationSummary",
+      "simulateUrl": "fs/getEnergyPlusStationSummary.json",
+      "base": true
+    },
+    "getXnyEnergyPlusDeviceListShort": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyplusdevice/getXnyEnergyPlusDeviceListShort",
+      "simulateUrl": "newenergy/getXnyEnergyPlusDeviceListShort.json",
+      "base": true
+    },
+    "getSavingRate": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/jwengdriver/getSavingRate",
+      "simulateUrl": "jwengdriver/getSavingRate.json"
+    },
+    "getEnergyDrivingMonthList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/jwengdriver/getEnergyDrivingMonthList",
+      "simulateUrl": "jwengdriver/getEnergyDrivingMonthList.json"
+    },
+    "getEnergyMonthList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/jwengdriver/getEnergyMonthList",
+      "simulateUrl": "jwengdriver/getEnergyMonthList.json"
+    },
+    "getKyPcEnergyConsumptionStatisticList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyConsumptionAnalysed/getEnergyConsAnalysedList",
+      "simulateUrl": "kc/getKyPcEnergyConsumptionStatisticList.json",
+      "base": true
+    },
+    "exportKyPcEnergyConsumptionStatisticList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/energyConsumptionAnalysed/exportEnergyConsAnalysedList",
+      "simulateUrl": "export/export.json",
+      "base": true
+    },
+    "getLastChargeSyncCompleteTime": {
+      "method": "post",
+      "url": "ecomodel/chargingApp/getLastSyncCompleteTime",
+      "data": "*",
+      "simulateUrl": "jwSyncData/getLastSyncCompleteTime.json"
+    },
+    "syncChargingDataBase": {
+      "method": "post",
+      "url": "ecomodel/chargingApp/syncChargingDataBase",
+      "data": "*",
+      "simulateUrl": "jwSyncData/syncDataToMichelin.json"
+    },
+    "getUserListInfo": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/ytcupdriverinfo/getDriverInfoList",
+      "simulateUrl": "getUserListInfo.json"
+    },
+    "deleteUser_ytcup": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/ytcupdriverinfo/deleteUser",
+      "simulateUrl": ""
+    },
+    "getLocusPcVehicleListInfo": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/ytcupvehicleinfo/getLocusPcVehicleListInfo",
+      "simulateUrl": "locus/getLocusPcVehicleListInfo.json"
+    },
+    "getUserDetailYtCup": {
+      "method": "get",
+      "data": "*",
+      "url": "ecomodel/ytcupdriverinfo/getDriverDetail",
+      "simulateUrl": "getUserDetailYtCup.json"
+    },
+    "addUser_ytcup": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/ytcupdriverinfo/addUser",
+      "simulateUrl": ""
+    },
+    "modifyUser_ytcup": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/ytcupdriverinfo/updateUser",
+      "simulateUrl": ""
+    },
+    "getVehicleDetailDayList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/jwenergymonitor/getVehicleDetailDayList",
+      "simulateUrl": "jwenergymonitor/getVehicleDetailDayList.json"
+    },
+    "exportSaveEnergyCompare": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/saveEnergy/exportSaveEnergyCompare",
+      "simulateUrl": "jwExport/export.json"
+    },
+    "exportCcPileInputValList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/newenergy/exportV2PcEnergySupplyInputValList",
+      "simulateUrl": "newenergy/getCcPileInfoList.json",
+      "base": true
+    },
+    "exportCcPilePowerValList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/newenergy/exportV2PcEnergySupplyPowerValList",
+      "simulateUrl": "newenergy/getCcPileInfoList.json",
+      "base": true
+    },
+    "exportCcPileOutputValList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/newenergy/exportV2PcEnergySupplyOutputValList",
+      "simulateUrl": "newenergy/getCcPileInfoList.json",
+      "base": true
+    },
+    "getEnergyChargeRecordList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/jwengrcd/getEnergyChargeRecordList",
+      "simulateUrl": "jwEnergy/getEnergyChargeRecordList.json",
+      "base": true
+    },
+    "exportEnergyChargeRecordList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/jwengrcd/exportEnergyChargeRecordList",
+      "simulateUrl": "jwExport/exportAirConsumptionStatList.json",
+      "base": true
+    },
+    "exportSaveEnergyPdf": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/saveEnergy/exportSaveEnergyPdf",
+      "simulateUrl": "jwExport/exportAirConsumptionStatList.json",
+      "base": true
+    },
+    "getProvinces": {
+      "method": "get",
+      "params": "*",
+      "url": "ecomodel/eCoolant/getProvinces",
+      "simulateUrl": "eCoolant/getProvinces.json"
+    },
+    "getEngineCoolantTempListDetail": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/eCoolant/getEngineCoolantTempListDetail",
+      "simulateUrl": "eCoolant/getEngineCoolantTempListDetail.json"
+    },
+    "getEngineCoolantTempChartData": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/eCoolant/getEngineCoolantTempChartData",
+      "simulateUrl": "eCoolant/getEngineCoolantTempChartData.json"
+    },
+    "getEngineCoolantTempList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/eCoolant/getEngineCoolantTempList",
+      "simulateUrl": "eCoolant/getEngineCoolantTempList.json"
+    },
+    "getEngineCoolantTempChartDataVin": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/eCoolant/getEngineCoolantTempChartDataVin",
+      "simulateUrl": "eCoolant/getEngineCoolantTempChartDataVin.json"
+    },
+    "getHistoryDrivingRecordList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/historyDrivingData/getHistoryDrivingData",
+      "simulateUrl": "historyDrivingData/getHistoryDrivingData.json"
+    },
+    "exportHistoryDrivingRecord": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/historyDrivingData/exportHistoryDrivingData",
+      "simulateUrl": "historyDrivingData/exportHistoryDrivingData.json"
+    },
+    "exportEngineCoolantTempListDetail": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/eCoolant/exportEngineCoolantTempListDetail",
+      "simulateUrl": "eCoolant/exportEngineCoolantTempListDetail.json"
+    },
+    "exportEngineCoolantTempList": {
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/eCoolant/exportEngineCoolantTempList",
+      "simulateUrl": "eCoolant/exportEngineCoolantTempList.json"
+    },
+    "getVehicleVinsViaMatch":{
+      "method": "post",
+      "data": "*",
+      "url": "ecomodel/eCoolant/getVehicleVinsViaMatch",
+      "simulateUrl": "eCoolant/getVehicleVinsViaMatch.json"
+    },
+    "getDrivingDayList":{
+      "method": "post",
+      "params": "*",
+      "url":"jwengdriver/getDrivingDayList",
+      "simulateUrl": "jwengdriver/getDrivingDayList.json"
+    },
+    "getEnergyProjectSumList":{
+      "method":"post",
+      "data":"*",
+      "url":"jwenergymonitor/getProjectSumList"
+    },
+    "getEnergyProjectDayList":{
+      "method":"post",
+      "data":"*",
+      "url":"jwenergymonitor/getProjectDayList"
+    },
+    "getEnergyProjectMonthList":{
+      "method":"post",
+      "data":"*",
+      "url":"jwenergymonitor/getProjectMonthList"
+    },
+    "remoteControlAc":{
+      "method":"post",
+      "data":"*",
+      "url":"acCtrl/remoteControlAc"
+    }
+  }
+}

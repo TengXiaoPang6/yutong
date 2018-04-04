@@ -1,0 +1,32 @@
+@import "common/var";
+
+.el-line{
+    padding:0;
+    width:100%;
+    height:0;
+    border-width:0 0 1px 0;
+    border-style:solid;
+    border-color:$--line-color-class1;
+    margin:10px 0;
+}
+
+
+.el-line-line2{
+    border-color:$--line-color-class2;
+}
+
+.el-line-line3{
+    border-color:$--line-color-class3;
+}
+
+.el-line-dashed{
+    border-color: $--line-color-dashed;
+    border-style:dashed;
+}
+
+.el-line-vertical{
+    width:0;
+    height:100%;
+    border-width:0 1px 0 0;
+    margin:0 10px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="renderer" content="webkit">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>新能源监控系统</title>
+    <% if ( process.env.NODE_ENV == 'production' ) { %>
+    <!--dev环境在main.js中引入-->
+    <link rel="stylesheet" href=<%= htmlWebpackPlugin.options.path %>/theme/default/base.min.css>
+    <link rel="stylesheet" name="theme-base" href="">
+    <link rel="stylesheet" href=<%= htmlWebpackPlugin.options.path %>/theme/default/main.min.css>
+    <link rel="stylesheet" name="theme-main" href="">
+    <% } %>
+	</head>
+  <script src="https://webapi.amap.com/maps?v=1.4.5&key=aa55ad99d81d9a2160e63397c220fa48"></script>
+  <!--third party lib here-->
+	<body>
+		<div id="app"></div>
+		<!-- built files will be auto injected -->
+	</body>
+</html>

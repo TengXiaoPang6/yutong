@@ -1,0 +1,2064 @@
+{
+    "product": "predo",
+    "path": "resource/data/",
+    "api": {
+        "getMaterialWBillList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwMaterialWBill/getMaterialWBillList",
+            "simulateUrl": "jwMaterialWBill/getMaterialBillList.json"
+        },
+        "getMaterialBillList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwMaterialInfo/getMaterialBillList",
+            "simulateUrl": "jwMaterialBill/getMaterialBillList.json",
+            "base": true
+        },
+        "exportPcMaterialWBillList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwMaterialWBill/exportPcMaterialWBillList",
+            "simulateUrl": "jwMaterialWBill/exportPcMaterialWBillList.json"
+        },
+        "setWbillStatus": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwMaterialWBill/setWbillStatus",
+            "simulateUrl": "Jwscheme/addSchemeLevel.json"
+        },
+        "addMaterialWBill": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwMaterialWBill/addMaterialWBill",
+            "simulateUrl": "Jwscheme/addSchemeLevel.json"
+        },
+        "modifyMaterialWBill": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwMaterialWBill/modifyMaterialWBill",
+            "simulateUrl": "Jwscheme/addSchemeLevel.json"
+        },
+        "getVehicleDisPlayName": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwMaterialWBill/getVehicleDisPlayName",
+            "simulateUrl": "vehicleInfoFile/getVehicleRepairRecord.json"
+        },
+        "getMaterialWbillInfo": {
+            "method": "get",
+            "param": "*",
+            "url": "predo/jwMaterialWBill/getMaterialWbillInfo",
+            "simulateUrl": "jwMaterialWBill/getMaterialWbillInfo.json"
+        },
+        "getWbillBaseInfo": {
+            "method": "get",
+            "param": "*",
+            "url": "predo/jwMaterialWBill/getWbillBaseInfo",
+            "simulateUrl": "jwMaterialWBill/getWbillBaseInfo.json"
+        },
+        "getOrgWxRecordList": {
+            "method": "post",
+            "url": "predo/jwrepairrecord/getOrgWxRecordList",
+            "data": "*",
+            "simulateUrl": "jwrepairrecord/getOrgWxRecordList.json"
+        },
+        "getFactoryWxRecordList": {
+            "method": "post",
+            "url": "predo/jwrepairrecord/getFactoryWxRecordList",
+            "data": "*",
+            "simulateUrl": "jwrepairrecord/getFactoryWxRecordList.json"
+        },
+        "getWxWbTypeInRepairRecord": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwparamset/getWxWbType",
+            "simulateUrl": "jwrepairrecord/getWxWbType.json"
+        },
+        "exportMaterialBillList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwMaterialInfo/exportMaterialBillList",
+            "simulateUrl": "jwMaterialBill/exportMaterialBillList.json",
+            "base": true
+        },
+        "getFactoryByEnt": {
+            "method": "post",
+            "url": "predo/jwfactoryinfo/getFactoryByEnt",
+            "params": "*",
+            "simulateUrl": "jwfactoryinfo/getFactoryByEnt.json"
+        },
+        "getFactoryByEntByUser": {
+            "method": "post",
+            "url": "predo/jwfactoryinfo/getFactoryByEntByUser",
+            "params": "*",
+            "simulateUrl": "jwfactoryinfo/getFactoryByEntByUser.json"
+        },
+        "getAgainRepairInfo": {
+            "method": "get",
+            "url": "predo/jwrepairrecord/getAgainRepairInfo",
+            "params": "*",
+            "simulateUrl": "jwrepairrecord/getAgainRepairInfo.json"
+        },
+        "getRepairContentListFour": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwReportForms/getRepairContentListFour",
+            "simulateUrl": "jwReportForms/getRepairContentListFour.json"
+        },
+        "getRepairContentList": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwReportForms/getRepairContentList",
+            "simulateUrl": "jwReportForms/getRepairContentList.json"
+        },
+        "getWxStatParam": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwparamset/getWxStatParam",
+            "simulateUrl": "jwparamset/getWxStatParam.json"
+        },
+        "getRepairConfigStopCause": {
+            "method": "get",
+            "url": "predo/jwRepairParamInfo/getRepairConfigStopCause",
+            "params": "*",
+            "simulateUrl": "jwRepairParamInfo/getRepairConfigStopCause.json"
+        },
+        "setVehicleStop": {
+            "method": "post",
+            "url": "predo/jwrepairrecord/setVehicleStop",
+            "data": "*",
+            "simulateUrl": "jwrepairrecord/setVehicleStop.json"
+        },
+        "setRepairLiability": {
+            "method": "get",
+            "url": "predo/jwrepairrecord/setRepairLiability",
+            "params": "*",
+            "simulateUrl": "jwRepairView/getOrgfaultTypeStat.json"
+        },
+        "getMaterialList": {
+            "method": "get",
+            "url": "predo/jwrepairrecord/getMaterialList",
+            "params": "*",
+            "simulateUrl": "jwrepairrecord/getMaterialList.json"
+        },
+        "getVehicleStop": {
+            "method": "get",
+            "url": "predo/jwrepairrecord/getVehicleStop",
+            "params": "*",
+            "simulateUrl": "jwrepairrecord/getVehicleStop.json"
+        },
+        "getRepairDutyFlag": {
+            "method": "get",
+            "url": "predo/jwrepairrecord/getRepairDutyFlag",
+            "params": "*",
+            "simulateUrl": "jwrepairrecord/getRepairDutyFlag.json"
+        },
+        "getVehicleIdByVehicleLike": {
+            "method": "get",
+            "url": "predo/jwrepairplan/getVehicleIdByVehicleLike",
+            "params": "*",
+            "simulateUrl": "jwrepairplan/getVehicleIdByVehicleLike.json"
+        },
+        "getFactoryById": {
+            "method": "get",
+            "url": "predo/jwfactoryinfo/getFactoryById",
+            "params": "*",
+            "simulateUrl": "jwfactoryinfo/getFactoryBaseInfoList.json"
+        },
+        "exportOrgWxRecordList": {
+            "method": "post",
+            "url": "predo/jwrepairrecord/exportOrgWxRecordList",
+            "data": "*",
+            "simulateUrl": "jwRepairView/getOrgfaultTypeStat.json"
+        },
+        "exportFactoryWxRecordList": {
+            "method": "post",
+            "url": "predo/jwrepairrecord/exportFactoryWxRecordList",
+            "data": "*",
+            "simulateUrl": "jwRepairView/getOrgfaultTypeStat.json"
+        },
+        "getFactoryRepairStat": {
+            "method": "post",
+            "url": "predo/jwRepairView/getFactoryRepairStat",
+            "data": "*",
+            "simulateUrl": "jwRepairView/getFactoryRepairStat.json"
+        },
+        "getFactoryQuaRateStat": {
+            "method": "post",
+            "url": "predo/jwRepairView/getFactoryQuaRateStat",
+            "data": "*",
+            "simulateUrl": "jwRepairView/getFactoryQuaRateStat.json"
+        },
+        "getFactoryMaterialCostStat": {
+            "method": "post",
+            "url": "predo/jwRepairView/getFactoryMaterialCostStat",
+            "data": "*",
+            "simulateUrl": "jwRepairView/getFactoryMaterialCostStat.json"
+        },
+        "getFactoryRepairView": {
+            "method": "post",
+            "url": "predo/jwRepairView/getFactoryRepairView",
+            "data": "*",
+            "simulateUrl": "jwRepairView/getFactoryRepairView.json"
+        },
+        "getWxRecordList": {
+            "method": "post",
+            "url": "predo/jwRepairView/getWxRecordList",
+            "data": "*",
+            "simulateUrl": "jwrepairrecord/getOrgWxRecordList.json"
+        },
+        "getWxRepairDelayList": {
+            "method": "post",
+            "url": "predo/jwRepairView/getWxRepairDelayList",
+            "data": "*",
+            "simulateUrl": "jwrepairrecord/getOrgWxRecordList.json"
+        },
+        "getWxRepairStopList": {
+            "method": "post",
+            "url": "predo/jwRepairView/getWxRepairStopList",
+            "data": "*",
+            "simulateUrl": "jwrepairrecord/getOrgWxRecordList.json"
+        },
+        "getOrgRepairStat": {
+            "method": "post",
+            "url": "predo/jwRepairView/getOrgRepairStat",
+            "data": "*",
+            "simulateUrl": "jwRepairView/getOrgRepairStat.json"
+        },
+        "getOrgRepairVehicleList": {
+            "method": "post",
+            "url": "predo/jwRepairView/getOrgRepairVehicleList",
+            "data": "*",
+            "simulateUrl": "jwRepairView/getOrgRepairVehicleList.json"
+        },
+        "getOrgQuaRateStat": {
+            "method": "post",
+            "url": "predo/jwRepairView/getOrgQuaRateStat",
+            "data": "*",
+            "simulateUrl": "jwRepairView/getOrgQuaRateStat.json"
+        },
+        "getOrgMaterialCostStat": {
+            "method": "post",
+            "url": "predo/jwRepairView/getOrgMaterialCostStat",
+            "data": "*",
+            "simulateUrl": "jwRepairView/getOrgMaterialCostStat.json"
+        },
+        "getOrgFaultReportRate": {
+            "method": "post",
+            "url": "predo/jwRepairView/getOrgFaultReportRate",
+            "data": "*",
+            "simulateUrl": "jwRepairView/getOrgFaultReportRate.json"
+        },
+        "getOrgfaultTypeStat": {
+            "method": "post",
+            "url": "predo/jwRepairView/getOrgfaultTypeStat",
+            "data": "*",
+            "simulateUrl": "jwRepairView/getOrgfaultTypeStat.json"
+        },
+        "getRepairForecastList": {
+            "method": "post",
+            "url": "predo/jwrepairplan/getRepairForecastList",
+            "data": "*",
+            "simulateUrl": "jwrepairplan/getRepairForecastList.json"
+        },
+        "addRepairForecastOtherVehicle": {
+            "method": "post",
+            "url": "predo/jwrepairplan/addRepairForecastOtherVehicle",
+            "data": "*",
+            "simulateUrl": "jwrepairplan/addRepairForecastOtherVehicle.json"
+        },
+        "addRepairPlan": {
+            "method": "post",
+            "url": "predo/jwrepairplan/addRepairPlan",
+            "data": "*",
+            "simulateUrl": "jwrepairplan/addRepairPlan.json"
+        },
+        "getRepairTypeByVehicleId": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwrepairplan/getRepairTypeByVehicleId",
+            "simulateUrl": "jwfactoryinfo/getEntRepairTypeList.json"
+        },
+        "addRepairPlanOtherVehicle": {
+            "method": "post",
+            "url": "predo/jwrepairplan/addRepairPlanOtherVehicle",
+            "data": "*",
+            "simulateUrl": "jwrepairplan/addRepairPlanOtherVehicle.json"
+        },
+        "issueRepairPlanTask": {
+            "method": "post",
+            "url": "predo/jwrepairplan/issueRepairPlanTask",
+            "data": "*",
+            "simulateUrl": "jwrepairplan/issueRepairPlanTask.json"
+        },
+        "deleteRepairPlan": {
+            "method": "post",
+            "url": "predo/jwrepairplan/deleteRepairPlan",
+            "data": "*",
+            "simulateUrl": "jwrepairplan/deleteRepairPlan.json"
+        },
+        "getEntRepairTaskTime": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwrepairplan/getEntRepairTaskTime",
+            "simulateUrl": "jwrepairplan/getEntRepairTaskTime.json"
+        },
+        "getRepairTaskList": {
+            "method": "post",
+            "url": "predo/jwrepairplan/getRepairTaskList",
+            "data": "*",
+            "simulateUrl": "jwrepairplan/getRepairTaskList.json"
+        },
+        "cancelRepairTask": {
+            "method": "get",
+            "url": "predo/jwrepairplan/cancelRepairTask",
+            "data": "*",
+            "simulateUrl": "jwrepairplan/cancelRepairTask.json"
+        },
+        "getFactoryList": {
+            "method": "post",
+            "url": "predo/jwfactoryinfo/getFactoryList",
+            "data": "*",
+            "simulateUrl": "jwfactoryinfo/getFactoryList.json"
+        },
+        "deleteFactory": {
+            "method": "get",
+            "url": "predo/jwfactoryinfo/deleteFactory",
+            "params": "*",
+            "simulateUrl": "jwfactoryinfo/deleteFactory.json"
+        },
+        "getSchemeLevelList": {
+            "method": "get",
+            "url": "predo/jwschemeinfo/getSchemeLevelList",
+            "params": "*",
+            "simulateUrl": "Jwscheme/getSchemeLevelList.json"
+        },
+        "addFactory": {
+            "method": "post",
+            "url": "predo/jwfactoryinfo/addFactory",
+            "data": "*",
+            "simulateUrl": "jwfactoryinfo/addFactory.json"
+        },
+        "updateFactory": {
+            "method": "post",
+            "url": "predo/jwfactoryinfo/updateFactory",
+            "data": "*",
+            "simulateUrl": "jwfactoryinfo/updateFactory.json"
+        },
+        "getRepairMachineParam": {
+            "method": "get",
+            "url": "predo/jwRepairParamInfo/getRepairMachineParam",
+            "params": "*",
+            "simulateUrl": "jwRepairParam/getRepairMachineParam.json"
+        },
+        "setRepairMachineParam": {
+            "method": "post",
+            "url": "predo/jwRepairParamInfo/setRepairMachineParam",
+            "data": "*",
+            "simulateUrl": "jwRepairParam/addRepairParam.json"
+        },
+        "resetRepairMachineParam": {
+            "method": "get",
+            "url": "predo/jwRepairParamInfo/resetRepairMachineParam",
+            "params": "*",
+            "simulateUrl": "jwRepairParam/addRepairParam.json"
+        },
+        "getRepairMachineConfList": {
+            "method": "post",
+            "url": "predo/jwRepairParamInfo/getRepairMachineConfList",
+            "data": "*",
+            "simulateUrl": "jwRepairParam/getRepairMachineConfList.json"
+        },
+        "addRepairMachineConf": {
+            "method": "post",
+            "url": "predo/jwRepairParamInfo/addRepairMachineConf",
+            "data": "*",
+            "simulateUrl": "jwRepairParam/addRepairParam.json"
+        },
+        "updateRepairMachineConf": {
+            "method": "post",
+            "url": "predo/jwRepairParamInfo/updateRepairMachineConf",
+            "data": "*",
+            "simulateUrl": "jwRepairParam/addRepairParam.json"
+        },
+        "deleteRepairMachineConf": {
+            "method": "post",
+            "url": "predo/jwRepairParamInfo/deleteRepairMachineConf",
+            "data": "*",
+            "simulateUrl": "jwRepairParam/addRepairParam.json"
+        },
+        "resetRepairMachineConf": {
+            "method": "get",
+            "url": "predo/jwRepairParamInfo/resetRepairMachineConf",
+            "params": "*",
+            "simulateUrl": "jwRepairParam/addRepairParam.json"
+        },
+        "getFaultLevelList": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwfaultconfig/getFaultLevelList",
+            "simulateUrl": "jwfaultinfo/getFaultLevelList.json"
+        },
+        "getFaultTree": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwfaultconfig/getFaultTree",
+            "simulateUrl": "jwfaultinfo/getFaultTree.json"
+        },
+        "getFaultDetail": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwfaultconfig/getFaultDetail",
+            "simulateUrl": "jwfaultinfo/getFaultDetail.json"
+        },
+        "addFault": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwfaultconfig/addFault",
+            "simulateUrl": "jwfaultinfo/addFault.json"
+        },
+        "updateFault": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwfaultconfig/updateFault",
+            "simulateUrl": "jwfaultinfo/updateFault.json"
+        },
+        "deleteFault": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwfaultconfig/deleteFault",
+            "simulateUrl": "jwfaultinfo/deleteFault.json"
+        },
+        "resetFault": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwfaultconfig/resetFault",
+            "simulateUrl": "jwfaultinfo/resetFault.json"
+        },
+        "getActionTree": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwactioninfo/getActionTree",
+            "simulateUrl": "jwaction/getActionTree.json"
+        },
+        "getActionDetail": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwactioninfo/getActionDetail",
+            "simulateUrl": "jwaction/getActionDetail.json"
+        },
+        "addAction": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwactioninfo/addAction",
+            "simulateUrl": "jwaction/addAction.json"
+        },
+        "updateAction": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwactioninfo/updateAction",
+            "simulateUrl": "jwaction/updateAction.json"
+        },
+        "deleteAction": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwactioninfo/deleteAction",
+            "simulateUrl": "jwaction/deleteAction.json"
+        },
+        "resetAction": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwactioninfo/resetAction",
+            "simulateUrl": "jwaction/resetAction.json"
+        },
+        "getEntSchemeList": {
+            "method": "get",
+            "url": "predo/jwschemeinfo/getEntSchemeList",
+            "params": "*",
+            "simulateUrl": "Jwscheme/getEntSchemeList.json"
+        },
+        "getSchemeActionList": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwactioninfo/getSchemeActionList",
+            "simulateUrl": "jwaction/getSchemeActionList.json"
+        },
+        "getActionTmpltList": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwactioninfo/getActionTmpltList",
+            "simulateUrl": "jwaction/getActionTmpltList.json"
+        },
+        "addActionTmplt": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwactioninfo/addActionTmplt",
+            "simulateUrl": "jwaction/addActionTmplt.json"
+        },
+        "deleteActionTmplt": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwactioninfo/deleteActionTmplt",
+            "simulateUrl": "jwaction/deleteActionTmplt.json"
+        },
+        "getTmpltActionList": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwactioninfo/getTmpltActionList",
+            "simulateUrl": "jwaction/getTmpltActionList.json"
+        },
+        "updateActionTmplt": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwactioninfo/updateActionTmplt",
+            "simulateUrl": "jwaction/updateActionTmplt.json"
+        },
+        "updateSchemeAction": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwactioninfo/updateSchemeAction",
+            "simulateUrl": "jwaction/updateSchemeAction.json"
+        },
+        "deleteSchemeAction": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwactioninfo/deleteSchemeAction",
+            "simulateUrl": "jwaction/deleteSchemeAction.json"
+        },
+        "getWxWbType": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwparamset/getWxWbType",
+            "simulateUrl": "jwparamset/getWxWbType.json"
+        },
+        "updateWxStatParam": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwparamset/updateWxStatParam",
+            "simulateUrl": "jwparamset/updateWxStatParam.json"
+        },
+        "resetWxPlanParam": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwparamset/resetWxPlanParam",
+            "simulateUrl": "jwparamset/resetWxPlanParam.json"
+        },
+        "getWxPlanParamList": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwparamset/getWxPlanParamList",
+            "simulateUrl": "jwparamset/getWxPlanParamList.json"
+        },
+        "updateWxPlanParam": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwparamset/updateWxPlanParam",
+            "simulateUrl": "jwparamset/updateWxPlanParam.json"
+        },
+        "addEntRepairType": {
+            "method": "post",
+            "url": "predo/jwrepairtype/addEntRepairType",
+            "data": "*",
+            "simulateUrl": "jwRouteEnv/getRouteEnvList.json"
+        },
+        "deleteEntRepairType": {
+            "url": "predo/jwrepairtype/deleteEntRepairType",
+            "params": "*",
+            "simulateUrl": "jwRouteEnv/getRouteEnvList.json"
+        },
+        "resetEntRepairType": {
+            "url": "predo/jwrepairtype/resetEntRepairType",
+            "params": "*",
+            "simulateUrl": "jwRouteEnv/getRouteEnvList.json"
+        },
+        "batchUpdateEntRepairType": {
+            "method": "post",
+            "url": "predo/jwrepairtype/batchUpdateEntRepairType",
+            "data": "*",
+            "simulateUrl": "jwRouteEnv/getRouteEnvList.json"
+        },
+        "editSchemeLevel": {
+            "method": "post",
+            "url": "predo/jwschemeinfo/editSchemeLevel",
+            "data": "*",
+            "simulateUrl": "Jwscheme/addSchemeLevel.json"
+        },
+        "resetSchemeLevel": {
+            "method": "get",
+            "url": "predo/jwschemeinfo/resetSchemeLevel",
+            "params": "*",
+            "simulateUrl": "Jwscheme/addSchemeLevel.json"
+        },
+        "isUsingSchemeLevel": {
+            "method": "get",
+            "url": "predo/jwschemeinfo/isUsingSchemeLevel",
+            "params": "*",
+            "simulateUrl": "Jwscheme/isUsingSchemeLevel.json"
+        },
+        "getEntSchemeDetail": {
+            "method": "get",
+            "url": "predo/jwschemeinfo/getEntSchemeDetail",
+            "params": "*",
+            "simulateUrl": "Jwscheme/getEntSchemeDetail.json"
+        },
+        "deleteEntScheme": {
+            "method": "get",
+            "url": "predo/jwschemeinfo/deleteEntScheme",
+            "params": "*",
+            "simulateUrl": "Jwscheme/addSchemeLevel.json"
+        },
+        "updateEntScheme": {
+            "method": "post",
+            "url": "predo/jwschemeinfo/updateEntScheme",
+            "data": "*",
+            "simulateUrl": "Jwscheme/addSchemeLevel.json"
+        },
+        "addEntScheme": {
+            "method": "post",
+            "url": "predo/jwschemeinfo/addEntScheme",
+            "data": "*",
+            "simulateUrl": "Jwscheme/addSchemeLevel.json"
+        },
+        "getSchemeIsUsingFlag": {
+            "method": "get",
+            "url": "predo/jwschemeinfo/getSchemeIsUsingFlag",
+            "params": "*",
+            "simulateUrl": "Jwscheme/getSchemeIsUsingFlag.json"
+        },
+        "getFactoryCalendar": {
+            "method": "post",
+            "url": "predo/jwfactoryinfo/getFactoryCalendar",
+            "data": "*",
+            "simulateUrl": "jwfactoryinfo/getFactoryCalendar.json"
+        },
+        "getFactoryBaseInfoList": {
+            "method": "get",
+            "url": "predo/jwfactoryinfo/getFactoryBaseInfoList",
+            "params": "*",
+            "simulateUrl": "jwfactoryinfo/getFactoryBaseInfoList.json"
+        },
+        "addFactoryCalendar": {
+            "method": "post",
+            "url": "predo/jwfactoryinfo/addFactoryCalendar",
+            "data": "*",
+            "simulateUrl": "jwfactoryinfo/addFactoryCalendar.json"
+        },
+        "resetEntHoliday": {
+            "method": "post",
+            "url": "predo/jwfactoryinfo/deleteEntFactoryCalendar",
+            "data": "*",
+            "simulateUrl": "jwfactoryinfo/deleteEntFactoryCalendar.json"
+        },
+        "getPeriodInfo": {
+            "method": "get",
+            "url": "predo/jwperiodinfo/getPeriodInfo",
+            "params": "*",
+            "simulateUrl": "jwPeriod/getPeriodInfo.json"
+        },
+        "addPeriodInfo": {
+            "method": "post",
+            "url": "predo/jwperiodinfo/addPeriodInfo",
+            "data": "*",
+            "simulateUrl": "Jwscheme/addSchemeLevel.json"
+        },
+        "delPeriodInfo": {
+            "method": "post",
+            "url": "predo/jwperiodinfo/delPeriodInfo",
+            "data": "*",
+            "simulateUrl": "Jwscheme/delPeriodInfo.json"
+        },
+        "getScheduleParamInfo": {
+            "method": "get",
+            "url": "predo/jwScheduleParaminfo/getScheduleParamInfo",
+            "params": "*",
+            "simulateUrl": "jwParam/getParamInfo.json"
+        },
+        "setScheduleParam": {
+            "method": "post",
+            "url": "predo/jwScheduleParaminfo/setScheduleParam",
+            "data": "*",
+            "simulateUrl": "Jwscheme/addSchemeLevel.json"
+        },
+        "resetScheduleParam": {
+            "method": "get",
+            "url": "predo/jwScheduleParaminfo/resetScheduleParam",
+            "params": "*",
+            "simulateUrl": "Jwscheme/addSchemeLevel.json"
+        },
+        "getDayOrgRepairStat": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwDashbordInfo/getDayOrgRepairStat",
+            "simulateUrl": "jwDashbordInfo/getOrgRepairStat.json"
+        },
+        "getRepairInfoStat": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwDashbordInfo/getRepairInfoStat",
+            "simulateUrl": "jwDashbordInfo/getRepairInfoStat.json"
+        },
+        "getRepairRecordStat": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwDashbordInfo/getRepairRecordStat",
+            "simulateUrl": "jwDashbordInfo/getRepairRecordStat.json"
+        },
+        "getDayDashbordWxRecordList": {
+            "method": "post",
+            "url": "predo/jwDashbordInfo/getDayDashbordWxRecordList",
+            "data": "*",
+            "simulateUrl": "jwrepairrecord/getFactoryWxRecordList.json"
+        },
+        "getFactoryWorkTimeByOrgId": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwDashbordInfo/getFactoryWorkTimeByOrgId",
+            "simulateUrl": "jwDashbordInfo/getFactoryWorkTimeByOrgId.json"
+        },
+        "getQuaStat": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwDashbordInfo/getQuaStat",
+            "simulateUrl": "jwDashbordInfo/getQuaStat.json"
+        },
+        "getMaterialBillStat": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwDashbordInfo/getMaterialBillStat",
+            "simulateUrl": "jwDashbordInfo/getMaterialBillStat.json"
+        },
+        "getFaultMonthDashboardStat": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwfaultstat/getFaultMonthDashboardStat",
+            "simulateUrl": "jwfaultmonitor/getFaultMonthDashboardStat.json"
+        },
+        "getExceptionMaterialStat": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwDashbordInfo/getExceptionMaterialStat",
+            "simulateUrl": "jwDashbordInfo/getExceptionMaterialStat.json"
+        },
+        "getMechanicWorkloadList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwReportForms/getMechanicWorkloadList",
+            "simulateUrl": "jwReportForms/getMechanicWorkloadList.json"
+        },
+        "getAvgMechanicWorkload": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwReportForms/getAvgMechanicWorkload",
+            "simulateUrl": "jwReportForms/getAvgMechanicWorkload.json"
+        },
+        "exportMechanicWorkloadList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwReportForms/exportMechanicWorkloadList",
+            "simulateUrl": "jwReportForms/exportMechanicWorkloadList.json"
+        },
+        "getMostFailure": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwReportForms/getMostFailure",
+            "simulateUrl": "jwReportForms/getMostFailure.json"
+        },
+        "getFaultIdCountRank": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwReportForms/getFaultIdCountRank",
+            "simulateUrl": "jwReportForms/getFaultIdCountRank.json"
+        },
+        "getFaultStatisticsList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwReportForms/getFaultStatisticsList",
+            "simulateUrl": "jwReportForms/getFaultStatisticsList.json"
+        },
+        "exportFaultStatisticsList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwReportForms/exportFaultStatisticsList",
+            "simulateUrl": "jwReportForms/exportFaultStatisticsList.json"
+        },
+        "getRepairAccuracyStatisticsList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwReportForms/getRepairAccuracyStatisticsList",
+            "simulateUrl": "jwReportForms/getRepairAccuracyStatisticsList.json"
+        },
+        "exportRepairAccuracyStatisticsList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwReportForms/exportRepairAccuracyStatisticsList",
+            "simulateUrl": "jwReportForms/exportRepairAccuracyStatisticsList.json"
+        },
+        "getAnnualInspeWarningStatisticsList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwReportForms/getAnnualInspeWarningStatisticsList",
+            "simulateUrl": "jwReportForms/getAnnualInspeWarningStatisticsList.json"
+        },
+        "exportAnnualInspeWarningStatisticsList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwReportForms/exportAnnualInspeWarningStatisticsList",
+            "simulateUrl": "jwReportForms/exportAnnualInspeWarningStatisticsList.json"
+        },
+        "getOrgPlanRepairList": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwReportForms/getOrgPlanRepairList",
+            "simulateUrl": "jwReportForms/getOrgPlanRepairList.json"
+        },
+        "getOrgAndFactoryList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwReportForms/getOrgAndFactoryList",
+            "simulateUrl": "jwReportForms/getOrgAndFactoryList.json"
+        },
+        "getOrgReadinessRateList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwReportForms/getOrgReadinessRateList",
+            "simulateUrl": "jwReportForms/getOrgReadinessRateList.json"
+        },
+        "exportOrgReadinessRateList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwReportForms/exportOrgReadinessRateList",
+            "simulateUrl": "jwReportForms/exportOrgReadinessRateList.json"
+        },
+        "getDriverMaterialCostList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwReportForms/getDriverMaterialCostList",
+            "simulateUrl": "jwReportForms/getDriverMaterialCostList.json"
+        },
+        "exportDriverMaterialCostList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwReportForms/exportDriverMaterialCostList",
+            "simulateUrl": "jwReportForms/exportDriverMaterialCostList.json"
+        },
+        "getEntOverviewInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwsupervisorycontrol/getEntOverviewInfo",
+            "simulateUrl": "jwsupervisorycontrol/getEntOverviewInfo.json"
+        },
+        "getOverviewInfoList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwsupervisorycontrol/getOverviewInfoList",
+            "simulateUrl": "jwsupervisorycontrol/getOverviewInfoList.json"
+        },
+        "getOrgVehicleInspectionList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwfaultstat/getOrgVehicleInspectionList",
+            "simulateUrl": "jwfaultstat/getOrgVehicleInspectionList.json"
+        },
+        "getMonitorRoomRepairRecordList": {
+            "method": "post",
+            "url": "predo/jwsupervisorycontrol/getMonitorRoomRepairRecordList",
+            "data": "*",
+            "simulateUrl": "jwrepairrecord/getFactoryWxRecordList.json"
+        },
+        "getPcRepairStatList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/repairstat/getV2RepairStatList",
+            "simulateUrl": "gd/getPcRepairStatList.json",
+            "base": true
+        },
+        "getPcRepairOrderList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/repairorder/getV2RepairOrderList",
+            "simulateUrl": "gd/getPcRepairOrderList.json",
+            "base": true
+        },
+        "getVehicleMtInfoList": {
+            "method": "post",
+            "url": "predo/jwwbvehicleinfo/getVehicleMtInfoList",
+            "data": "*",
+            "simulateUrl": "jwengrcd/getVehicleMtInfoList.json"
+        },
+        "updateVehicleMtInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwwbvehicleinfo/updateVehicleMtInfo",
+            "simulateUrl": "jwengrcd/updateVehicleMtInfo.json"
+        },
+        "exportVehicleMtInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwwbvehicleinfo/exportVehicleMtInfo",
+            "simulateUrl": "jwengrcd/exportVehicleMtInfo.json"
+        },
+        "getFactoryByLevelList": {
+            "method": "get",
+            "data": "*",
+            "url": "predo/jwwbvehicleinfo/getFactoryByLevelList",
+            "simulateUrl": "jwengrcd/exportVehicleMtInfo.json"
+        },
+        "getWbPlanFactoryList": {
+            "method": "get",
+            "url": "predo/jwWbPlan/getWbPlanFactoryList",
+            "data": "*",
+            "simulateUrl": "jwWbPlan/getWbPlanFactoryList.json"
+        },
+        "getFactoryPlanInfo": {
+            "method": "get",
+            "url": "predo/jwWbPlan/getFactoryPlanInfo",
+            "data": "*",
+            "simulateUrl": "jwWbPlan/getFactoryPlanInfo.json"
+        },
+        "getFactoryPlanInfoN": {
+            "method": "get",
+            "url": "predo/jwWbPlan/getFactoryPlanInfoN",
+            "data": "*",
+            "simulateUrl": "jwWbPlan/getFactoryPlanInfoN.json"
+        },
+        "addPlanInfo": {
+            "method": "post",
+            "url": "predo/jwWbPlan/addPlanInfo",
+            "data": "*",
+            "simulateUrl": "jwWbPlan/addPlanInfo.json"
+        },
+        "delPlanInfo": {
+            "method": "post",
+            "url": "predo/jwWbPlan/delPlanInfo",
+            "data": "*",
+            "simulateUrl": "jwWbPlan/delPlanInfo.json"
+        },
+        "changeOil": {
+            "method": "post",
+            "url": "predo/jwWbPlan/changeOil",
+            "data": "*",
+            "simulateUrl": "jwWbPlan/changeOil.json"
+        },
+        "savePlanInfo": {
+            "method": "post",
+            "url": "predo/jwWbPlan/savePlanInfo",
+            "data": "*",
+            "simulateUrl": "jwWbPlan/savePlanInfo.json"
+        },
+        "expExcel": {
+            "method": "get",
+            "url": "predo/jwWbPlan/expExcel",
+            "data": "*",
+            "simulateUrl": "jwWbPlan/expExcel.json"
+        },
+        "getVehicleStatusList": {
+            "method": "post",
+            "url": "predo/jydstat/getVehicleStatusList",
+            "data": "*",
+            "simulateUrl": "jydstat/getVehicleStatusList.json"
+        },
+        "getVehicleDetailJyd": {
+            "method": "post",
+            "url": "predo/jydstat/getVehicleDetail",
+            "data": "*",
+            "simulateUrl": "jydstat/getVehicleDetail.json"
+        },
+        "getVehicleStatusDetail": {
+            "method": "post",
+            "url": "predo/jydstat/getVehicleStatusDetail",
+            "data": "*",
+            "simulateUrl": "jydstat/getVehicleStatusDetail.json"
+        },
+        "exportVehicleStatusList": {
+            "method": "post",
+            "url": "predo/jydstat/exportVehicleStatusList",
+            "data": "*",
+            "simulateUrl": "jydstat/exportVehicleStatusList.json"
+        },
+        "exportFaultRecordList": {
+            "method": "post",
+            "url": "predo/jwfaultmonitor/exportFaultRecordList",
+            "data": "*",
+            "simulateUrl": "jwfaultmonitor/exportFaultRecordList.json"
+        },
+        "getBatteryMaintainStatisticList": {
+            "method": "post",
+            "url": "predo/xnyBatteryMaintainStatistic/getBatteryMaintainStatisticList",
+            "params": "*",
+            "simulateUrl": "newenergy/getBatteryMaintainStatisticList.json",
+            "base": true
+        },
+        "exportBatteryMaintainStatisticList": {
+            "method": "post",
+            "url": "predo/xnyBatteryMaintainStatistic/exportBatteryMaintainStatisticList",
+            "params": "*",
+            "simulateUrl": "newenergy/getBatteryMaintainStatisticList.json",
+            "base": true
+        },
+        "getPcChargerFaultRecordList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/newenergy/getPcChargerFaultRecordList",
+            "simulateUrl": "newenergy/getPcChargerFaultRecordList.json",
+            "base": true
+        },
+        "exportPcChargerFaultRecordList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/newenergy/exportPcChargerFaultRecordList",
+            "simulateUrl": "newenergy/exportPcChargerFaultRecordList.json",
+            "base": true
+        },
+        "getPcMalfunctionRecordList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/malfunctionrecord/getV2MalfunctionRecordList",
+            "simulateUrl": "malfunction/getPcMalfunctionRecordList.json",
+            "base": true
+        },
+        "addRepairOrder": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/repairorder/addRepairOrder",
+            "simulateUrl": "gd/addRepairOrder.json",
+            "base": true
+        },
+        "getFaultCodeList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/newenergy/getFaultCodeList",
+            "simulateUrl": "faultCode/getFaultCodeList.json",
+            "base": true
+        },
+        "getWorkTypeSelector": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/repairman/getV2AllWorkTypeList",
+            "simulateUrl": "gd/getWorkTypeSelector.json",
+            "base": true
+        },
+        "getXnyBatteryLifeList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/xnybatterylife/getXnyBatteryLifeList",
+            "simulateUrl": "newenergy/getXnyBatteryLifeList.json",
+            "base": true
+        },
+        "getXnyBatteryLifeListAll": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/xnybatterylife/getXnyBatteryLifeListAll",
+            "simulateUrl": "newenergy/getXnyBatteryLifeListAll.json",
+            "base": true
+        },
+        "exportXnyBatteryLifeList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/xnybatterylife/exportXnyBatteryLifeList",
+            "simulateUrl": "newenergy/exportXnyBatteryLifeList.json",
+            "base": true
+        },
+        "getXnyBatteryLifeListLittle": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/xnybatterylife/getXnyBatteryLifeListLittle",
+            "simulateUrl": "newenergy/getXnyBatteryLifeListLittle.json",
+            "base": true
+        },
+        "exportXnyBatteryLifeListLittle": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/xnybatterylife/exportXnyBatteryLifeListLittle",
+            "simulateUrl": "newenergy/exportXnyBatteryLifeListLittle.json",
+            "base": true
+        },
+        "getXnyBatteryLifeHistory": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/xnybatterylife/getXnyBatteryLifeHistory",
+            "simulateUrl": "newenergy/getXnyBatteryLifeHistory.json",
+            "base": true
+        },
+        "exportXnyBatteryLifeHistory": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/xnybatterylife/exportXnyBatteryLifeHistory",
+            "simulateUrl": "newenergy/exportXnyBatteryLifeHistory.json",
+            "base": true
+        },
+        "exportXnyBatteryLifeTrace": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/xnybatterylife/exportXnyBatteryLifeTrace",
+            "simulateUrl": "newenergy/exportXnyBatteryLifeTrace.json",
+            "base": true
+        },
+        "getXnyBatteryLifeHistoryChart": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/xnybatterylife/getXnyBatteryLifeHistoryChart",
+            "simulateUrl": "newenergy/getXnyBatteryLifeHistoryChart.json",
+            "base": true
+        },
+        "getPcFaultRecordList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/newenergy/getFaultRecordList",
+            "simulateUrl": "newenergy/getFaultRecordList.json"
+        },
+        "exportPcFaultRecordList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/newenergy/exportFaultRecordList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "getPcCfwVersionList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/deviceData/getPcDeviceDataList",
+            "simulateUrl": "newenergy/getCfwVersionList.json",
+            "base": true
+        },
+        "exportPcCfwVersionList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/deviceData/exportPcDeviceDataList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "getPcFaultRecordFrequentList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/xnyfault/getFaultFrequentList",
+            "simulateUrl": "newenergy/getFaultRecordList.json",
+            "base": true
+        },
+        "getPcFaultCodeList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/newenergy/getPcFaultCodeList",
+            "simulateUrl": "newenergy/getFaultCodeList.json",
+            "base": true
+        },
+        "exportPcFaultRecordFrequentList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/xnyfault/exportFaultFrequentList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "getFaultRecordList": {
+            "method": "post",
+            "url": "predo/jwfaultmonitor/getFaultRecordList",
+            "data": "*",
+            "simulateUrl": "jwfaultmonitor/getFaultRecordList.json"
+        },
+        "getPcFaultRecordRealtimeList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/xnyfault/getFaultRealtimeList",
+            "simulateUrl": "newenergy/getFaultRecordList.json",
+            "base": true
+        },
+        "exportPcFaultRecordRealtimeList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/xnyfault/exportFaultRealtimeList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "getPcFaultRecordSeriousList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/xnyfault/getFaultSeriousList",
+            "simulateUrl": "newenergy/getFaultRecordList.json",
+            "base": true
+        },
+        "exportPcFaultRecordSeriousList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/xnyfault/exportFaultSeriousList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "getComponentTypeSelector": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/malfunctionrecord/getV2AllComponentTypeList",
+            "simulateUrl": "gd/getComponentTypeSelector.json",
+            "base": true
+        },
+        "getPcMalfunctionStatList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/malfunctionstat/getV2MalfunctionStatList",
+            "simulateUrl": "malfunction/getPcMalfunctionStatList.json",
+            "base": true
+        },
+        "exportV2MalfunctionStatList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/malfunctionstat/exportV2MalfunctionStatList",
+            "simulateUrl": "malfunction/getPcMalfunctionStatList.json",
+            "base": true
+        },
+        "getVehicleFaultFloatInfo": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwfaultmonitor/getVehicleFaultFloatInfo",
+            "simulateUrl": "jwfaultmonitor/getVehicleFaultFloatInfo.json"
+        },
+        "getVehicleRepairFloatInfo": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwfaultmonitor/getVehicleRepairFloatInfo",
+            "simulateUrl": "jwfaultmonitor/getVehicleRepairFloatInfo.json"
+        },
+        "getFaultMonitorStat": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwfaultmonitor/getFaultMonitorStat",
+            "simulateUrl": "jwfaultmonitor/getFaultMonitorStat.json"
+        },
+        "getFaultVehicleBaseInfo": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwfaultmonitor/getFaultVehicleBaseInfo",
+            "simulateUrl": "jwfaultmonitor/getFaultVehicleBaseInfo.json"
+        },
+        "getVehicleFaultList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwfaultmonitor/getVehicleFaultList",
+            "simulateUrl": "jwfaultmonitor/getVehicleFaultList.json"
+        },
+        "relieveVehicleFault": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwfaultmonitor/relieveVehicleFault",
+            "simulateUrl": "jwfaultmonitor/relieveVehicleFault.json"
+        },
+        "issueVehicleMsg": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwfaultmonitor/issueVehicleMsg",
+            "simulateUrl": "jwfaultmonitor/issueVehicleMsg.json"
+        },
+        "roadRescue": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwfaultmonitor/roadRescue",
+            "simulateUrl": "jwfaultmonitor/roadRescue.json"
+        },
+        "remoteDiagnose": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwfaultmonitor/remoteDiagnose",
+            "simulateUrl": "jwfaultmonitor/remoteDiagnose.json"
+        },
+        "getFaultTrend": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwfaultmonitor/getFaultTrend",
+            "simulateUrl": "jwfaultmonitor/getFaultTrend.json"
+        },
+        "getRoadRescueVehicleDefaultInfo": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwfaultmonitor/getRoadRescueVehicleDefaultInfo",
+            "simulateUrl": "jwfaultmonitor/getRoadRescueVehicleDefaultInfo.json"
+        },
+        "getRepairWorkerStatInfo": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwRepairPersonInfo/getRepairWorkerStatInfo",
+            "simulateUrl": "jwRepairPersonInfo/getRepairWorkerStatInfo.json"
+        },
+        "getRepairWorkerRepairList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwRepairPersonInfo/getRepairWorkerRepairList",
+            "simulateUrl": "jwRepairPersonInfo/getRepairWorkerRepairList.json"
+        },
+        "getCanBusStatusInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/faultmonitor/getCanBusStatus",
+            "simulateUrl": "xnyfaultmonitor/getCanBusStatusInfo.json"
+        },
+        "getCanFilesInfoXny": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/diagnose/getCanFilesInfo",
+            "simulateUrl": "newenergy/getCanFilesInfoXny.json"
+        },
+        "getCanFilesInfoXnyV2": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/diagnose/getCanFilesInfoV2",
+            "simulateUrl": "newenergy/getCanFilesInfoXny.json"
+        },
+        "getCanFilesTimeStamp": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/diagnose/getTimeStamp",
+            "simulateUrl": "newenergy/getCanFilesInfoXny.json"
+        },
+        "getCanFileAndVehicle": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/diagnose/getFileAndVehicle",
+            "simulateUrl": "newenergy/getFileAndVehicle.json"
+        },
+        "getWbReminderList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwWbPlan/getWbReminderList",
+            "simulateUrl": "/web/products/predo/resource/data/jwWbPlan/getWbReminderList.json"
+        },
+        "getLossReminderList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwWbPlan/getLossReminderList",
+            "simulateUrl": "/web/products/predo/resource/data/jwWbPlan/getLossReminderList.json"
+        },
+        "getXnyFaultWeekList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/xnyfault/getFaultWeekList",
+            "simulateUrl": "event/xnyFaultWeekList.json",
+            "base": true
+        },
+        "getVehicleMtWbList": {
+            "method": "get",
+            "data": "*",
+            "url": "predo/jwwbvehicleinfo/getVehicleMtWbList",
+            "simulateUrl": "jwwbvehicleinfo/getVehicleMtWbList.json",
+            "base": true
+        },
+        "getFaultCountByBasic": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/newenergy/getFaultCountByBasic",
+            "simulateUrl": "newenergy/getFaultCountByBasic.json",
+            "base": true
+        },
+        "getFaultCodeAll": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/newenergy/getFaultCodeAll",
+            "simulateUrl": "newenergy/getFaultCodeAll.json",
+            "base": true
+        },
+        "getFaultListByTime": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/newenergy/getFaultListByTime",
+            "simulateUrl": "newenergy/getVehicleDynamicInfo.json",
+            "base": true
+        },
+        "getFaultCodeInfo": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/newenergy/getFaultCodeInfo",
+            "simulateUrl": "faultCode/getFaultCodeInfo.json",
+            "base": true
+        },
+        "getDriverRepairOrderDetail": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/JwDriverRepairOrder/getDriverRepairOrderDetail",
+            "simulateUrl": "JwDriverRepairOrder/getDriverRepairOrderDetail.json"
+        },
+        "getDriverRepairOrderList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/JwDriverRepairOrder/getDriverRepairOrderList",
+            "simulateUrl": "JwDriverRepairOrder/getDriverRepairOrderList.json"
+        },
+        "getCcMalfunctionStatList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/malfunctionstat/getV2CcMalfunctionStatList",
+            "simulateUrl": "malfunction/getCcMalfunctionStatList.json",
+            "base": true
+        },
+        "getCcMalfunctionStatIndicator": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/malfunctionstat/getCcMalfunctionStatIndicator",
+            "simulateUrl": "gd/getCcMalfunctionStatIndicator.json",
+            "base": true
+        },
+        "getCcMalfunctionStatSummary": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/malfunctionstat/getCcMalfunctionStatSummary",
+            "simulateUrl": "gd/getCcMalfunctionStatSummary.json",
+            "base": true
+        },
+        "getCcRepairStatSummary": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/repairstat/getCcRepairStatSummary",
+            "simulateUrl": "gd/getCcRepairStatSummary.json",
+            "base": true
+        },
+        "getCcRepairStatList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/repairstat/getV2CcRepairStatList",
+            "simulateUrl": "gd/getCcRepairStatList.json",
+            "base": true
+        },
+        "getCcRepairStatIndicator": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/repairstat/getCcRepairStatIndicator",
+            "simulateUrl": "gd/getCcRepairStatIndicator.json",
+            "base": true
+        },
+        "getPcSendVehicleStatListScd": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/scd/getV2PcSendVehicleStatList",
+            "simulateUrl": "scd/getPcSendVehicleStatListScd.json",
+            "base": true
+        },
+        "getFactorySerachList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwfactoryinfo/getFactorySerachList",
+            "simulateUrl": "jwMaterialBill/getFactorySerachList.json"
+        },
+        "getPcChargerFaultRecordListV2": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/powerPileOpsStats/getPcChargerFaultRecordList",
+            "simulateUrl": "newenergy/getPcChargerFaultRecordList.json"
+        },
+        "getMonitorPersonStatInfo": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwRepairPersonInfo/getMonitorPersonStatInfo",
+            "simulateUrl": "jwRepairPersonInfo/getMonitorPersonStatInfo.json"
+        },
+        "getMonitorPersonStatList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwRepairPersonInfo/getMonitorPersonStatList",
+            "simulateUrl": "jwRepairPersonInfo/getMonitorPersonStatList.json"
+        },
+        "getPcRepairmanList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/repairman/getV2RepairmanList",
+            "simulateUrl": "gd/getPcRepairmanList.json",
+            "base": true
+        },
+        "getRepairmanTree": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/repairman/getV2RepairmanList",
+            "simulateUrl": "gd/getRepairmanTree.json",
+            "base": true
+        },
+        "getCcRepairmanSummary": {
+            "params": "*",
+            "url": "predo/repairman/getV2RepairManSummary",
+            "simulateUrl": "gd/getCcRepairmanSummary.json",
+            "base": true
+        },
+        "getCcRepairOrderList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/repairorder/getV2RepairOrderList",
+            "simulateUrl": "gd/getCcRepairOrderList.json",
+            "base": true
+        },
+        "getCcRepairOrderSummary": {
+            "params": "*",
+            "url": "predo/repairorder/getV2RepairOrderSummary",
+            "simulateUrl": "gd/getCcRepairOrderSummary.json",
+            "base": true
+        },
+        "getRepeatRepairInfo": {
+            "method": "get",
+            "url": "predo/jwrepairrecord/getRepeatRepairInfo",
+            "data": "*",
+            "simulateUrl": "jwrepairrecord/getRepeatRepairInfo.json",
+            "base": true
+        },
+        "getReportOrderDetail": {
+            "method": "post",
+            "url": "predo/jwrepairrecord/getReportOrderDetail",
+            "data": "*",
+            "simulateUrl": "jwrepairrecord/getOrgWxRecordList.json"
+        },
+        "getMaterialUseInfoList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/vehicleInfoFile/getMaterialUseInfoList",
+            "simulateUrl": "vehicleInfoFile/getMaterialUseInfoList.json"
+        },
+        "getVehicleMaintainInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/vehicleInfoFile/getVehicleMaintainInfo",
+            "simulateUrl": "vehicleInfoFile/getVehicleMaintainInfo.json"
+        },
+        "getVehicleMaintainDetail": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/vehicleInfoFile/getVehicleMaintainDetail",
+            "simulateUrl": "vehicleInfoFile/getVehicleMaintainDetail.json"
+        },
+        "getMaterialBillFile": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/vehicleInfoFile/getMaterialBillFile",
+            "simulateUrl": "vehicleInfoFile/getMaterialBillFile.json"
+        },
+        "getVehicleMaintainSchemeDetail": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/vehicleInfoFile/getVehicleMaintainSchemeDetail",
+            "simulateUrl": "vehicleInfoFile/getVehicleMaintainSchemeDetail.json"
+        },
+        "getMRepairFultInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/vehicleInfoFile/getMRepairFultInfo",
+            "simulateUrl": "vehicleInfoFile/getMRepairFultInfo.json"
+        },
+        "getRepairTypeByVehicleIdArchive": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/vehicleInfoFile/getRepairTypeByVehicleIdArchive",
+            "simulateUrl": "vehicleInfoFile/getRepairTypeByVehicleId.json"
+        },
+        "getVehicleRepairTypeInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/vehicleInfoFile/getVehicleRepairTypeInfo",
+            "simulateUrl": "vehicleInfoFile/getVehicleRepairTypeInfo.json"
+        },
+        "getVehicleRepairRecord": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/vehicleInfoFile/getVehicleRepairRecord",
+            "simulateUrl": "vehicleInfoFile/getVehicleRepairRecord.json"
+        },
+        "getCcMalfunctionRecordList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/malfunctionrecord/getV2MalfunctionRecordList",
+            "simulateUrl": "malfunction/getCcMalfunctionRecordList.json",
+            "base": true
+        },
+        "getMalfunctionPosition": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/malfunctionrecord/getV2MalfunctionRecordList",
+            "simulateUrl": "gd/getMalfunctionPosition.json",
+            "base": true
+        },
+        "getDispatchMalfunctionRecordList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/malfunctionrecord/getV2MalfunctionRecordList",
+            "simulateUrl": "malfunction/getDispatchMalfunctionRecordList.json",
+            "base": true
+        },
+        "addFaultLevel": {
+            "method": "post",
+            "param": "*",
+            "url": "predo/jwfaultconfig/addFaultLevel",
+            "simulateUrl": "jwfaultinfo/addFaultLevel.json"
+        },
+        "setFaultMonitorParam": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwfaultconfig/setFaultMonitorParam",
+            "simulateUrl": "jwfaultinfo/setFaultMonitorParam.json"
+        },
+        "updateFaultLevel": {
+            "method": "post",
+            "param": "*",
+            "url": "predo/jwfaultconfig/updateFaultLevel",
+            "simulateUrl": "jwfaultinfo/addFaultLevel.json"
+        },
+        "resetFaultLevel": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwfaultconfig/resetFaultLevel",
+            "simulateUrl": "jwfaultinfo/addFaultLevel.json"
+        },
+        "getFaultTreeByVehicleId": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwfaultconfig/getFaultTreeByVehicleId",
+            "simulateUrl": "jwfaultinfo/getFaultTree.json"
+        },
+        "getFaultMonitorParam": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwfaultconfig/getFaultMonitorParam",
+            "simulateUrl": "jwfaultinfo/getFaultMonitorParam.json"
+        },
+        "batchUpdateFaultLevel": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwfaultconfig/batchUpdateFaultLevel",
+            "simulateUrl": "jwfaultinfo/addFaultLevel.json"
+        },
+        "deleteFaultLevel": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwfaultconfig/deleteFaultLevel",
+            "simulateUrl": "jwfaultinfo/addFaultLevel.json"
+        },
+        "getEntRepairTypeList": {
+            "method": "get",
+            "url": "predo/jwrepairtype/getEntRepairTypeList",
+            "param": "*",
+            "simulateUrl": "jwfactoryinfo/getEntRepairTypeList.json",
+            "base": true
+        },
+        "getFaultHandleStatusInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwfaultmonitor/getFaultHandleStatusInfo",
+            "simulateUrl": "jwfaultmonitor/getFaultHandleStatusInfo.json"
+        },
+        "getFaultHandlerList": {
+            "method": "get",
+            "url": "predo/jwfaultmonitor/getFaultHandlerList",
+            "params": "*",
+            "simulateUrl": "jwfaultmonitor/getFaultHandlerList.json"
+        },
+        "getRepairVehicleList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwfaultmonitor/getRepairVehicleList",
+            "simulateUrl": "jwfaultmonitor/getRepairVehicleList.json"
+        },
+        "getCanQueryParamTreeXny": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/diagnose/getCanQueryParamTree",
+            "simulateUrl": "newenergy/getCanQueryParamTreeXny.json",
+            "base": true
+        },
+        "getCanQueryParamTreeNodesByOrg": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/diagnose/getCanQueryParamTreeNodesByOrg",
+            "simulateUrl": "newenergy/getCanQueryParamTreeNodesByOrg.json",
+            "base": true
+        },
+        "getCanQueryParamIdsByOrg": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/diagnose/getCanQueryParamIdsByOrg",
+            "simulateUrl": "newenergy/getCanQueryParamIdsByOrg.json",
+            "base": true
+        },
+        "getFaultMuliDimStatsByFaultTopN": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/faultMuliDimStats/byFaultTopN",
+            "simulateUrl": "faultMuliDimStats/byFaultTopN.json",
+            "base": true
+        },
+        "getFaultMuliDimStatsByFaultTend": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/faultMuliDimStats/byFaultTend",
+            "simulateUrl": "faultMuliDimStats/byFaultTend.json",
+            "base": true
+        },
+        "getFaultMuliDimStatsByVehicleModel": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/faultMuliDimStats/byVehicleModel",
+            "simulateUrl": "faultMuliDimStats/byVehicleModel.json",
+            "base": true
+        },
+        "getFaultMuliDimStatsByVehicleComp": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/faultMuliDimStats/byVehicleComp",
+            "simulateUrl": "faultMuliDimStats/byVehicleComp.json",
+            "base": true
+        },
+        "getFaultMuliDimStatsVehicleCompList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/faultMuliDimStats/getVehicleCompList",
+            "simulateUrl": "faultMuliDimStats/getVehicleCompList.json",
+            "base": true
+        },
+        "getFaultMuliDimStatsVehicleModelList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/faultMuliDimStats/getVehicleModelList",
+            "simulateUrl": "faultMuliDimStats/getVehicleModelList.json",
+            "base": true
+        },
+        "getFaultMuliDimStatsFaultList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/faultMuliDimStats/getFaultList",
+            "simulateUrl": "faultMuliDimStats/getFaultList.json",
+            "base": true
+        },
+        "getRepairFactoryList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/jwDashbordInfo/getRepairFactoryList",
+            "simulateUrl": "jwDashbordInfo/getRepairFactoryList.json"
+        },
+        "deleteSchemeLevel": {
+            "method": "get",
+            "url": "predo/jwschemeinfo/deleteSchemeLevel",
+            "params": "*",
+            "simulateUrl": "Jwscheme/addSchemeLevel.json"
+        },
+        "updateEntRepairType": {
+            "method": "post",
+            "url": "predo/jwrepairtype/updateEntRepairType",
+            "data": "*",
+            "simulateUrl": "jwRouteEnv/getRouteEnvList.json"
+        },
+        "getFaultTreeNew": {
+            "method": "get",
+            "params": "*",
+            "url": "predo/jwfaultconfig/getFaultTreeNew",
+            "simulateUrl": "jwfaultinfo/getFaultTree.json"
+        },
+        "getPredoOperateLogList": {
+            "method": "post",
+            "url": "predo/report/getPlanList",
+            "data": "*",
+            "simulateUrl": "log/getPredoOperateLogList.json"
+        },
+        "getPredoOperateLogDetail": {
+            "method": "post",
+            "url": "predo/report/getPlanInfo",
+            "data": "*",
+            "simulateUrl": "log/getPredoOperateLogDetail.json"
+        },
+        "getPredoAbnormalMaintenanceReport": {
+            "method": "post",
+            "url": "predo/report/listRptWbException",
+            "data": "*",
+            "simulateUrl": "jwReport/getPredoAbnormalMaintenanceReport.json"
+        },
+        "exportPredoAbnormalMaintenanceReport": {
+            "method": "post",
+            "url": "predo/report/exportWbException",
+            "data": "*"
+        },
+        "getPredoAbnormalMaintenanceStatistic": {
+            "method": "post",
+            "url": "predo/report/getRptWbExceptionNum",
+            "data": "*",
+            "simulateUrl": "jwReport/getPredoAbnormalMaintenanceStatistic.json"
+        },
+        "queryWbPlanHistory": {
+            "method": "get",
+            "url": "predo/jwWbPlan/queryWbPlanHistory",
+            "data": "*",
+            "simulateUrl": "jwWbPlan/queryWbPlanHistory.json"
+        },
+        "getEachByMonth": {
+            "method": "get",
+            "url": "predo/jwWbPlan/getEachByMonth",
+            "data": "*",
+            "simulateUrl": "jwWbPlan/getEachByMonth.json"
+        },
+        "getEachByDate": {
+            "method": "post",
+            "url": "predo/jwWbPlan/getEachByDate",
+            "data": "*",
+            "simulateUrl": "jwWbPlan/getEachByDate.json"
+        },
+        "getPeriodYears": {
+            "method": "get",
+            "url": "predo/jwWbPlan/getPeriodYears",
+            "data": "*",
+            "simulateUrl": "jwWbPlan/getPeriodYears.json"
+        },
+        "saveAsDraft": {
+            "method": "post",
+            "url": "predo/jwWbPlan/saveAsDraft",
+            "data": "*",
+            "simulateUrl": "jwWbPlan/saveAsDraft.json"
+        },
+        "getRptWbTimesOfMonth": {
+            "method": "post",
+            "url": "predo/report/rptWbTimesOfMonth",
+            "data": "*",
+            "simulateUrl": "jwReport/getRptWbTimesOfMonth.json"
+        },
+        "exportRptWbTimesOfMonth": {
+            "method": "post",
+            "url": "predo/report/exportWbTimesOfMonth",
+            "data": "*",
+            "simulateUrl": "jwReport/getRptWbTimesOfMonth.json"
+        },
+        "listRptWbHistory": {
+            "method": "post",
+            "url": "predo/report/listRptWbHistory",
+            "data": "*",
+            "simulateUrl": "report/listRptWbHistory.json"
+        },
+        "exportRptWbHistory": {
+            "method": "post",
+            "url": "predo/report/exportRptWbHistory",
+            "data": "*",
+            "simulateUrl": "report/exportRptHistory.json"
+        },
+        "listRptWbCalender": {
+            "method": "post",
+            "url": "predo/report/listRptWbCalender",
+            "data": "*",
+            "simulateUrl": "report/listRptWbCalender.json"
+        },
+        "exportRptWbCalender": {
+            "method": "post",
+            "url": "predo/report/exportRptWbCalender",
+            "data": "*",
+            "simulateUrl": "report/exportRptWbCalender.json"
+        },
+        "getCompsList": {
+            "method": "post",
+            "url": "predo/pwWithKeyComps/getCompsList",
+            "data": "*",
+            "simulateUrl": "pwWithKeyComps/getCompsList.json"
+        },
+        "getPWList": {
+            "method": "post",
+            "url": "predo/pwWithKeyComps/getPWList",
+            "data": "*",
+            "simulateUrl": "pwWithKeyComps/getPWList.json"
+        },
+        "exportPWList": {
+            "method": "post",
+            "url": "predo/pwWithKeyComps/exportPWList",
+            "data": "*",
+            "simulateUrl": "pwWithKeyComps/exportPWList.json"
+        },
+        "getPWById": {
+            "method": "post",
+            "url": "predo/pwWithKeyComps/getPWById",
+            "data": "*",
+            "simulateUrl": "pwWithKeyComps/getPWById.json"
+        },
+        "getSeqList": {
+            "method": "post",
+            "url": "predo/pwWithAccumulator/getSeqList",
+            "data": "*",
+            "simulateUrl": "pwWithAccumulator/getSeqList.json"
+        },
+        "exportSeqList": {
+            "method": "post",
+            "url": "predo/pwWithAccumulator/exportSeqList",
+            "data": "*",
+            "simulateUrl": "pwWithAccumulator/exportSeqList.json"
+        },
+	    "exportCanFilesInfoXny": {
+            "method": "post",
+            "url": "predo/diagnose/exportMessageParsing",
+            "data": "*",
+            "simulateUrl": "diagnose/exportMessageParsing.json"
+        },
+        "exportCanBusStatusInfo": {
+            "method": "post",
+            "url": "predo/faultmonitor/exportCanBusStatus",
+            "data": "*",
+            "simulateUrl": "faultmonitor/exportCanBusStatus.json"
+        },
+        "diagVehicleHealthStatus": {
+            "method": "post",
+            "url": "predo/diagHealthCheck/vehicleHealthCheck",
+            "data": "*",
+            "simulateUrl": "diagVehicleHealthStatus/diagVehicleHealthStatus.json"
+        },
+        "getPcXnyFaultCodeList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/xnyfault/getPcFaultCodeList",
+            "simulateUrl": "xnyfault/getFaultCodeList.json",
+            "base": true
+        },"getXCSeqList": {
+            "method": "post",
+            "url": "predo/pwWithAccumulator/getXCSeqList",
+            "data": "*",
+            "simulateUrl": "pwWithAccumulator/getXCSeqList.json"
+        },
+        "exportXCSeqList": {
+            "method": "post",
+            "url": "predo/pwWithAccumulator/exportXCSeqList",
+            "data": "*",
+            "simulateUrl": "pwWithAccumulator/exportXCSeqList.json"
+        },
+        "getNtcRecordList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/ntcfault/getNtcRecordList",
+            "simulateUrl": "xnyNtcRecordList/getNtcRecordList.json"
+        },
+        "exportPcNtcRecordList": {
+            "method": "post",
+            "data": "*",
+            "url": "predo/ntcfault/exportPcNtcRecordList",
+            "simulateUrl": "export/export.json"
+        },
+        "getWarningContentList": {
+            "method": "post",
+            "url": "predo/pwWithKeyComps/getWarningContentList",
+            "data": "*",
+            "simulateUrl": "pwWithKeyComps/getWarningContentList.json"
+        },
+        "getVehicleTopicList": {
+            "method": "post",
+            "url": "predo/pwWithKeyComps/getVehicleTopicList",
+            "data": "*",
+            "simulateUrl": "pwWithKeyComps/getVehicleTopicList1.json"
+        },
+        "getInsuranceList": {
+            "method": "post",
+            "url": "predo/vehicleInsurance/getInsuranceList",
+            "data": "*",
+            "simulateUrl": "vehicleInsurance/getInsuranceList.json"
+        },
+        "deleteInsurance": {
+            "method": "post",
+            "url": "predo/vehicleInsurance/deleteInsurance",
+            "data": "*",
+            "simulateUrl": "vehicleInsurance/deleteInsurance.json"
+        },
+        "editInsuranceType":{
+            "method": "post",
+            "url": "predo/vehicleInsurance/editInsuranceType",
+            "data": "*",
+            "simulateUrl": "vehicleInsurance/editInsuranceType.json"
+        },
+        "editInsurance":{
+            "method": "post",
+            "url": "predo/vehicleInsurance/editInsurance",
+            "data": "*",
+            "simulateUrl": "vehicleInsurance/editInsurance.json"
+        },
+        "addInsurance":{
+            "method": "post",
+            "url": "predo/vehicleInsurance/addInsurance",
+            "data": "*",
+            "simulateUrl": "vehicleInsurance/addInsurance.json"
+        },
+        "getPWAnalysis": {
+            "method": "post",
+            "url": "predo/pwWithKeyComps/getPWAnalysis",
+            "data": "*",
+            "simulateUrl": "pwWithKeyComps/getPWAnalysis.json"
+        },
+        "editClaimRecords": {
+            "method": "post",
+            "url": "predo/vehicleInsurance/editClaimRecords",
+            "data": "*",
+            "simulateUrl": "vehicleInsurance/editClaimRecords.json"
+        },
+        "getInsuranceClaimList": {
+            "method": "post",
+            "url": "predo/vehicleInsurance/getInsuranceClaimList",
+            "data": "*",
+            "simulateUrl": "vehicleInsurance/getInsuranceClaimList.json"
+        },
+        "getTicketInfo": {
+            "method": "post",
+            "url": "predo/vehicleTicket/getTicketInfo",
+            "data": "*",
+            "simulateUrl": "vehicleTicket/getTicketInfo.json"
+        },
+        "getAccidentInfo": {
+            "method": "post",
+            "url": "predo/vehicleAccident/getAccidentInfo",
+            "data": "*",
+            "simulateUrl": "vehicleAccident/getAccidentInfo.json"
+        },
+        "importWbPlanData": {
+            "url": "predo/jwWbPlan/importWbPlanData"
+        },
+        "addTicketInfo": {
+            "method": "post",
+            "url": "predo/vehicleTicket/addTicketInfo",
+            "data": "*",
+            "simulateUrl": "vehicleTicket/addTicketInfo.json"
+        },
+        "editTicketInfo": {
+            "method": "post",
+            "url": "predo/vehicleTicket/editTicketInfo",
+            "data": "*",
+            "simulateUrl": "vehicleTicket/editTicketInfo.json"
+        },
+        "deleteTicketInfo": {
+            "method": "post",
+            "url": "predo/vehicleTicket/deleteTicketInfo",
+            "data": "*",
+            "simulateUrl": "vehicleTicket/deleteTicketInfo.json"
+        },
+        "addAccidentInfo": {
+            "method": "post",
+            "url": "predo/vehicleAccident/addAccidentInfo",
+            "data": "*",
+            "simulateUrl": "vehicleAccident/addAccidentInfo.json"
+        },
+        "editAccidentInfo": {
+            "method": "post",
+            "url": "predo/vehicleAccident/editAccidentInfo",
+            "data": "*",
+            "simulateUrl": "vehicleAccident/editAccidentInfo.json"
+        },
+        "deleteAccidentInfo": {
+            "method": "post",
+            "url": "predo/vehicleAccident/deleteAccidentInfo",
+            "data": "*",
+            "simulateUrl": "vehicleAccident/deleteAccidentInfo.json"
+        },
+        "getAccidentInfo": {
+            "method": "post",
+            "url": "predo/vehicleAccident/getAccidentInfo",
+            "data": "*",
+            "simulateUrl": "vehicleAccident/getAccidentInfo.json"
+        },
+        "validateInsuranceNo": {
+            "method": "post",
+            "url": "predo/vehicleInsurance/validateInsuranceNo",
+            "data": "*",
+            "simulateUrl": "vehicleInsurance/validateInsuranceNo.json"
+        },
+        "getOrgTodayRepairOrderList": {
+            "method": "post",
+            "url": "predo/jwRepairView/getOrgTodayRepairOrderList",
+            "data": "*",
+            "simulateUrl": "jwRepairView/getOrgTodayRepairOrderList.json"
+        },
+        "findEngineFaultList": {
+            "method": "post",
+            "url": "predo/ntcfault/findEngineFaultList",
+            "data": "*",
+            "simulateUrl": "ntcfault/findEngineFaultList.json"
+        },
+        "exportEngineFaultList": {
+            "method": "post",
+            "url": "predo/ntcfault/exportEngineFaultList",
+            "data": "*",
+            "simulateUrl": "ntcfault/exportEngineFaultList.json"
+        }
+    },
+    "simulate": false
+}

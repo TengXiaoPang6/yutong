@@ -68,5 +68,7 @@
   "aside": "./packages/aside/index.js",
   "main": "./packages/main/index.js",
   "footer": "./packages/footer/index.js",
+  "search": "./packages/search/index.js",
+  "line": "./packages/line/index.js",
   "cascaderTree": "./packages/cascaderTree/index.js"
 }

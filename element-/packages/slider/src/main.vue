@@ -1,3 +1,25 @@
+<style scoped lang='scss'>
+@import '../../theme-chalk/src/common/var.scss';
+
+.ball{
+  width:$--slider-button-size;
+  height:$--slider-button-size;
+  border-radius: 50%;
+  border: solid 2px $--slider-main-background-color;
+  position: absolute;
+  top:-4px;
+  left:-7px;
+  background:white;
+  z-index:99;
+}
+
+.isAble{
+  border-color:$--color-text-placeholder;
+}
+
+
+</style>
+
 <template>
   <div class="el-slider"
     :class="{ 'is-vertical': vertical, 'el-slider--with-input': showInput }"
@@ -7,6 +29,7 @@
      :aria-orientation="vertical ? 'vertical': 'horizontal'"
      :aria-disabled="sliderDisabled"
   >
+  
     <el-input-number
       v-model="firstValue"
       v-if="showInput && !range"
@@ -21,6 +44,7 @@
       :debounce="debounce"
       size="small">
     </el-input-number>
+
     <div class="el-slider__runway"
       :class="{ 'show-input': showInput, 'disabled': sliderDisabled }"
       :style="runwayStyle"
@@ -49,6 +73,8 @@
         :style="vertical ? { 'bottom': item + '%' } : { 'left': item + '%' }"
         v-if="showStops">
       </div>
+
+       <div :class="{'isAble':disabled}" class='ball' v-show="!range&!vertical"></div>
     </div>
   </div>
 </template>

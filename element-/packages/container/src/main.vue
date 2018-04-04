@@ -10,6 +10,10 @@
 
     componentName: 'ElContainer',
 
+    methods:{
+     
+    },
+
     props: {
       direction: String
     },

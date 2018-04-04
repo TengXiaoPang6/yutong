@@ -1,0 +1,131 @@
+{
+  "product": "dota",
+  "path": "resource/data/",
+  "api": {
+    "getUpgradeStatusList": {
+      "method": "post",
+      "data": "*",
+      "url": "dota/ota/getUpgradeStatusList",
+      "simulateUrl": "otaUpgradeStatusList/otaUpgradeStatusList.json"
+    },
+    "getVendorsList": {
+      "method": "post",
+      "data": "*",
+      "url": "dota/ota/getVendorsList",
+      "simulateUrl": "otaVendorsList/otaVendorsList.json"
+    },
+    "getCmdStatusList": {
+      "method": "post",
+      "data": "*",
+      "url": "dota/ota/getCmdStatusList",
+      "simulateUrl": "otaEcuTypeList/otaEcuTypeList.json"
+    },
+    "getEcuTypeList": {
+      "method": "post",
+      "data": "*",
+      "url": "dota/ota/getEcuTypeList",
+      "simulateUrl": "otaEcuTypeList/otaEcuTypeList.json"
+    },
+    "getEcuList":{
+      "method": "post",
+      "data": "*",
+      "url": "dota/ota/getEcuList",
+      "simulateUrl": "otaPcTerminalUpgradeList/otaPcTerminalUpgradeList.json"
+    },
+    "getTerminalInitUpgradeData":{
+      "method": "post",
+      "data": "*",
+      "url": "dota/ota/getTerminalInitUpgradeData",
+      "simulateUrl": "otaTerminalInitUpgradeData/otaTerminalInitUpgradeData.json"
+    },
+    "upgradeOtaEcu":{
+      "method": "post",
+      "data": "*",
+      "url": "dota/ota/upgradeOtaEcu",
+      "simulateUrl": "otaTerminalInitUpgradeData/otaTerminalInitUpgradeData.json"
+    },
+    "getEnterpriseList":{
+      "method": "post",
+      "data": "*",
+      "url": "dota/ota/getEnterpriseList",
+      "simulateUrl": "otaPcpriseListPage/otaPcpriseListPage.json"
+    },
+    "getOTAUpgradeFiles":{
+      "method": "post",
+      "data": "*",
+      "url": "dota/ota/getUpgradeFiles",
+      "simulateUrl": "otaUpgradeFiles/otaUpgradeFiles.json"
+    },
+    "getEnterpriseTree":{
+      "url": "dota/ota/getEnterpriseTree",
+      "method": "post",
+      "data": "*",
+      "simulateUrl": "otaEnterpriseTree/otaEnterpriseTree.json"
+    },
+    "getUpgradeFiles": {
+      "method": "post",
+      "data": "*",
+      "url": "dota/ivota/getUpgradeFiles",
+      "simulateUrl": "vehicle/getUpgradeFiles.json"
+    },
+    "getCurrentVersion": {
+      "method": "post",
+      "data": "*",
+      "url": "dota/ivota/getCurrentVersion",
+      "simulateUrl": "vehicle/getCurrentVersion.json"
+    },
+    "getHcuCurrentVersion": {
+      "params": "*",
+      "url": "dota/ivota/getHcuCurrentVersion",
+      "simulateUrl": "vehicle/getHcuCurrentVersion.json"
+    },
+    "hcuUpgrade": {
+      "method": "post",
+      "data": "*",
+      "url": "dota/ivctrl/hcuUpgrade",
+      "simulateUrl": "vehicle/hcuUpgrade.json"
+    },
+    "hcuUpgradeState": {
+      "method": "get",
+      "params": "*",
+      "url": "dota/ivctrl/hcuUpgradeState",
+      "simulateUrl": "vehicle/hcuUpgradeState.json"
+    },
+    "hcuUpgradeStop": {
+      "method": "get",
+      "params": "*",
+      "url": "dota/ivctrl/hcuUpgradeStop",
+      "simulateUrl": "vehicle/hcuUpgradeStop.json"
+    },
+    "iCardUpgrade": {
+      "method": "post",
+      "data": "*",
+      "url": "dota/ivctrl/iCardUpgrade",
+      "simulateUrl": "vehicle/iCardUpgrade.json"
+    },
+    "iCardUpgradeState": {
+      "method": "get",
+      "params": "*",
+      "url": "dota/ivctrl/iCardUpgradeState",
+      "simulateUrl": "vehicle/iCardUpgradeState.json"
+    },
+    "otaUpgrade": {
+      "method": "post",
+      "data": "*",
+      "url": "dota/ivota/upgrade",
+      "simulateUrl": "vehicle/otaUpgrade.json"
+    },
+    "otaUpgradeState": {
+      "method": "post",
+      "data": "*",
+      "url": "dota/ivota/getProgressPercent",
+      "simulateUrl": "vehicle/otaUpgradeState.json"
+    },
+    "otaUpgradeStop": {
+      "method": "post",
+      "data": "*",
+      "url": "dota/ivota/control",
+      "simulateUrl": "vehicle/otaUpgradeStop.json"
+    }
+  }
+}

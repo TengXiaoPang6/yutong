@@ -7,7 +7,7 @@
   }
   @include e(popper) {
     position: absolute;
-    border-radius: 4px;
+    border-radius:4px;
     padding: $--tooltip-padding;
     z-index: $--index-popper;
     font-size: $--tooltip-font-size;
@@ -103,6 +103,7 @@
 
     @include when(dark) {
       background: $--tooltip-fill;
+      opacity:0.8;
       color: $--tooltip-color;
     }
 

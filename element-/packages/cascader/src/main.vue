@@ -55,6 +55,9 @@
         {{ currentLabels[currentLabels.length - 1] }}
       </template>
     </span>
+    <div v-show="showSlot">
+      <slot name="icon"></slot>
+    </div>
   </span>
 </template>
 
@@ -186,7 +189,9 @@ export default {
       menuVisible: false,
       inputHover: false,
       inputValue: '',
-      flatOptions: null
+      flatOptions: null,
+      showSlot: false,
+      slot: ''
     };
   },
 
@@ -265,6 +270,7 @@ export default {
       this.menu.changeOnSelect = this.changeOnSelect;
       this.menu.popperClass = this.popperClass;
       this.menu.hoverThreshold = this.hoverThreshold;
+      this.menu.slot = this.slot;
       this.popperElm = this.menu.$el;
       this.menu.$refs.menus[0].setAttribute('id', `cascader-menu-${this.id}`);
       this.menu.$on('pick', this.handlePick);
@@ -446,6 +452,9 @@ export default {
 
   mounted() {
     this.flatOptions = this.flattenOptions(this.options);
+    if(this.$slots.icon){
+      this.slot = this.$slots.icon[0];
+    }
   }
 };
 </script>

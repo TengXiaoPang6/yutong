@@ -105,7 +105,7 @@
 @include b(cascader-menu) {
   display: inline-block;
   vertical-align: top;
-  height: 508px;
+  height: 310px;
   overflow: auto;
   border-right: $--select-dropdown-border;
   background-color: $--select-dropdown-background;
@@ -130,10 +130,20 @@
     text-overflow: ellipsis;
     color: $--select-option-color;
     height: $--select-option-height;
-    line-height: 1.5;
+    line-height: 18px;
     box-sizing: border-box;
     cursor: pointer;
     outline: none;
+
+    .svg-icon{
+      fill:$--color-bus-primary;
+      vertical-align: middle
+    }
+
+    .online{
+      fill:$--color-primary;
+    }
+
     @include m(extensible) {
       &:after {
         font-family: 'element-icons';
@@ -245,4 +255,7 @@
 }
 .fade-enter, .fade-leave-to {
   opacity: 0;
+}
+i{
+  font-style: normal
 }

@@ -226,7 +226,7 @@
           <div class={['el-tabs__nav-scroll']} ref="navScroll">
             <div class="el-tabs__nav" ref="nav" style={navStyle} role="tablist" on-keydown={ changeTab }>
               {!type ? <tab-bar tabs={panes}></tab-bar> : null}
-              {type === "border-card" ? <div class="border-bar"></div> : null}
+              {type === 'border-card' ? <div class="border-bar"></div> : null}
               {tabs}
             </div>
           </div>

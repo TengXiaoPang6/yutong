@@ -1,0 +1,23 @@
+$blue:#324157;
+$light-blue:#3A71A8;
+$red:#C03639;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow:#FEC171;
+$panGreen: #30B08F;
+
+//global variable for theme switch
+$--color-header: #3677BE !default;
+$--color-sidebar: #3677BE !default;
+$--color-font: #527CA0 !default;
+
+//sidebar
+$--color-menu-bg:#fff;
+$--color-submenu-bg:#fff;
+$--color-menu-active:#ECF5FD;
+$--color-menu-hover:#FAFBFC;
+/* 改变主题色变量 */
+$--color-primary: #91CA50 !default;
+
+@import './index.scss';

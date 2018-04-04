@@ -1,4 +1,4 @@
-import CascaderTree from './src/main';
+import CascaderTree from './src/cascader-tree';
 
 /* istanbul ignore next */
 CascaderTree.install = function(Vue) {

@@ -109,7 +109,7 @@ We create a font convention to ensure the best presentation across different pla
 ### Font-family
 
 ```css
-font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+font-family: "Helvetica Neue",Helvetica,"PingFang SC","Heebo","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
 ```
 
 ### Font Convention
@@ -120,6 +120,7 @@ font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Micros
       <td class="h1">Main Title</td>
       <td class="h1">Build with Element</td>
       <td class="color-dark-light">20px  Extra large</td>
+      <td>clss Name</td>
     </tr>
     <tr>
       <td class="h2">Title</td>

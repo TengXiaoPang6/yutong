@@ -33,7 +33,16 @@ cooking.set({
     hostname: '127.0.0.1',
     port: 8085,
     log: false,
-    publicPath: '/'
+    publicPath: '/',
+    proxy: {
+      '/api': {
+        target: 'http://172.30.1.190',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/api': ''
+        }
+      }
+    }
   },
   minimize: true,
   chunk: isProd ? {
@@ -41,7 +50,8 @@ cooking.set({
   } : false,
   extractCSS: true,
   alias: config.alias,
-  extends: ['vue2', 'lint'],
+  // extends: ['vue2', 'lint'],
+  extends: ['vue2'],
   postcss: config.postcss
 });
 

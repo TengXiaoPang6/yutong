@@ -69,6 +69,8 @@ import Header from '../packages/header/index.js';
 import Aside from '../packages/aside/index.js';
 import Main from '../packages/main/index.js';
 import Footer from '../packages/footer/index.js';
+import Search from '../packages/search/index.js';
+import Line from '../packages/line/index.js';
 import CascaderTree from '../packages/cascaderTree/index.js';
 import locale from 'element-ui/src/locale';
 import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
@@ -139,6 +141,8 @@ const components = [
   Aside,
   Main,
   Footer,
+  Search,
+  Line,
   CascaderTree,
   CollapseTransition
 ];
@@ -173,7 +177,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 module.exports = {
-  version: '2.2.1',
+  version: '2.2.4',
   locale: locale.use,
   i18n: locale.i18n,
   install,
@@ -247,6 +251,8 @@ module.exports = {
   Aside,
   Main,
   Footer,
+  Search,
+  Line,
   CascaderTree
 };
 

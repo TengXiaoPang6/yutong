@@ -135,11 +135,12 @@
       );
 
       return (
-        <div class={{
+        <div id='el-tabs-card' class={{
           'el-tabs': true,
           'el-tabs--card': type === 'card',
           [`el-tabs--${tabPosition}`]: true,
           'el-tabs--border-card': type === 'border-card'
+          
         }}>
           { tabPosition !== 'bottom' ? [header, panels] : [panels, header] }
         </div>
@@ -152,3 +153,10 @@
     }
   };
 </script>
+<style scoped>
+#el-tabs-card{
+  display: inline-block
+}
+
+</style>
+

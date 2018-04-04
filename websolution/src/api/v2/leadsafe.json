@@ -1,0 +1,1745 @@
+{
+    "product": "leadsafe",
+    "path": "resource/data/",
+    "api": {
+        "downAccidentPoint": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/accident/downV2AccidentPoint",
+            "simulateUrl": "accident/downV2AccidentPoint.json",
+            "base": true
+        },
+        "getCcAccidentPointDetailList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/accident/getV2CcAccidentPointDetailList",
+            "simulateUrl": "accident/getCcAccidentPointDetailList.json",
+            "base": true
+        },
+        "getNightSpeedAlarmSetting": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/alarm/getNightSpeedAlarmSetting",
+            "simulateUrl": "alarmSetting/getNightSpeedAlarmSetting.json",
+            "base": true
+        },
+        "deleteAAVPrompt": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/alarmKc/deleteAAVPrompt",
+            "simulateUrl": "kc/deleteAAVPPrompt.json",
+            "base": true
+        },
+        "exportAlarmAutomaticVoiceList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/alarmKc/exportAlarmAutomaticVoiceList",
+            "simulateUrl": "kc/getAlarmAutomaticVoiceList.json",
+            "base": true
+        },
+        "addAAVPrompt": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/alarmKc/addAAVPrompt",
+            "simulateUrl": "kc/addAAVPrompt.json",
+            "base": true
+        },
+        "setPassengerTransportLimitAlarmSetting": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/alarm/setPassengerTransportLimitAlarmSetting",
+            "simulateUrl": "alarmSetting/setPassengerTransportLimitAlarmSetting.json",
+            "base": true
+        },
+        "setOverspeedAlarmSetting": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/alarm/setOverspeedAlarmSetting",
+            "simulateUrl": "alarmSetting/setOverspeedAlarmSetting.json",
+            "base": true
+        },
+        "setNightSpeedAlarmSetting": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/alarm/setNightSpeedAlarmSetting",
+            "simulateUrl": "alarmSetting/setNightSpeedAlarmSetting.json",
+            "base": true
+        },
+        "setIllegalNightDrivingAlarmSetting": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/alarm/setIllegalNightDrivingAlarmSetting",
+            "simulateUrl": "alarmSetting/setIllegalNightDrivingAlarmSetting.json",
+            "base": true
+        },
+        "setFatigueDrivingAlarmSetting": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/alarm/setFatigueDrivingAlarmSetting",
+            "simulateUrl": "alarmSetting/setFatigueDrivingAlarmSetting.json",
+            "base": true
+        },
+        "getPassengerTransportLimitAlarmSetting": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/alarm/getPassengerTransportLimitAlarmSetting",
+            "simulateUrl": "alarmSetting/getPassengerTransportLimitAlarmSetting.json",
+            "base": true
+        },
+        "getOverspeedAlarmSetting": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/alarm/getOverspeedAlarmSetting",
+            "simulateUrl": "alarmSetting/getOverspeedAlarmSetting.json",
+            "base": true
+        },
+        "getIllegalNightDrivingAlarmSetting": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/alarm/getIllegalNightDrivingAlarmSetting",
+            "simulateUrl": "alarmSetting/getIllegalNightDrivingAlarmSetting.json",
+            "base": true
+        },
+        "getFatigueDrivingAlarmSetting": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/alarm/getFatigueDrivingAlarmSetting",
+            "simulateUrl": "alarmSetting/getFatigueDrivingAlarmSetting.json",
+            "base": true
+        },
+        "getPcAccidentPointList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/accident/getV2PcAccidentPointList",
+            "simulateUrl": "accident/getPcAccidentPointList.json",
+            "base": true
+        },
+        "exportDriveStatList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/driverKc/exportDriveStatList",
+            "simulateUrl": "kc/getDriveStatList.json",
+            "base": true
+        },
+        "archiveEvent": {
+            "params": "*",
+            "url": "leadsafe/eventinfo/archiveEvent",
+            "simulateUrl": "event/archiveEvent.json",
+            "base": true
+        },
+        "getEntEventType": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/eventinfo/getEntEventType",
+            "simulateUrl": "event/getEntEventType.json",
+            "base": true
+        },
+        "getPcDriveBehaviorStatList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/historyreport/getV2PcDriveBehaviorStatList",
+            "simulateUrl": "driveBehavior/getPcDriveBehaviorStatList.json",
+            "base": true
+        },
+        "getPcDriveAtNightListScd": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/historyreport/getV2PcDriveRecordList",
+            "simulateUrl": "scd/getPcDriveAtNightListScd.json",
+            "base": true
+        },
+        "getPcDriveRecordList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/historyreport/getV2PcDriveRecordList",
+            "simulateUrl": "drivingHistory/getPcDriveRecordList.json",
+            "base": true
+        },
+        "getPcDriveRecordListZg": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/historyreport/getV2PcDriveRecordList",
+            "simulateUrl": "zg/getPcDriveRecordListZg.json",
+            "base": true
+        },
+        "getPcDriveStatList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/historyreport/getV2PcDriveStatList",
+            "simulateUrl": "drivingHistory/getPcDriveStatList.json",
+            "base": true
+        },
+        "getPcDriveStatListZg": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/historyreport/getV2PcDriveStatList",
+            "simulateUrl": "zg/getPcDriveStatListZg.json",
+            "base": true
+        },
+        "getBcPcIllegalOperationsList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/illegalOperations/getBcPcIllegalOperationsList",
+            "simulateUrl": "kc/getBcPcIllegalOperationsList.json",
+            "base": true
+        },
+        "getCcIllegalOperationsDetailList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/illegalOperations/getCcIllegalOperationsDetailList",
+            "simulateUrl": "kc/getCcDangerDriveDetailList.json",
+            "base": true
+        },
+        "adasquery": {
+            "method": "post",
+            "url": "leadsafe/jwadas/adasquery",
+            "data": "*",
+            "simulateUrl": "vehicleCreate/getAllVehicleModelList.json"
+        },
+        "adastjquery": {
+            "method": "post",
+            "url": "leadsafe/jwadastj/adastjquery",
+            "data": "*",
+            "simulateUrl": "vehicleCreate/getAllVehicleModelList.json"
+        },
+        "exportadastjquery": {
+            "method": "post",
+            "url": "leadsafe/jwadastj/exportadastjquery",
+            "data": "*",
+            "simulateUrl": "vehicleCreate/getAllVehicleModelList.json"
+        },
+        "getDrivingAbstract": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/jwengdriver/getDrivingAbstract",
+            "simulateUrl": "jwengdriver/getDrivingAbstract.json"
+        },
+        "getDrivingMonthList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/jwengdriver/getDrivingMonthList",
+            "simulateUrl": "jwengdriver/getDrivingMonthList.json"
+        },
+        "getLocusPointsInfoV2": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/locusinfo/getLocusPointsInfoV2",
+            "simulateUrl": "locus/getLocusPointsInfoV2.json",
+            "base": true
+        },
+        "getPcLocusList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/locusinfo/getV2PcLocusList",
+            "simulateUrl": "locus/getPcLocusList.json",
+            "base": true
+        },
+        "exportPcVehicleOnlineRateList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/onlineRate/exportPcVehicleOnlineRateList",
+            "simulateUrl": "onlineRate/getPcVehicleOnlineRateList.json",
+            "base": true
+        },
+        "getPhotoDetailInfo": {
+            "params": "*",
+            "url": "leadsafe/photoinfo/getPhotoDetailInfo",
+            "simulateUrl": "operate/getPhotoDetailInfo.json",
+            "base": true
+        },
+        "getVehicleDashboardInfo": {
+            "url": "leadsafe/vehicleinfo/getVehicleDashboardInfo/{{vehicleId}}",
+            "simulateUrl": "vehicle/getVehicleDashboardInfo.json",
+            "base": true
+        },
+        "getPcVehicleConditionListFromHbase": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/xnyVehicleCondition/getVehicleConditionListFromHbase",
+            "simulateUrl": "",
+            "base": true
+        },
+        "addYawLine": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/yawAlarm/addYawLine",
+            "simulateUrl": "yawLine/addYawLine.json",
+            "base": true
+        },
+        "deleteYawLine": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/yawAlarm/deleteYawLine",
+            "simulateUrl": "yawLine/deleteYawLine.json",
+            "base": true
+        },
+        "setYawLineBindVehicles": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/yawAlarm/setYawLineBindVehicles",
+            "simulateUrl": "yawLine/setYawLineBindVehicles.json",
+            "base": true
+        },
+        "getYawLineList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/yawAlarm/getYawLineList",
+            "simulateUrl": "yawLine/getYawLineList.json",
+            "base": true
+        },
+        "getYawLineDetail": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/yawAlarm/getYawLineDetail",
+            "simulateUrl": "yawLine/getYawLineDetail.json",
+            "base": true
+        },
+        "getYawLineBindVehicles": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/yawAlarm/getYawLineBindVehicles",
+            "simulateUrl": "yawLine/getYawLineBindVehicles.json",
+            "base": true
+        },
+        "exportYawLineList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/yawAlarm/exportGetYawLineList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "editYawLine": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/yawAlarm/editYawLine",
+            "simulateUrl": "yawLine/editYawLine.json",
+            "base": true
+        },
+        "exportPcVehicleConditionListFromHbase": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/xnyVehicleCondition/exportVehicleConditionListFromHbase",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "exportPcVehicleConditionList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/xnyVehicleCondition/exportVehicleConditionList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "isRead": {
+            "method": "get",
+            "data": "*",
+            "url": "leadsafe/xcLocusInfo/isRead",
+            "simulateUrl": "frame/isRead.json"
+        },
+        "getDriveRecordList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/xcLocusInfo/getDriveRecordList",
+            "simulateUrl": "xcVehicleInfo/getDriveRecordList.json"
+        },
+        "changeIsRead": {
+            "method": "get",
+            "data": "*",
+            "url": "leadsafe/xcLocusInfo/changeIsRead",
+            "simulateUrl": "frame/changeIsRead.json"
+        },
+        "getRealTimeEventListXcCount": {
+            "method": "get",
+            "data": "*",
+            "url": "leadsafe/xcevent/getRealTimeEventListXcCount",
+            "simulateUrl": "event/getXcRealTimeEventList.json",
+            "base": true
+        },
+        "getXcRealTimeEvent": {
+            "method": "get",
+            "data": "*",
+            "url": "leadsafe/xcevent/getRealTimeEventList",
+            "simulateUrl": "event/getXcRealTimeEventList.json",
+            "base": true
+        },
+        "batchCancelEvent": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe//xcevent/batchCancelEvent",
+            "simulateUrl": "xcevent/batchCancelEvent.json",
+            "base": true
+        },
+        "getPcPlatWarningList": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/warninginfo/getV2WarningList",
+            "simulateUrl": "hg/getPcPlatWarningList.json",
+            "base": true
+        },
+        "exportPcPlatWarningList": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/warninginfo/exportV2WarningList",
+            "simulateUrl": "hg/getPcPlatWarningList.json",
+            "base": true
+        },
+        "getVideoInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/videoinfo/getVideoConfig",
+            "simulateUrl": "operate/getVideoInfo.json",
+            "base": true
+        },
+        "getPcVehicleRunStatisticList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleRunstats/getVehicleRunstats",
+            "simulateUrl": "kc/getPcVehicleRunStatisticList.json",
+            "base": true
+        },
+        "exportPcVehicleRunStatisticList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleRunstats/exportVehicleRunstats",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "createVehicleRecordStartTask": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleinfo/sendVehicleRecordStartTask",
+            "simulateUrl": "listen/createVehicleRecordStartTask.json",
+            "base": true
+        },
+        "sendVehiclePositionTrackingTask": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/vehicleinfo/sendVehiclePositionTrackingTask",
+            "simulateUrl": "",
+            "base": true
+        },
+        "createVehicleListenTask": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleinfo/sendVehicleListenTask",
+            "simulateUrl": "listen/createVehicleListenTask.json",
+            "base": true
+        },
+        "sendRollCallTask": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleinfo/sendRollCallTask",
+            "simulateUrl": "ms/sendRollCallTask.json",
+            "base": true
+        },
+        "getVehicleOnlineList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleinfo/getVehicleOnlineList",
+            "simulateUrl": "vehicle/getPcVehicleOnlineList.json",
+            "base": true
+        },
+        "getVehicleChannels": {
+            "params": "*",
+            "url": "leadsafe/vehicleinfo/getVehicleChannels",
+            "simulateUrl": "operate/getVehicleChannels.json",
+            "base": true
+        },
+        "getFloatPanelInfoVehicleV2": {
+            "params": "*",
+            "url": "leadsafe/vehicleinfo/getV2FloatPanelInfoVehicle",
+            "simulateUrl": "float/getFloatPanelInfoVehicleV2.json",
+            "base": true
+        },
+        "getCcVehicleSummary": {
+            "params": "*",
+            "url": "leadsafe/vehicleinfo/getV2CcVehicleSummary",
+            "simulateUrl": "vehicle/getCcVehicleSummary.json",
+            "base": true
+        },
+        "getCcVehicleInfoByOrg": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/vehicleinfo/getV2CcVehicleInfoByOrg",
+            "simulateUrl": "vehicle/getCcVehicleInfoByOrg.json"
+        },
+        "getCcVehicleDynamicInfos": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleinfo/getV2CcVehicleDynamicInfos",
+            "simulateUrl": "objectMonitor/getCcVehicleDynamicInfos.json",
+            "base": true
+        },
+        "getRealTimeVehicleListInArea": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleinfo/getRealTimeVehicleListInArea",
+            "simulateUrl": "areaSearch/getRealTimeVehicleListInArea.json",
+            "base": true
+        },
+        "getPcVehicleRealTimeInfo": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/vehicleinfo/getPcVehicleRealTimeInfo",
+            "simulateUrl": "vehicle/getPcVehicleRealTimeInfo.json",
+            "base": true
+        },
+        "getPcVehicleOnlineMonthList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleinfo/getPcVehicleOnlineMonthList",
+            "simulateUrl": "vehicle/getPcVehicleOnlineMonthList.json",
+            "base": true
+        },
+        "getPcEntOnlineList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleinfo/getPcEntOnlineList",
+            "simulateUrl": "ent/getPcEntOnlineList.json",
+            "base": true
+        },
+        "getHistoryVehicleListInAreas": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleinfo/getHistoryVehicleListInAreas",
+            "simulateUrl": "areaSearch/getHistoryVehicleListInAreas.json",
+            "base": true
+        },
+        "getChannelByOrgId": {
+            "params": "*",
+            "url": "leadsafe/vehicleinfo/getChnnelByOrgId",
+            "simulateUrl": "operate/getChannelByOrgId.json",
+            "base": true
+        },
+        "getChannelsByVehicles": {
+            "params": "*",
+            "url": "leadsafe/vehicleinfo/getChannelsByVehicles",
+            "simulateUrl": "operate/getChannelsByVehicles.json",
+            "base": true
+        },
+        "getAllChannels": {
+            "params": "*",
+            "url": "leadsafe/vehicleinfo/getAllChannels",
+            "simulateUrl": "operate/getAllChannels.json",
+            "base": true
+        },
+        "exportVehicleOnlineList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleinfo/exportVehicleOnlineList",
+            "simulateUrl": "vehicle/getPcVehicleOnlineList.json",
+            "base": true
+        },
+        "exportPcOnlineVehicleList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleinfo/exportV2PcOnlineVehicleList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "exportRealTimeVehicleListInArea": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleinfo/exportRealTimeVehicleListInArea",
+            "simulateUrl": "areaSearch/exportRealTimeVehicleListInArea.json",
+            "base": true
+        },
+        "exportPcEntOnlineList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleinfo/exportPcEntOnlineList",
+            "simulateUrl": "ent/getPcEntOnlineList.json",
+            "base": true
+        },
+        "exportHistoryVehicleListInAreas": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleinfo/exportHistoryVehicleListInAreas",
+            "simulateUrl": "areaSearch/getHistoryVehicleListInAreas.json",
+            "base": true
+        },
+        "getPcVehicleEventTypeStatList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleEventTypeStats/getPcV2VehicleEventTypeStatList",
+            "simulateUrl": "vehicleEventTypeStats/getPcVehicleEventTypeStatList.json",
+            "base": true
+        },
+        "getCcVehicleEventTypeStatSummary": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleEventTypeStats/getCcV2VehicleEventTypeStatSummary",
+            "simulateUrl": "vehicleEventTypeStats/getCcVehicleEventTypeStatSummary.json",
+            "base": true
+        },
+        "getCcVehicleEventTypeStatIndicator": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleEventTypeStats/getCcV2VehicleEventTypeStatIndicator",
+            "simulateUrl": "vehicleEventTypeStats/getCcVehicleEventTypeStatIndicator.json",
+            "base": true
+        },
+        "getCcVehicleEventTypeStatList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleEventTypeStats/getCcV2VehicleEventTypeStatList",
+            "simulateUrl": "vehicleEventTypeStats/getCcVehicleEventTypeStatList.json",
+            "base": true
+        },
+        "getCaptureResult": {
+            "url": "leadsafe/vehicleaction/getCaptureResult/{{batchId}}",
+            "simulateUrl": "operate/getCaptureResult.json",
+            "base": true
+        },
+        "issueCaptureCmd": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleaction/issueCaptureCmd",
+            "simulateUrl": "operate/issueCaptureCmd.json",
+            "base": true
+        },
+        "getTrackRecordList": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/trackRecord/getTrackRecord",
+            "simulateUrl": "hg/getTrackRecord.json",
+            "base": true
+        },
+        "getPcLoadPointList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/trackRecord/getPcLoadPointList",
+            "simulateUrl": "kc/getPcLoadPointList.json",
+            "base": true
+        },
+        "exportTrackRecordList": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/trackRecord/exportTrackRecordList",
+            "simulateUrl": "hg/getTrackRecord.json",
+            "base": true
+        },
+        "getPcTrackValidityStatList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/track/getV2PcTrackValidityStatList",
+            "simulateUrl": "track/getV2PcTrackValidityStatList.json",
+            "base": true
+        },
+        "getPcTrackPointList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/track/getV2PcTrackPointList",
+            "simulateUrl": "track/getV2PcTrackPointList.json",
+            "base": true
+        },
+        "getTerminalEventReportList": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/terminalEventReport/getTerminalEventReportList",
+            "simulateUrl": "route/getRouteTree.json",
+            "base": true
+        },
+        "getTerminalEventList": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/terminalEvent/getEventInfoList",
+            "simulateUrl": "route/getRouteTree.json",
+            "base": true
+        },
+        "setTimerCaptureParamsNew": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/terminalaction/setTimerCaptureParamsNew",
+            "simulateUrl": "vehicle/setTimerCaptureParams.json",
+            "base": true
+        },
+        "setTimerCaptureParams": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/terminalaction/setTimerCaptureParams",
+            "simulateUrl": "vehicle/setTimerCaptureParams.json",
+            "base": true
+        },
+        "setDoorCaptureParamsNew": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/terminalaction/setDoorCaptureParamsNew",
+            "simulateUrl": "vehicle/setDoorCaptureParams.json",
+            "base": true
+        },
+        "setDoorCaptureParams": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/terminalaction/setDoorCaptureParams",
+            "simulateUrl": "vehicle/setDoorCaptureParams.json",
+            "base": true
+        },
+        "setDistanceCaptureParamsNew": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/terminalaction/setDistanceCaptureParamsNew",
+            "simulateUrl": "vehicle/setDistanceCaptureParams.json",
+            "base": true
+        },
+        "setDistanceCaptureParams": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/terminalaction/setDistanceCaptureParams",
+            "simulateUrl": "vehicle/setDistanceCaptureParams.json",
+            "base": true
+        },
+        "getTimerCaptureParams": {
+            "params": "*",
+            "url": "leadsafe/terminalaction/getTimerCaptureParams",
+            "simulateUrl": "vehicle/getTimerCaptureParams.json",
+            "base": true
+        },
+        "getPhotoCmdSettingList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/terminalaction/getPhotoCmdSettingList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "getDoorCaptureParams": {
+            "params": "*",
+            "url": "leadsafe/terminalaction/getDoorCaptureParams",
+            "simulateUrl": "vehicle/getDoorCaptureParams.json",
+            "base": true
+        },
+        "getDistanceCaptureParams": {
+            "params": "*",
+            "url": "leadsafe/terminalaction/getDistanceCaptureParams",
+            "simulateUrl": "vehicle/getDistanceCaptureParams.json",
+            "base": true
+        },
+        "getCaptureParams": {
+            "params": "*",
+            "url": "leadsafe/terminalaction/getCaptureParams",
+            "simulateUrl": "vehicle/getCaptureParams.json",
+            "base": true
+        },
+        "clearTimerCaptureParams": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/terminalaction/clearTimerCaptureParams",
+            "simulateUrl": "vehicle/clearTimerCaptureParams.json",
+            "base": true
+        },
+        "clearDoorCaptureParamsNew": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/terminalaction/clearDoorCaptureParamsNew",
+            "simulateUrl": "vehicle/clearDoorCaptureParamsNew.json",
+            "base": true
+        },
+        "clearDistanceCaptureParams": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/terminalaction/clearDistanceCaptureParams",
+            "simulateUrl": "vehicle/clearDistanceCaptureParams.json",
+            "base": true
+        },
+        "modifyPhotoLabel": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/taginfo/updateTags",
+            "simulateUrl": "photoLabel/modifyPhotoLabel.json",
+            "base": true
+        },
+        "getPhotoLabelList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/taginfo/getTagsList",
+            "simulateUrl": "photoLabel/getPhotoLabelList.json",
+            "base": true
+        },
+        "getAllTags": {
+            "url": "leadsafe/taginfo/getAllTags",
+            "simulateUrl": "operate/getAllTags.json",
+            "base": true
+        },
+        "deletePhotoLabel": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/taginfo/deleteTags",
+            "simulateUrl": "photoLabel/deletePhotoLabel.json",
+            "base": true
+        },
+        "addPhotoLabel": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/taginfo/addTags",
+            "simulateUrl": "photoLabel/addPhotoLabel.json",
+            "base": true
+        },
+        "getPcDriveSpeedListSyzx": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/syzx/getV2PcDriveSpeedListSyzx",
+            "simulateUrl": "zg/getCcDriveSpeedListSyzx.json",
+            "base": true
+        },
+        "getCcVelocitySpectrumIndicatorSyzx": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/syzx/getV2CcVelocitySpectrumIndicatorSyzx",
+            "simulateUrl": "zg/getCcVelocitySpectrumIndicatorSyzx.json",
+            "base": true
+        },
+        "getCcVelocityDistIndicatorSyzx": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/syzx/getV2CcVelocityDistIndicatorSyzx",
+            "simulateUrl": "zg/getCcVelocityDistIndicatorSyzx.json",
+            "base": true
+        },
+        "getCcDriveSpeedListSyzx": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/syzx/getV2CcVehicleTrackPointsSyzx",
+            "simulateUrl": "zg/getCcDriveSpeedListSyzx.json",
+            "base": true
+        },
+        "getCcDriveSpeedIndicatorSyzx": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/syzx/getV2CcVehicleTrackPointsSyzx",
+            "simulateUrl": "zg/getCcDriveSpeedIndicatorSyzx.json",
+            "base": true
+        },
+        "getCcDriveSpeedSummarySyzx": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/syzx/getV2CcDriveSpeedSummarySyzx",
+            "simulateUrl": "zg/getCcDriveSpeedSummarySyzx",
+            "base": true
+        },
+        "getVehicleStateList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleinfo/getVehicleStatusList",
+            "simulateUrl": "zg/getCcDriveSpeedSummarySyzx",
+            "base": true
+        },
+        "getPcAlarmSupervisionList": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/supervisioninfo/getV2SupervisionList",
+            "simulateUrl": "hg/getPcAlarmSupervisionList.json",
+            "base": true
+        },
+        "exportPcAlarmSupervisionList": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/supervisioninfo/exportV2SupervisionList",
+            "simulateUrl": "hg/getPcAlarmSupervisionList.json",
+            "base": true
+        },
+        "setPhotoViewed": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/photoinfo/setPhotoViewed",
+            "simulateUrl": "operate/setPhotoViewed.json",
+            "base": true
+        },
+        "modifyPhotoRemarks": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/photoinfo/modifyPhotoRemarks",
+            "simulateUrl": "operate/modifyPhotoRemarks.json",
+            "base": true
+        },
+        "getPcPhotoList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/photoinfo/getV2PcPhotoList",
+            "simulateUrl": "photo/getPcPhotoList.json",
+            "base": true
+        },
+        "getCcPhotoList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/photoinfo/getV2CcPhotoList",
+            "simulateUrl": "photo/getCcPhotoList.json",
+            "base": true
+        },
+        "downloadPhotos": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/photoinfo/downloadV2Photos",
+            "simulateUrl": "photo/downloadPhotos.json",
+            "base": true
+        },
+        "deletePhoto": {
+            "params": "*",
+            "url": "leadsafe/photoinfo/deletePhoto",
+            "simulateUrl": "operate/deletePhoto.json",
+            "base": true
+        },
+        "modifyPhotoTags": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/photoaction/modifyPhotoTags",
+            "simulateUrl": "operate/modifyPhotoTags.json",
+            "base": true
+        },
+        "deletePhotoTag": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/photoaction/deletePhotoTag",
+            "simulateUrl": "operate/deletePhotoTag.json",
+            "base": true
+        },
+        "addPhotoTag": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/photoaction/addPhotoTag",
+            "simulateUrl": "operate/addPhotoTag.json",
+            "base": true
+        },
+        "getPcOverSpeedList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/overSpeed/getPcOverSpeedList",
+            "simulateUrl": "kc/getPcOverSpeedList.json",
+            "base": true
+        },
+        "getCcOverSpeedDetailList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/overSpeed/getCcOverSpeedDetailList",
+            "simulateUrl": "kc/getCcOverSpeedDetailList.json",
+            "base": true
+        },
+        "exportPcOverSpeedList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/overSpeed/exportPcOverSpeedList",
+            "simulateUrl": "kc/getPcOverSpeedList.json",
+            "base": true
+        },
+        "exportCcOverSpeedDetailList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/overSpeed/exportCcOverSpeedDetailList",
+            "simulateUrl": "kc/exportCcOverSpeedDetailList.json",
+            "base": true
+        },
+        "getPcVehicleOnlineRateList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/onlineRate/getV2PcVehicleOnlineRateList",
+            "simulateUrl": "onlineRate/getPcVehicleOnlineRateList.json",
+            "base": true
+        },
+        "getPcVehicleStatusList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/newenergy/getVehicleStatusList",
+            "simulateUrl": "newenergy/getVehicleStatusList.json",
+            "base": true
+        },
+        "exportPcVehicleStatusList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/newenergy/exportVehicleStatusList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "getPcVehicleConditionList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/xnyVehicleCondition/getVehicleConditionList",
+            "simulateUrl": "newenergy/getVehicleConditionList.json",
+            "base": true
+        },
+        "getCcLocusList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/locusinfo/getV2CcLocusList",
+            "simulateUrl": "locus/getCcLocusList.json",
+            "base": true
+        },
+        "getPcVehicleClusterLocus": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/locusinfo/getV2PcVehicleClusterLocus",
+            "simulateUrl": "locus/getPcVehicleClusterLocus.json",
+            "base": true
+        },
+        "exportalarmdatas": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/jydalarm/exportalarmdatas",
+            "simulateUrl": "jydalarm/exportalarmdatas.json"
+        },
+        "exportPcLocusList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/locusinfo/exportV2PcLocusList",
+            "simulateUrl": "locus/exportPcLocusList.json",
+            "base": true
+        },
+        "exportLocusPointsInfoV2": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/locusinfo/exportLocusPointsInfoV2",
+            "simulateUrl": "locus/exportPcLocusList.json",
+            "base": true
+        },
+        "getconfigJyd": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/jydsystemconfig/getconfig",
+            "simulateUrl": "jydsystemconfig/getconfig.json"
+        },
+        "updateconfigJyd": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/jydsystemconfig/updateconfig",
+            "simulateUrl": "jydsystemconfig/updateconfig.json"
+        },
+        "getNewAlarmCount": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/jydalarm/getnewalarmcount",
+            "simulateUrl": "jydalarm/git.json"
+        },
+        "getJwTailgasQuery": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/jwtailgas/tailgasquery",
+            "simulateUrl": "jwtailgas/tailgasquery.json"
+        },
+        "getJwFloatPanelInfoVehicle": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/jwVehicleConf/getJwFloatPanelInfoVehicle",
+            "simulateUrl": "jwVehicleConf/getJwFloatPanelInfoVehicle.json"
+        },
+        "getalermlist": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/jydalarm/getalarmlist",
+            "simulateUrl": "jydalarm/git.json"
+        },
+        "exportatailgasquery": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/jwtailgas/exportatailgasquery",
+            "simulateUrl": "jwtailgas/exportatailgasquery.json"
+        },
+        "getEmployeeBaseInfo": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/jwRepairPersonInfo/getEmployeeBaseInfo",
+            "simulateUrl": "jwRepairPersonInfo/getEmployeeBaseInfo.json"
+        },
+        "getDrivingRank": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/jwengdriver/getDrivingRank",
+            "simulateUrl": "jwengdriver/getDrivingRank.json"
+        },
+        "getVehicleMonitorStatusList": {
+            "method": "post",
+            "url": "leadsafe/jwfaultmonitor/getVehicleMonitorStatusList",
+            "data": "*",
+            "simulateUrl": "jwfaultmonitor/getVehicleMonitorStatusList.json"
+        },
+        "exportadasquery": {
+            "method": "post",
+            "url": "leadsafe/jwadas/exportadasquery",
+            "data": "*",
+            "simulateUrl": "vehicleCreate/getAllVehicleModelList.json"
+        },
+        "getPcPlatInspectionList": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/inspectioninfo/getV2InspectionList",
+            "simulateUrl": "hg/getPcPlatInspectionList.json",
+            "base": true
+        },
+        "exportCcIllegalOperationsDetailList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/illegalOperations/exportCcIllegalOperationsDetailList",
+            "simulateUrl": "kc/getCcDangerDriveDetailList.json",
+            "base": true
+        },
+        "exportPcPlatInspectionList": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/inspectioninfo/exportV2InspectionList",
+            "simulateUrl": "hg/getPcPlatInspectionList.json",
+            "base": true
+        },
+        "exportBcPcIllegalOperationsList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/illegalOperations/exportBcPcIllegalOperationsList",
+            "simulateUrl": "kc/getBcPcIllegalOperationsList.json",
+            "base": true
+        },
+        "getPcDriveBehaviorList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/historyreport/getV2PcDriveBehaviorRecordList",
+            "simulateUrl": "driveBehavior/getPcDriveBehaviorList.json",
+            "base": true
+        },
+        "getCcDriveBehaviorList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/historyreport/getV2CcDriveBehaviorRecordList",
+            "simulateUrl": "driveBehavior/getCcDriveBehaviorList.json",
+            "base": true
+        },
+        "getCcDriveStatSummary": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/historyreport/getV2DriveStatSummary",
+            "simulateUrl": "drivingHistory/getCcDriveStatSummary.json",
+            "base": true
+        },
+        "getCcDriveStatIndicator": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/historyreport/getV2DriveStatIndicator",
+            "simulateUrl": "drivingHistory/getCcDriveStatIndicator.json",
+            "base": true
+        },
+        "getCcDriveBehaviorStatSummary": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/historyreport/getV2DriveBehaviorSummary",
+            "simulateUrl": "driveBehavior/getCcDriveBehaviorStatSummary.json",
+            "base": true
+        },
+        "getCcDriveBehaviorStatIndicator": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/historyreport/getV2DriveBehaviorStatIndicator",
+            "simulateUrl": "driveBehavior/getCcDriveBehaviorStatIndicator.json",
+            "base": true
+        },
+        "getCcTravelRecordList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/historyreport/getV2CcTravelRecordList",
+            "simulateUrl": "passengerStat/getCcTravelRecordList.json",
+            "base": true
+        },
+        "getCcDriveStatList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/historyreport/getV2CcDriveStatList",
+            "simulateUrl": "drivingHistory/getCcDriveStatList.json",
+            "base": true
+        },
+        "getCcDriveRecordList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/historyreport/getV2CcDriveRecordList",
+            "simulateUrl": "drivingHistory/getCcDriveRecordList.json",
+            "base": true
+        },
+        "getCcDriveBehaviorStatList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/historyreport/getV2CcDriveBehaviorStatList",
+            "simulateUrl": "driveBehavior/getCcDriveBehaviorStatList.json",
+            "base": true
+        },
+        "getFenceListV2": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/fenceinfo/getV2FenceList",
+            "simulateUrl": "fence/getFenceListV2.json",
+            "base": true
+        },
+        "exportPcDriveStatList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/historyreport/exportV2PcDriveStatList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "exportPcDriveRecordList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/historyreport/exportV2PcDriveRecordList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "exportPcDriveBehaviorStatList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/historyreport/exportV2PcDriveBehaviorStatList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "exportPcDriveBehaviorList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/historyreport/exportV2PcDriveBehaviorRecordList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "setFenceBindVehicles": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/fenceinfo/setV2FenceBindVehicles",
+            "simulateUrl": "fence/setFenceBindVehicles.json",
+            "base": true
+        },
+        "getFenceBindVehicles": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/fenceinfo/getV2FenceBindVehicles",
+            "simulateUrl": "fence/getFenceBindVehicles.json",
+            "base": true
+        },
+        "getFenceDetailV2": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/fenceinfo/getV2FenceDetail",
+            "simulateUrl": "fence/getFenceDetailV2.json",
+            "base": true
+        },
+        "getV2FenceBindVehiclesByFenceNameAndVehicleId": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/fenceinfo/getV2FenceBindVehiclesByFenceNameAndVehicleId",
+            "simulateUrl": "setting/setDisplayNameSetting.json",
+            "base": true
+        },
+        "exportFenceListV2": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/fenceinfo/exportV2FenceList",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "deleteV2FenceBindVehicles": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/fenceinfo/deleteV2FenceBindVehicles",
+            "simulateUrl": "fence/getFenceListV2.json",
+            "base": true
+        },
+        "exportFenceBindingQuery": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/fenceinfo/exportFenceBindingQuery",
+            "simulateUrl": "export/export.json",
+            "base": true
+        },
+        "editFenceV2": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/fenceinfo/editV2Fence",
+            "simulateUrl": "fence/editFenceV2.json",
+            "base": true
+        },
+        "upAlarmLevelList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/eventSetting/updateEventLevelList",
+            "simulateUrl": "alarmLevel/getEventLevelList.json",
+            "base": true
+        },
+        "deleteFenceV2": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/fenceinfo/deleteV2Fence",
+            "simulateUrl": "fence/deleteFenceV2.json",
+            "base": true
+        },
+        "addFenceV2": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/fenceinfo/addV2Fence",
+            "simulateUrl": "fence/addFenceV2.json",
+            "base": true
+        },
+        "getAlarmLevelList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/eventSetting/getEventLevelList",
+            "simulateUrl": "alarmLevel/getEventLevelList.json",
+            "base": true
+        },
+        "getAlarmNoLevelList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/eventSetting/getEventNoLevelList",
+            "simulateUrl": "alarmLevel/getEventNoLevelList.json",
+            "base": true
+        },
+        "addEntEventLevelList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/eventSetting/addEntEventLevelList",
+            "simulateUrl": "alarmLevel/getEventLevelList.json",
+            "base": true
+        },
+        "getDefaultEventNoLevelList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/eventSetting/getDefaultEventNoLevelList",
+            "simulateUrl": "alarmLevel/getEventNoLevelList.json",
+            "base": true
+        },
+        "getDefaultEventLevelList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/eventSetting/getDefaultEventLevelList",
+            "simulateUrl": "alarmLevel/getEventLevelList.json",
+            "base": true
+        },
+        "addAlarmLevelList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/eventSetting/addEventLevelList",
+            "simulateUrl": "alarmLevel/getEventLevelList.json",
+            "base": true
+        },
+        "relieveEvents": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/eventinfo/relieveEvents",
+            "simulateUrl": "event/cancelEvent.json",
+            "base": true
+        },
+        "setEventVerifiedStatus": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/eventinfo/setEventVerifiedStatus",
+            "simulateUrl": "event/setEventVerifiedStatus.json",
+            "base": true
+        },
+        "setEventReadStatus": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/eventinfo/setEventReadStatus",
+            "simulateUrl": "event/setEventReadStatus.json",
+            "base": true
+        },
+        "getEventDirectiveV2": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/eventinfo/getV2EventDirective",
+            "simulateUrl": "event/getEventDirectiveV2_{{eventId}}.json",
+            "base": true
+        },
+        "getPcEventList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/eventinfo/getV2PcEventList",
+            "simulateUrl": "event/getPcEventList.json",
+            "base": true
+        },
+        "getEventTypeNameListV2": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/eventinfo/getV2EventTypeNameList",
+            "simulateUrl": "event/getEventTypeNameListV2.json"
+        },
+        "getEventLevelListV2": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/eventinfo/getV2EventLevelList",
+            "simulateUrl": "event/getEventLevelListV2.json",
+            "base": true
+        },
+        "getEventDetailV2": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/eventinfo/getV2EventDetail",
+            "simulateUrl": "event/getEventDetailV2.json",
+            "base": true
+        },
+        "getEventCategoryNotReadCount": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/eventinfo/getV2EventCategoryNotReadCount",
+            "simulateUrl": "event/getEventCategoryNotReadCount.json",
+            "base": true
+        },
+        "getEventClassListV2": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/eventinfo/getV2EventClassList",
+            "simulateUrl": "event/getEventClassListV2.json"
+        },
+        "getCcEventHandleState": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/eventinfo/getV2CcEventHandleState",
+            "simulateUrl": "event/getCcEventState.json",
+            "base": true
+        },
+        "getDriveBehaviorEventTypes": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/eventinfo/getV2DriveBehaviorEventTypes",
+            "simulateUrl": "driveBehavior/getDriveBehaviorEventTypes.json",
+            "base": true
+        },
+        "getCcEventSummary": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/eventinfo/getV2CcEventSummary",
+            "simulateUrl": "event/getCcEventSummary.json",
+            "base": true
+        },
+        "getCcEventList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/eventinfo/getV2CcEventList",
+            "simulateUrl": "event/getCcEventList.json",
+            "base": true
+        },
+        "getAllEventNotReadCount": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/eventinfo/getV2AllEventNotReadCount",
+            "simulateUrl": "event/getAllEventNotReadCount.json",
+            "base": true
+        },
+        "getRealTimeEventListCount": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/eventinfo/getRealTimeEventListCount",
+            "simulateUrl": "event/getXcRealTimeEventList.json",
+            "base": true
+        },
+        "getKyRealTimeEvent": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/eventinfo/getRealTimeEventList",
+            "simulateUrl": "event/getXcRealTimeEventList.json",
+            "base": true
+        },
+        "getEventsV2": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/eventinfo/getEventsV2",
+            "simulateUrl": "locus/getEventsV2.json",
+            "base": true
+        },
+        "getPcVehicleOverloadRecord": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/eventinfo/getPcVehicleOverloadRecord",
+            "simulateUrl": "vehicle/getPcVehicleOverloadRecord.json",
+            "base": true
+        },
+        "getJpzEventInfoList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/eventinfo/getJpzEventInfoList",
+            "simulateUrl": "event/getJpzEventInfoList.json"
+        },
+        "exportEventLimit": {
+            "params": "*",
+            "url": "leadsafe/eventinfo/exportEventLimit",
+            "simulateUrl": "event/archiveEvent.json",
+            "base": true
+        },
+        "getEventInfoList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/eventinfo/getEventInfoList",
+            "simulateUrl": "event/getPcEventList.json",
+            "base": true
+        },
+        "exportPcVehicleOverloadRecord": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/eventinfo/exportPcVehicleOverloadRecord",
+            "simulateUrl": "vehicle/getPcVehicleOverloadRecord.json",
+            "base": true
+        },
+        "exportEventInfoListXc": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/eventinfo/exportEventInfoListXc",
+            "simulateUrl": "event/getPcEventList.json",
+            "base": true
+        },
+        "exportEventInfoList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/eventinfo/exportEventInfoList",
+            "simulateUrl": "event/getPcEventList.json",
+            "base": true
+        },
+        "cancelEvent": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/eventinfo/cancelEvent",
+            "simulateUrl": "event/cancelEvent.json",
+            "base": true
+        },
+        "getDriveStatList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/driverKc/getDriveStatList",
+            "simulateUrl": "kc/getDriveStatList.json",
+            "base": true
+        },
+        "getDriveStatDetailList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/driverKc/getDriveStatDetailList",
+            "simulateUrl": "kc/getDriveStatDetailList.json",
+            "base": true
+        },
+        "getCcDangerDriveDetailList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/dangerDrive/getCcDangerDriveDetailList",
+            "simulateUrl": "kc/getCcDangerDriveDetailList.json",
+            "base": true
+        },
+        "exportDriveStatDetailList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/driverKc/exportDriveStatDetailList",
+            "simulateUrl": "kc/getDriveStatDetailList.json",
+            "base": true
+        },
+        "getVehicleWarningHeatMap": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/adasSys/heatmap",
+            "simulateUrl": ""
+        },
+        "getVehicleWarningHeatMapCount": {
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/adasSys/heatmapcount",
+            "simulateUrl": ""
+        },
+        "getPcDangerDriveList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/dangerDrive/getPcDangerDriveList",
+            "simulateUrl": "kc/getPcDangerDriveList.json",
+            "base": true
+        },
+        "getPeriodDatas": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/jydperiodata/getPeriodDatas",
+            "simulateUrl": "stateQuery/getStateList.json"
+        },
+        "exportPeriodDatas": {
+            "method": "post",
+            "params": "*",
+            "url": "leadsafe/jydperiodata/exportPeriodDatas",
+            "simulateUrl": "jydperiodata/exportPeriodDatas.json"
+        },
+        "exportAdasDataQuery": {
+            "method": "post",
+            "url": "leadsafe/adasSys/exportAdasDataQuery",
+            "data": "*",
+            "simulateUrl": "vehicleCreate/getAllVehicleModelList.json"
+        },
+        "getVehicleDynamicInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleinfo/getVehicleDynamicInfo",
+            "simulateUrl": "objectMonitor/getVehicleDynamicInfo.json",
+            "base": true
+        },
+        "queryAdasData": {
+            "method": "post",
+            "url": "leadsafe/adasSys/queryAdasData",
+            "data": "*",
+            "simulateUrl": "vehicleCreate/getAllVehicleModelList.json"
+        },
+        "statusQuery": {
+            "method": "post",
+            "url": "leadsafe/speedLimit/statusQuery",
+            "data": "*",
+            "simulateUrl": "vehicleCreate/getAllVehicleModelList.json"
+        },
+        "getSpeedLimitDetail": {
+            "method": "post",
+            "url": "leadsafe/speedLimit/detail",
+            "data": "*",
+            "simulateUrl": "speedLimit/detail"
+        },
+        "speedLimitSetting": {
+            "method": "post",
+            "url": "leadsafe/speedLimit/setting",
+            "data": "*",
+            "simulateUrl": "speedLimit/detail"
+        },
+        "exportDriveRecordList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/xcLocusInfo/exportDriveRecordList",
+            "simulateUrl": "xcVehicleInfo/exportDriveRecordList.json"
+        },
+        "exportAdasVehicleCountData": {
+            "method": "post",
+            "url": "leadsafe/adasSys/exportAdasVehicleCountData",
+            "data": "*",
+            "simulateUrl": "vehicleCreate/getAllVehicleModelList.json"
+        },
+        "exportAdasDriverCountData": {
+            "method": "post",
+            "url": "leadsafe/adasSys/exportAdasDriverCountData",
+            "data": "*",
+            "simulateUrl": "vehicleCreate/getAllVehicleModelList.json"
+        },
+        "queryAdasDriverCountData": {
+            "method": "post",
+            "url": "leadsafe/adasSys/queryAdasDriverCountData",
+            "data": "*",
+            "simulateUrl": "vehicleCreate/getAllVehicleModelList.json"
+        },
+        "queryAdasVehicleCountData": {
+            "method": "post",
+            "url": "leadsafe/adasSys/queryAdasVehicleCountData",
+            "data": "*",
+            "simulateUrl": "vehicleCreate/getAllVehicleModelList.json"
+        },
+        "exportPcDangerDriveList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/dangerDrive/exportPcDangerDriveList",
+            "simulateUrl": "kc/exportPcDangerDriveList.json",
+            "base": true
+        },
+        "exportAccidentPointList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/accident/exportAccidentPointList",
+            "simulateUrl": "accident/getPcAccidentPointList.json",
+            "base": true
+        },
+        "exportCcDangerDriveDetailList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/dangerDrive/exportCcDangerDriveDetailList",
+            "simulateUrl": "kc/getCcDangerDriveDetailList.json",
+            "base": true
+        },
+        "updateAAVPrompt": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/alarmKc/updateAAVPrompt",
+            "simulateUrl": "kc/updateAAVPPrompt.json",
+            "base": true
+        },
+        "getAlarmAutomaticVoiceList": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/alarmKc/getAlarmAutomaticVoiceList",
+            "simulateUrl": "kc/getAlarmAutomaticVoiceList.json",
+            "base": true
+        },
+        "geteachLineChartData": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/adasSys/queryAdasLookRouteCount",
+            "simulateUrl": "kc/getAlarmAutomaticVoiceList.json",
+            "base": true
+        },
+        "geteachTimeChartData": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/adasSys/queryAdasLookTimeCount",
+            "simulateUrl": "kc/getAlarmAutomaticVoiceList.json",
+            "base": true
+        },
+        "geteachDriverChartData": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/adasSys/queryAdasLookDriverCount",
+            "simulateUrl": "kc/getAlarmAutomaticVoiceList.json",
+            "base": true
+        },
+        "queryAdasLookDriverRespCount": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/adasSys/queryAdasLookDriverRespCount",
+            "simulateUrl": "kc/getAlarmAutomaticVoiceList.json",
+            "base": true
+        },
+        "geteachDriverOrderData": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/adasSys/queryAdasLookDriverOrder",
+            "simulateUrl": "kc/getAlarmAutomaticVoiceList.json",
+            "base": true
+        },
+        "getPowerPileStatis": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/powerPile/getPowerPileStatis",
+            "simulateUrl": "kc/getAlarmAutomaticVoiceList.json",
+            "base": true
+        },
+        "exportVehicleStateList":{
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/vehicleinfo/exportVehicleStateList",
+            "simulateUrl": "kc/getAlarmAutomaticVoiceList.json",
+            "base": true
+        },
+        "checkV2AccidentPointState": {
+            "method": "post",
+            "data": "*",
+            "url": "leadsafe/accident/checkV2AccidentPointState",
+            "simulateUrl": "accident/checkV2AccidentPointState.json",
+            "base": true
+        },
+        "getAlldevicesType":{
+            "method": "get",
+            "params": "*",
+            "url": "leadsafe/videoinfo/getVideoTypes",
+            "simulateUrl": "fence/getFenceDetailV2.json",
+            "base": true
+        },
+        "getVehicleRunTimeByIdsForMonitor":{
+            "method":"post",
+            "data":"*",
+            "url":"vehicleinfo/getVehicleRunTimeByIdsForMonitor",
+            "simulateUrl":"accident/checkV2AccidentPointState.json",
+            "base":true
+        },
+        "getLockVehicleDetail":{
+            "method":"post",
+            "data":"*",
+            "url":"lockVehicle/detail",
+            "base":true
+        },
+        "setLockVehicleSetting":{
+            "method":"post",
+            "data":"*",
+            "url":"lockVehicle/setting",
+            "base":true
+        },
+        "lockVehiclequeryStatus":{
+            "method":"post",
+            "data":"*",
+            "url":"lockVehicle/queryStatus",
+            "base":true
+        },
+        "exportTailGasQueryHis":{
+          "method":"post",
+          "data":"*",
+          "url":"jwtailgas/exportTailGasQueryHis",
+          "simulateUrl":"jwtailgas/exportTailGasQueryHis.json",
+          "base":true
+        }
+    },
+    "simulate": false
+}

@@ -1,0 +1,104 @@
+{
+	"product":"basic",
+    "api": {
+        "getNavMenuTree": {
+            "url": "basic/menuinfo/getNavMenuTree",
+            "simulateUrl": "common/getNavMenuTree.json",
+            "base": true
+        },
+        "getTopMenus": {
+            "params": "*",
+            "method": "POST",
+            "url": "basic/menuinfo/getTopMenus",
+            "simulateUrl": "frame/getTopMenus.json",
+            "simulate": false
+        },
+        "getBottomMenus": {
+            "params": "*",
+            "method": "POST",
+            "url": "basic/menuinfo/getBottomMenus",
+            "simulateUrl": "frame/getBottomMenus.json",
+            "simulate": false
+        },
+        "getPersonalMapSetting": {
+            "params": "*",
+            "method": "get",
+            "url": "basic/baseMap/getPersonalMapSetting",
+            "simulateUrl": "common/getPersonalMapSetting.json",
+            "base": true
+        },
+        "getCurrentUserInfo": {
+            "params": "*",
+            "url": "basic/userinfo/getUserAccountInfo",
+            "simulateUrl": "setting/getCurrentUserInfo.json",
+            "base": true
+        },
+        "login": {
+            "method": "post",
+            "data": "*",
+            "url": "basic/userauth/login",
+            "simulateUrl": "auth/login.json",
+            "base": true,
+            "headers": {
+              "Content-Type": "application/x-www-form-urlencoded"
+            }
+        },
+        "getUserAuths": {
+            "params": "*",
+            "url": "basic/userauth/getUserAuths",
+            "simulateUrl": "auth/getUserAuths.json",
+            "base": true
+        },
+        "showAppUpload": {
+            "method": "get",
+            "params": "*",
+            "url": "basic/syssetting/showAppUpload",
+            "simulateUrl": "setting/getDisplayNameSetting.json",
+            "base": true
+        },
+        "getWeatherInfo": {
+            "url": "basic/usersetting/getWeatherInfo",
+            "simulateUrl": "common/getWeatherInfo.json",
+            "base": true
+        },
+        "registerPushInfo": {
+            "method": "post",
+            "data": "*",
+            "url": "basic/push/registerPushInfo",
+            "simulateUrl": "common/registerPushInfo.json",
+            "base": true
+        },
+        "logout": {
+            "params": "*",
+            "url": "basic/userauth/logout",
+            "simulateUrl": "auth/logout.json",
+            "base": true
+        },
+        "getAppInfo": {
+            "url": "basic/appInfo/getAppInfo",
+            "simulateUrl": "common/getAppInfo.json",
+            "base": true
+        },
+        "getParamsBySettingItem": {
+            "method": "get",
+            "params": "*",
+            "url": "basic/usersetting/getParamsBySettingItem",
+            "simulateUrl": "setting/getParamsBySettingItem.json",
+            "base": true
+        },
+        "behaviorReport": {
+            "method": "post",
+            "data": "*",
+            "url": "basic/xcVideo/appendVideoLog",
+            "simulaterUrl": "common/behaviorReport.json",
+            "base": true
+        },
+        "behaviorReportTest": {
+            "method": "post",
+            "data": "*",
+            "url": "basic/http://127.0.0.1:3000/report",
+            "simulaterUrl": "common/behaviorReport.json",
+            "base": true
+        }
+    }
+}

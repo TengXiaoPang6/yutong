@@ -1,0 +1,206 @@
+@import './mixin.scss';
+#app {
+  .app-wrapper {
+    @include clearfix;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    //app-header
+    .app-header {
+      background-color:$--color-header;
+      height: 60px;
+      border: none;
+      .header-logo{
+        float: left;
+        color: #fff;
+        height: 60px;
+        line-height: 60px;
+        .logo-image{
+          height: 36px;
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
+      .hamburger-container {
+        float: left;
+        height: 60px;
+        line-height: 66px;
+        padding: 0 20px;
+      }
+      .right-menu {
+        float: right;
+        height: 60px;
+        &:focus{
+          outline: none;
+        }
+        &:after{
+          height: 100%;
+          width: 0px;
+          content: ' ';
+          display: inline-block;
+          vertical-align: middle;
+        }
+        .right-menu-item {
+          display: inline-block;
+          vertical-align: middle;
+          margin: 0 8px;
+        }
+        .avatar-container {
+          margin-right: 16px;
+          .avatar-wrapper {
+            cursor: pointer;
+            position: relative;
+            .user-avatar {
+              width: 40px;
+              height: 40px;
+              border-radius: 10px;
+              display: inline-block;
+              vertical-align: middle;
+            }
+            .el-icon-caret-bottom {
+              position: absolute;
+              right: -20px;
+              top: 25px;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+    // 主体区域
+    .main-container {
+      transition: left 0.28s;
+      position: absolute;
+      top: 60px;
+      bottom: 40px;
+      left: 220px;
+      right: 0;
+      padding: 84px 0 0;
+      box-sizing: border-box;
+      .navbar {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 0px !important;
+        .breadcrumb-container{
+          float: left;
+        }
+      }
+      .app-main{
+        height: 100%;
+        overflow: auto;
+        .page-container{
+          padding: 20px;
+        }
+        .map-container{
+          height: 100%;
+        }
+      }
+    }
+    .app-footer {
+      font-size: 14px;
+      color: #527CA0;
+      height: 40px;
+      position: fixed;
+      z-index: 1000;
+      bottom: 0;
+      left: 220px;
+      right: 0;
+      line-height: 40px;
+      padding: 0 20px;
+      /*background-image: linear-gradient(0deg, #FFFFFF 32%, rgba(250,251,252,0.00) 100%);*/
+      background-color: #fff;
+      user-select: none;
+      .frame-copyright{
+        float: left;
+      }
+      .right-menu{
+        height: 40px;
+        float: right;
+        cursor: pointer;
+        &:after{
+          display: inline-block;
+          vertical-align: middle;
+          height: 100%;
+          width: 0;
+          content: ' ';
+        }
+        .right-menu-item{
+          display: inline-block;
+          vertical-align: middle;
+        }
+        .icon-wrapper{
+          width: 25px;
+          height: 25px;
+          line-height: 32px;
+          text-align: center;
+          font-size: 18px;
+          border-radius: 50%;
+          margin-left: 8px;
+          color: #fff;
+          background-color: $--color-primary;
+        }
+      }
+    }
+    // 侧边栏
+    .sidebar-container {
+      transition: width 0.28s;
+      width: 220px;
+      position: fixed;
+      top: 60px;
+      bottom: 0;
+      left: 0;
+      z-index: 999;
+      border-right: 1px solid #d8dce5;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 0 3px 0 rgba(0, 0, 0, 0.04);
+      a {
+        display: inline-block;
+        width: 100%;
+      }
+      .el-menu {
+        border: none;
+        width: 100%;
+      }
+      .svg-icon{
+        margin-right: 10px;
+      }
+    }
+  }
+  .hideSidebar {
+    .sidebar-container,.sidebar-container .el-menu {
+      width: 60px;
+      // overflow: inherit;
+    }
+    .sidebar-menu{
+      .svg-icon{
+        width: 24px;
+        height: 24px;
+        transition: all 0.3s;
+      }
+    }
+    .el-submenu {
+      &>.el-submenu__title {
+        &>span {
+          display: none;
+        }
+        .el-submenu__icon-arrow {
+          display: none;
+        }
+      }
+      .nest-menu {
+        .el-submenu__icon-arrow {
+          display: block!important;
+        }
+        span {
+          display: inline-block!important;
+        }
+      }
+    }
+    .main-container,.app-footer{
+      left: 60px;
+    }
+  }
+}

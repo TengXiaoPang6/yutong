@@ -28,28 +28,50 @@
       font-family: 'Helvetica Neue';
     }
   }
-  .demo-typo-size {
+  #demo-typo-size {
+    .title{
+      font-size:36px;
+      line-height:48px;
+       color:#2c405a;
+    }
     .h1 {
-      font-size: 20px;
+      font-size:24px ;
+      line-height: 32px;
+      color:#2c405a;
     }
     .h2 {
-      font-size: 18px;
+      font-size:18px ;
+      line-height: 24px;
+       color:#2c405a;
     }
     .h3 {
-      font-size: 16px;
+      font-size:16px; ;
+      line-height: 22px;
+      color:#2c405a;
     }
     .text-regular {
       font-size: 14px;
+      line-height: 20px;
+      color:#3f536e;
     }
     .text-small {
-      font-size: 13px;
-    }
-    .text-smaller {
       font-size: 12px;
+      line-height: 28px;
+      color:#3f536e;
+    }
+    .text-large {
+      font-size: 18px;
+      line-height: 30px;
+    color:#3f536e;
     }
     .color-dark-light {
       color: #99a9bf;
     }
+
+    .text-pagination{
+      color:#8dabc4 !import;
+    }
+
   }
   .typo-PingFang {
     font-family: 'PingFang SC';
@@ -109,42 +131,66 @@
 ### Font-family 代码
 
 ```css
-font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+font-family: "Helvetica Neue",Helvetica,"PingFang SC","Heebo","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
 ```
 
 ### 字体使用规范
 
-<table class="demo-typo-size">
+<table id="demo-typo-size">
   <tbody>
     <tr>
-      <td class="h1">主标题</td>
+      <td >文字类型</td>
+      <td >显示内容</td>
+      <td class="color-dark-light">规格</td>
+      <td >Class Name</td>
+    </tr>
+    <tr>
+      <td class="title">主标题</td>
+      <td class="title">用 Element 快速搭建页面</td>
+      <td class="color-dark-light">36px </td>
+      <td >'el-text-title'</td>
+    </tr>
+    <tr>
+      <td class="h1">h1</td>
       <td class="h1">用 Element 快速搭建页面</td>
-      <td class="color-dark-light">20px  Extra large</td>
+      <td class="color-dark-light">24px</td>
+      <td>'el-text-h1'</td>
     </tr>
     <tr>
-      <td class="h2">标题</td>
+      <td class="h2">h2</td>
       <td class="h2">用 Element 快速搭建页面</td>
-      <td class="color-dark-light">18px large</td>
+      <td class="color-dark-light">18px </td>
+      <td>'el-text-h2'</td>
+    </tr>
+     <tr>
+      <td class="h3">h3</td>
+      <td class="h3">用 Element 快速搭建页面</td>
+      <td class="color-dark-light">16px</td>
+      <td>'el-text-h3'</td>
     </tr>
     <tr>
-      <td class="h3">小标题</td>
-      <td class="h3">用 Element 快速搭建页面</td>
-      <td class="color-dark-light">16px Medium</td>
+      <td class="text-large">正文(大)</td>
+      <td class="text-large">用 Element 快速搭建页面</td>
+      <td class="color-dark-light">18px</td>
+      <td>'el-text-large'</td>
     </tr>
     <tr>
       <td class="text-regular">正文</td>
       <td class="text-regular">用 Element 快速搭建页面</td>
-      <td class="color-dark-light">14px Small</td>
+      <td class="color-dark-light">14px </td>
+      <td>'el-text-base'</td>
     </tr>
     <tr>
       <td class="text-small">正文（小）</td>
       <td class="text-small">用 Element 快速搭建页面</td>
-      <td class="color-dark-light">13px Extra Small</td>
+      <td class="color-dark-light">12px</td>
+      <td>'el-text-small'</td>
     </tr>
     <tr>
-      <td class="text-smaller">辅助文字</td>
-      <td class="text-smaller">用 Element 快速搭建页面</td>
-      <td class="color-dark-light">12px Extra Extra Small</td>
+      <td class="text-pagination">辅助文字</td>
+      <td class="text-pagination">用 Element 快速搭建页面</td>
+      <td class="color-dark-light">coloc:#8dabc4</td>
+      <td>'el-text-gray'</td>
     </tr>
   </tbody>
 </table>

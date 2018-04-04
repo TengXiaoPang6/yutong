@@ -1,0 +1,22 @@
+{
+	"product":"asgold",
+    "path": "resource/data/",
+    "api": {
+      "getBatteryFaultDetail": {
+        "method": "post",
+        "data": "*",
+        "url": "asgold/newenergy/getBatteryFaultDetail",
+        "simulateUrl": "newenergy/getBatteryFaultDetail.json",
+        "base": false
+      },
+
+      "getBatteryFactory": {
+        "method": "post",
+        "data": "*",
+        "url": "asgold/newenergy/getBatteryFactory",
+        "simulateUrl": "newenergy/getBatteryFactory.json",
+        "base": true
+      }
+
+    }
+}

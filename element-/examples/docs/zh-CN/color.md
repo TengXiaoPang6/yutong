@@ -15,6 +15,7 @@
     }
   }
   .demo-color-box-group {
+    
     .demo-color-box {
       border-radius: 0;
       margin: 0;
@@ -27,47 +28,69 @@
     }
   }
   .bg-blue {
-    background-color: #409EFF;
+    background-color: #0093EE;
   }
 
   .bg-success {
-    background-color: #67C23A;
+    background-color: #4ECE3D;
   }
   .bg-warning {
     background-color: #E6A23C;
   }
   .bg-danger {
-    background-color: #F56C6C;
+    background-color: #FF151F;
   }
   .bg-info {
     background-color: #909399;
   }
 
   .bg-text-primary {
-    background-color: #303133;
+    background-color: #2c405a;
   }
-  .bg-text-regular {
-    background-color: #606266;
+  .bg-text-black {
+    background-color: #3f536e;
   }
-  .bg-text-secondary {
-    background-color: #909399;
+  .bg-text-gray {
+    background-color: #8dabc4;
   }
-  .bg-text-placeholder {
-    background-color: #c0c4cc;
+  .bg-text-active {
+    background-color: #abc6df;
   }
 
-  .bg-border-base {
-    background-color: #dcdfe6;
+  .bg-text-disable {
+    background-color: #c5d9e8 ;
   }
-  .bg-border-light {
-    background-color: #e4e7ed;
+
+   .bg-base {
+    background-color: #ecf5fd ;
+    color:#8dabc4;
   }
-  .bg-border-lighter {
-    background-color: #ebeef5;
+
+   .bg-part {
+    background-color: #FAFBFC ;
+     color:#8dabc4;
   }
-  .bg-border-extra-light {
-    background-color: #f2f6fc;
+
+  .bg-text-purple{
+    background-color: #ab7df6 ;
   }
+
+  .bg-text-blue{
+    background-color: #26c1c9 ;
+  }
+
+  .bg-text-yellow{
+    background-color:#FACA00 ;
+  }
+
+  .bg-text-green{
+    background-color: #86c636 ;
+  }
+
+  .bg-text-orange{
+    background-color: #fd7b1f ;
+  }
+
 
   [class*=" bg-border-"] {
     color: #303133;
@@ -84,7 +107,7 @@ Element 主要品牌颜色是鲜艳、友好的蓝色。
 
 <el-row :gutter="12">
   <el-col :span="6" :xs="{span: 12}">
-    <div class="demo-color-box bg-blue">Blue<div class="value">#409EFF</div></div>
+    <div class="demo-color-box bg-blue">Blue<div class="value"> #0093EE</div></div>
   </el-col>
 </el-row>
 
@@ -94,38 +117,48 @@ Element 主要品牌颜色是鲜艳、友好的蓝色。
 
 <el-row :gutter="12">
   <el-col :span="6" :xs="{span: 12}">
-    <div class="demo-color-box bg-success">Success<div class="value">#67C23A</div></div>
+    <div class="demo-color-box bg-success">Success<div class="value">#E6A23C</div></div>
   </el-col>
   <el-col :span="6" :xs="{span: 12}">
     <div class="demo-color-box bg-warning">Warning<div class="value">#E6A23C</div></div>
   </el-col>
   <el-col :span="6" :xs="{span: 12}">
-    <div class="demo-color-box bg-danger">Danger<div class="value">#F56C6C</div></div>
-  </el-col>
-  <el-col :span="6" :xs="{span: 12}">
-    <div class="demo-color-box bg-info">Info<div class="value">#909399</div></div>
+    <div class="demo-color-box bg-danger">Danger<div class="value">#FF151F </div></div>
   </el-col>
 </el-row>
 
-### 中性色
+### 其他颜色
 
-中性色用于文本、背景和边框颜色。通过运用不同的中性色，来表现层次结构。
+组件库中用到的其他一些颜色
 
 <el-row :gutter="12">
   <el-col :span="6" :xs="{span: 12}">
     <div class="demo-color-box-group">
-      <div class="demo-color-box bg-text-primary">主要文字<div class="value">#303133</div></div>
-      <div class="demo-color-box bg-text-regular">常规文字<div class="value">#606266</div></div>
-      <div class="demo-color-box bg-text-secondary">次要文字<div class="value">#909399</div></div>
-      <div class="demo-color-box bg-text-placeholder">占位文字<div class="value">#C0C4CC</div></div>
-    </div>
-  </el-col>
-  <el-col :span="6" :xs="{span: 12}">
-    <div class="demo-color-box-group">
-      <div class="demo-color-box bg-border-base">一级边框<div class="value">#DCDFE6</div></div>
-      <div class="demo-color-box bg-border-light">二级边框<div class="value">#E4E7ED</div></div>
-      <div class="demo-color-box bg-border-lighter">三级边框<div class="value">#EBEEF5</div></div>
-      <div class="demo-color-box bg-border-extra-light">四级边框<div class="value">#F2F6FC</div></div>
+      <div class="demo-color-box bg-text-primary">背景/标题<div class="value">#2C405A</div></div>
+      <div class="demo-color-box bg-text-black">黑色(文字)<div class="value">#3F536E</div></div>
+      <div class="demo-color-box bg-text-gray">灰色<div class="value">#8DABC4</div></div>
+      <div class="demo-color-box bg-text-active ">激活<div class="value">#ABC6DF</div></div>
+      <div class="demo-color-box bg-text-disable">未激活<div class="value">#C5D9E8</div></div>
+      <div class="demo-color-box bg-base">主要背景<div class="value">#ECF5FD   </div></div>
+      <div class="demo-color-box bg-part">区块灰色<div class="value">#FAFBFC</div></div>
     </div>
   </el-col>
 </el-row>
+
+
+### 亮色
+
+品牌亮色
+
+<el-row :gutter="12">
+  <el-col :span="6" :xs="{span: 12}">
+    <div class="demo-color-box-group">
+      <div class="demo-color-box bg-text-purple">紫色<div class="value">#AB7DF6</div></div>
+      <div class="demo-color-box bg-text-blue">蓝色<div class="value">#26C1C9</div></div>
+      <div class="demo-color-box bg-text-yellow">黄色<div class="value">#FAFC00</div></div>
+      <div class="demo-color-box bg-text-green ">绿色<div class="value">#86C636</div></div>
+      <div class="demo-color-box bg-text-orange">橘色<div class="value">#FDB1F</div></div>
+    </div>
+  </el-col>
+</el-row>
+

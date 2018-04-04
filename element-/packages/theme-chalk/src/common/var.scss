@@ -1,6 +1,8 @@
 
 /* Element Chalk Variables */
 
+
+
 /* Transition
 -------------------------- */
 $--all-transition: all .3s cubic-bezier(.645,.045,.355,1) !default;
@@ -15,7 +17,29 @@ $--color-transition-base: color .2s cubic-bezier(.645,.045,.355,1) !default;
 $--color-white: #fff !default;
 $--color-black: #000 !default;
 
-$--color-primary: #0093EE !default;
+$--color-bus-primary: #A8C6DF !default;
+$--color-primary: #0093ee !default;
+$--color-success: #4ece3d !default;
+$--color-warning: #e6a23c !default;
+$--color-danger: #ff151f !default;
+$--color-info: #909399 !default;
+
+//以下部分为按宇通要求定义的颜色
+$--color-title-primary:#2c405a !default;
+$--color-text-black:#3f536e !default;
+$--color-text-gray:#8dabC4 !default;
+$--color-icon-active:#a8c6df !default;
+$--color-icon-disable:#c5d9e8 !default;
+$--color-background-base:#ecf5fd !default;
+$--color-background-pack:#fafbfc !default;
+
+//以下部分为宇通的品牌亮色
+$--color-yt-purple-light:#ab7df6 !default;
+$--color-yt-blue-light:#26c1c9 !default;
+$--color-yt-yellow-light:#FACA00 !default;
+$--color-yt-green-light:#86c636 !default;
+$--color-yt-orange-light:#fd7b1f !default;
+
 $--color-primary-light-1: mix($--color-white, $--color-primary, 10%) !default; /* 53a8ff */
 $--color-primary-light-2: mix($--color-white, $--color-primary, 20%) !default; /* 66b1ff */
 $--color-primary-light-3: mix($--color-white, $--color-primary, 30%) !default; /* 79bbff */
@@ -24,12 +48,11 @@ $--color-primary-light-5: mix($--color-white, $--color-primary, 50%) !default; /
 $--color-primary-light-6: mix($--color-white, $--color-primary, 60%) !default; /* b3d8ff */
 $--color-primary-light-7: mix($--color-white, $--color-primary, 70%) !default; /* c6e2ff */
 $--color-primary-light-8: mix($--color-white, $--color-primary, 80%) !default; /* d9ecff */
-$--color-primary-light-9: mix($--color-white, $--color-primary, 90%) !default; /* ecf5ff */
+// $--color-primary-light-9: mix($--color-white, $--color-primary, 90%) !default; /* ecf5ff */
+$--color-primary-light-9:#ECF5FD !default; /* ecf5ff */
 
-$--color-success: #67c23a !default;
-$--color-warning: #e6a23c !default;
-$--color-danger: #f56c6c !default;
-$--color-info: #909399 !default;
+$--color-primary-active:#0079c4 !default;
+$--color-success-active:#40b630 !default;
 
 $--color-success-light: mix($--color-white, $--color-success, 80%) !default;
 $--color-warning-light: mix($--color-white, $--color-warning, 80%) !default;
@@ -41,15 +64,30 @@ $--color-warning-lighter: mix($--color-white, $--color-warning, 90%) !default;
 $--color-danger-lighter: mix($--color-white, $--color-danger, 90%) !default;
 $--color-info-lighter: mix($--color-white, $--color-info, 90%) !default;
 
-$--color-text-primary: #303133 !default;
+$--color-text-primary:#193E4E !default;
 $--color-text-regular: #606266 !default;
-$--color-text-secondary: #909399 !default;
+$--color-text-secondary: #527ca0 !default;
 $--color-text-placeholder: #c0c4cc !default;
+$--color-text-active: #008be1 !default;
+$--color-arrow-color:#abc6df!default;
+
+/* Icon
+-------------------------- */
+$--icon-color: #666 !default;
+$--icon-color-base: #527ca0 !default;
 
 /* Link
 -------------------------- */
 $--link-color: $--color-primary-light-2 !default;
 $--link-hover-color: $--color-primary !default;
+
+/* Line
+-------------------------- */
+$--line-color-class1:#cad9e8;
+$--line-color-class2:#ecf5fd;
+$--line-color-class3:#fafbfc;
+$--line-color-dashed:#d8e5ee;
+
 
 /* Background
 -------------------------- */
@@ -83,11 +121,19 @@ $--fill-base: $--color-white !default;
 -------------------------- */
 $--font-path: 'fonts' !default;
 $--font-size-base: 14px !default;
-$--font-size-small: 13px !default;
+$--font-size-small: 12px !default;
 $--font-size-large: 18px !default;
+
+$--font-size-title:36px;
+$--font-size-h1:24px;
+$--font-size-h2:18px;
+$--font-size-h3:16px;
+
+
 $--font-color-disabled-base: #bbb !default;
 $--font-weight-primary: 500 !default;
 $--font-line-height-primary: 24px !default;
+
 
 /* Size
 -------------------------- */
@@ -105,10 +151,6 @@ $--disabled-fill-base: $--background-color-base !default;
 $--disabled-color-base: $--color-text-placeholder !default;
 $--disabled-border-base: $--border-color-light !default;
 
-/* Icon
--------------------------- */
-$--icon-color: #666 !default;
-$--icon-color-base: $--color-info !default;
 
 /* Checkbox
 -------------------------- */
@@ -397,8 +439,12 @@ $--tab-vertical-header-count-fill: $--color-text-secondary !default;
 $--button-font-size: 14px !default;
 $--button-font-weight: $--font-weight-primary !default;
 $--button-border-radius: $--border-radius-base !default;
-$--button-padding-vertical: 12px !default;
-$--button-padding-horizontal: 20px !default;
+//$--button-padding-vertical: 12px !default;
+//$--button-padding-horizontal: 20px !default;
+
+//修改基本button的尺寸
+$--button-padding-vertical: 8px !default;
+$--button-padding-horizontal: 19px !default;
 
 $--button-medium-font-size: 14px !default;
 $--button-medium-border-radius: $--border-radius-base !default;
@@ -487,16 +533,20 @@ $--table-fixed-box-shadow: 0 0 10px rgba(0, 0, 0, .12) !default;
 
 /* Pagination
 -------------------------- */
-$--pagination-font-size: 13px !default;
+
+$--pagination-text-color:#8dabc4;
+$--pagination-arrow-color:$--color-arrow-color;
+
+$--pagination-font-size: 14px !default;
 $--pagination-fill: $--color-white !default;
-$--pagination-color: $--color-text-primary !default;
+$--pagination-color: $--pagination-text-color !default;
 $--pagination-border-radius: 3px !default;
-$--pagination-button-color: $--color-text-primary !default;
+$--pagination-button-color: $--pagination-arrow-color !default;
 $--pagination-button-width: 35.5px !default;
 $--pagination-button-height: 28px !default;
 $--pagination-button-disabled-color: $--color-text-placeholder !default;
 $--pagination-button-disabled-fill: $--color-white !default;
-$--pagination-hover-fill: $--color-primary !default;
+$--pagination-hover-fill: $--color-text-active !default;
 $--pagination-hover-color: $--color-white !default;
 
 /* Popover
@@ -514,10 +564,10 @@ $--popover-title-color: $--color-text-primary !default;
 -------------------------- */
 $--tooltip-fill: $--color-text-primary !default;
 $--tooltip-color: $--color-white !default;
-$--tooltip-font-size: 12px !default;
+$--tooltip-font-size: 14px !default;
 $--tooltip-border-color: $--color-text-primary !default;
 $--tooltip-arrow-size: 6px !default;
-$--tooltip-padding: 10px !default;
+$--tooltip-padding: 6px 14PX !default;
 
 /* Tag
 -------------------------- */
@@ -585,7 +635,8 @@ $--slider-disable-color: $--color-text-placeholder !default;
 $--slider-margin: 16px 0 !default;
 $--slider-border-radius: 3px !default;
 $--slider-height: 6px !default;
-$--slider-button-size: 16px !default;
+//控制滑块大小变量
+$--slider-button-size: 10px !default;
 $--slider-button-wrapper-size: 36px !default;
 $--slider-button-wrapper-offset: -15px !default;
 
@@ -597,9 +648,14 @@ $--steps-padding: 20px !default;
 
 /* Menu
 --------------------------*/
-$--menu-item-color: $--color-text-primary !default;
+$--menu-text-color:#527ca0;
+$--menu--text-light-color:#008be1;
+$--menu-item-color: $--menu-text-color !default;
 $--menu-item-fill: $--color-white !default;
 $--menu-item-hover-fill: $--color-primary-light-9 !default;
+
+$--subMenu-open-backgound:#ECF5FD;
+$--menu-inline-background:#FAFBFC;
 
 /* Rate
 --------------------------*/

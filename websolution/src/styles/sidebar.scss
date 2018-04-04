@@ -1,0 +1,36 @@
+  /*与el-menu 组件相关的所有样式并入基础组件或写入element-variables.scss*/
+  .sidebar-menu{
+    background-color: $--color-submenu-bg;
+    .svg-icon{
+      width: 1.3em;
+      height: 1.3em;
+    }
+    .el-menu-item,.el-submenu__title{
+      height: 50px;
+      line-height: 50px;
+      background-color: $--color-submenu-bg;
+      /*border-bottom:1px solid #ECF5FD;*/
+      &:hover {
+        background-color: $--color-menu-hover;
+      }
+      &.is-active{
+        background-color:$--color-menu-active;
+      }
+    }
+    .is-active .el-submenu__title{
+      color:$--color-primary !important;
+      font-weight: bold;
+    }
+    .el-menu-item.is-active{
+      color:$--color-font !important;
+      font-weight: 600;
+    }
+    .el-submenu{
+      .el-menu-item{
+        height: 40px;
+        line-height: 40px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
